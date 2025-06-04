@@ -1,0 +1,34 @@
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Bb]uild/
+[Bb]uilds/
+[Oo]bj/
+[Ll]ogs/
+[Mm]emoryCaptures/
+UserSettings/
+
+# Unity auto-generated files
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Unity packages
+*.unitypackage
+
+# Crash reports
+sysinfo.txt
+
+# Exclude platform-specific builds
+*.apk
+*.aab
