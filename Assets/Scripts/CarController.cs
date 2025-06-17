@@ -17,12 +17,14 @@ public class CarController : MonoBehaviour
     public Transform RLMesh;
 
     [Header("Car Settings")]
-    public float acceleration = 1500f;
-    public float brakePower = 3000f;
-    public float maxSteerAngle = 30f;
-    public float steerSpeed = 5f;
-    public float maxSpeed = 100f;
-    public Vector3 centerOfMass;
+
+    public CarSettings settings;
+    //public float acceleration = 1500f;
+    //public float brakePower = 3000f;
+    //public float maxSteerAngle = 30f;
+    //public float steerSpeed = 5f;
+    //public float maxSpeed = 100f;
+    //public Vector3 centerOfMass;
 
     [Header("Drift Settings")]
     public float handbrakeTorque = 4000f;
@@ -42,7 +44,7 @@ public class CarController : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        rb.centerOfMass = centerOfMass;
+        rb.centerOfMass = settings.centerOfMass;
 
         // Cache original sideways friction
         originalSideFriction = RRWheel.sidewaysFriction.stiffness;
@@ -88,9 +90,9 @@ public class CarController : MonoBehaviour
     {
         float speedKmh = rb.linearVelocity.magnitude * 3.6f;
 
-        if (gasInput > 0f && speedKmh < maxSpeed)
+        if (gasInput > 0f && speedKmh < settings.maxSpeed)
         {
-            float motorTorque = gasInput * acceleration;
+            float motorTorque = gasInput * settings.acceleration;
             motorTorque *= (gear == GearState.Drive) ? 1f : (gear == GearState.Reverse) ? -1f : 0f;
 
             RRWheel.motorTorque = motorTorque;
@@ -105,7 +107,7 @@ public class CarController : MonoBehaviour
 
     void ApplyBrakes()
     {
-        float brakeTorque = brakeInput * brakePower;
+        float brakeTorque = brakeInput * settings.brakePower;
 
         FRWheel.brakeTorque = brakeTorque;
         FLWheel.brakeTorque = brakeTorque;
@@ -114,8 +116,8 @@ public class CarController : MonoBehaviour
 
         if (brakeInput == 0 && gasInput == 0)
         {
-            RRWheel.brakeTorque = brakePower * 0.1f;
-            RLWheel.brakeTorque = brakePower * 0.1f;
+            RRWheel.brakeTorque = settings.brakePower * 0.1f;
+            RLWheel.brakeTorque = settings.brakePower * 0.1f;
         }
     }
     void ApplyHandbrakeDrift()
@@ -141,10 +143,20 @@ public class CarController : MonoBehaviour
         }
     }
 
+    // In CarController.cs
+
     void ApplySteering()
     {
-        float targetSteer = steerInput * maxSteerAngle;
-        currentSteer = Mathf.Lerp(currentSteer, targetSteer, Time.deltaTime * steerSpeed);
+        // 1. Calculate the current speed as a value between 0 and 1
+        float speedFactor = rb.linearVelocity.magnitude / settings.maxSpeed;
+
+        // 2. Use that value to find the perfect steering angle between min and max
+        // At 0 speed, it will be maxSteeringAngle. At maxSpeed, it will be minSteeringAngle.
+        float currentMaxSteer = Mathf.Lerp(settings.maxSteeringAngle, settings.minSteeringAngle, speedFactor);
+
+        // 3. Apply the steering input
+        float targetSteer = steerInput * currentMaxSteer;
+        currentSteer = Mathf.Lerp(currentSteer, targetSteer, Time.deltaTime * settings.steerSpeed);
 
         FRWheel.steerAngle = currentSteer;
         FLWheel.steerAngle = currentSteer;
