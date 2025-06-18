@@ -15,13 +15,9 @@ MonoBehaviour:
   acceleration: 1500
   brakePower: 3000
   maxSpeed: 88
-  steeringCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
+  maxSteeringAngle: 30
+  minSteeringAngle: 10
+  steerSpeed: 5
   slipAllowance: 0.5
-  centerOfMass: {x: 0, y: -0.5, z: 0}
-  steeringClamp: 45
+  centerOfMass: {x: 0, y: 0.5, z: 0}
   smokeYOffset: 0.1

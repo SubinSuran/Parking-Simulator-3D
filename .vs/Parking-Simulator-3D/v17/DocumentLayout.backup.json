@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "D:\\Unity\\Projects\\Parking-Simulator-3D\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D7514728-2C5A-C891-9589-A68D81BF2924}|Assembly-CSharp.csproj|d:\\unity\\projects\\parking-simulator-3d\\assets\\scripts\\carsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7514728-2C5A-C891-9589-A68D81BF2924}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\carsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D7514728-2C5A-C891-9589-A68D81BF2924}|Assembly-CSharp.csproj|d:\\unity\\projects\\parking-simulator-3d\\assets\\scripts\\game\u0026ui\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7514728-2C5A-C891-9589-A68D81BF2924}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\u0026ui\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7514728-2C5A-C891-9589-A68D81BF2924}|Assembly-CSharp.csproj|d:\\unity\\projects\\parking-simulator-3d\\assets\\scripts\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D7514728-2C5A-C891-9589-A68D81BF2924}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\Parking-Simulator-3D\\assets\\scripts\\parking\\parkingspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7514728-2C5A-C891-9589-A68D81BF2924}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\parking\\parkingspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7514728-2C5A-C891-9589-A68D81BF2924}|Assembly-CSharp.csproj|d:\\unity\\projects\\parking-simulator-3d\\assets\\scripts\\game\u0026ui\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7514728-2C5A-C891-9589-A68D81BF2924}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\u0026ui\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7514728-2C5A-C891-9589-A68D81BF2924}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\Parking-Simulator-3D\\assets\\scripts\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7514728-2C5A-C891-9589-A68D81BF2924}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7514728-2C5A-C891-9589-A68D81BF2924}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\Parking-Simulator-3D\\assets\\scripts\\carsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7514728-2C5A-C891-9589-A68D81BF2924}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\carsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +30,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UIManager.cs",
+              "DocumentMoniker": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\Game\u0026Ui\\UIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Game\u0026Ui\\UIManager.cs",
+              "ToolTip": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\Game\u0026Ui\\UIManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Game\u0026Ui\\UIManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T16:38:38.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ParkingSpace.cs",
+              "DocumentMoniker": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\Parking\\ParkingSpace.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Parking\\ParkingSpace.cs",
+              "ToolTip": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\Parking\\ParkingSpace.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Parking\\ParkingSpace.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAA9wBMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T16:38:02.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\Game\u0026Ui\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Game\u0026Ui\\GameManager.cs",
+              "ToolTip": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\Game\u0026Ui\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Game\u0026Ui\\GameManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T16:37:05.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "CarSettings.cs",
               "DocumentMoniker": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\CarSettings.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CarSettings.cs",
@@ -30,21 +81,19 @@
               "RelativeToolTip": "Assets\\Scripts\\CarSettings.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T13:35:43.857Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-17T13:35:43.857Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "CarController.cs",
               "DocumentMoniker": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\CarController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CarController.cs",
               "ToolTip": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\CarController.cs",
               "RelativeToolTip": "Assets\\Scripts\\CarController.cs",
-              "ViewState": "AgIAAIUAAAAAAAAAAAAuwJMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAUwLYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T18:04:10.966Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-05T18:04:10.966Z"
             }
           ]
         }
