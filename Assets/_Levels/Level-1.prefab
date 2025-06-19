@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 765358206595050807}
   m_Layer: 0
-  m_Name: PlayerSpawnPoint
+  m_Name: PlayerStartPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24,12 +24,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2011296101000720088}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -4.25}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -63.75}
+  m_LocalScale: {x: 15, y: 1, z: 15}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 3256641244158158173}
+  m_Father: {fileID: 6686677923956221427}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3624612237052731392
 GameObject:
@@ -169,6 +169,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 765358206595050807}
   - {fileID: 3256641244158158173}
   - {fileID: 8620535038588357178}
   m_Father: {fileID: 0}
@@ -206,7 +207,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8033784835525573421}
-  - {fileID: 765358206595050807}
   m_Father: {fileID: 6686677923956221427}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &8050388321384273731

@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "D:\\Unity\\Projects\\Parking-Simulator-3D\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D7514728-2C5A-C891-9589-A68D81BF2924}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\Parking-Simulator-3D\\assets\\scripts\\parking\\parkingspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7514728-2C5A-C891-9589-A68D81BF2924}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\parking\\parkingspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{001F191E-4D27-D045-DA97-B96311F58F57}|Assembly-CSharp-Editor.csproj|d:\\unity\\projects\\parking-simulator-3d\\assets\\tutorialinfo\\scripts\\editor\\readmeeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{001F191E-4D27-D045-DA97-B96311F58F57}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\tutorialinfo\\scripts\\editor\\readmeeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7514728-2C5A-C891-9589-A68D81BF2924}|Assembly-CSharp.csproj|d:\\unity\\projects\\parking-simulator-3d\\assets\\tutorialinfo\\scripts\\readme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7514728-2C5A-C891-9589-A68D81BF2924}|Assembly-CSharp.csproj|solutionrelative:assets\\tutorialinfo\\scripts\\readme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D7514728-2C5A-C891-9589-A68D81BF2924}|Assembly-CSharp.csproj|d:\\unity\\projects\\parking-simulator-3d\\assets\\scripts\\game\u0026ui\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7514728-2C5A-C891-9589-A68D81BF2924}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\u0026ui\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D7514728-2C5A-C891-9589-A68D81BF2924}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\Parking-Simulator-3D\\assets\\scripts\\parking\\parkingspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7514728-2C5A-C891-9589-A68D81BF2924}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\parking\\parkingspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D7514728-2C5A-C891-9589-A68D81BF2924}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\Parking-Simulator-3D\\assets\\scripts\\game\u0026ui\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7514728-2C5A-C891-9589-A68D81BF2924}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\u0026ui\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{001F191E-4D27-D045-DA97-B96311F58F57}|Assembly-CSharp-Editor.csproj|D:\\Unity\\Projects\\Parking-Simulator-3D\\assets\\tutorialinfo\\scripts\\editor\\readmeeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{001F191E-4D27-D045-DA97-B96311F58F57}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\tutorialinfo\\scripts\\editor\\readmeeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7514728-2C5A-C891-9589-A68D81BF2924}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\Parking-Simulator-3D\\assets\\tutorialinfo\\scripts\\readme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7514728-2C5A-C891-9589-A68D81BF2924}|Assembly-CSharp.csproj|solutionrelative:assets\\tutorialinfo\\scripts\\readme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D7514728-2C5A-C891-9589-A68D81BF2924}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\Parking-Simulator-3D\\assets\\scripts\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,11 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ReadmeEditor.cs",
               "DocumentMoniker": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\TutorialInfo\\Scripts\\Editor\\ReadmeEditor.cs",
               "RelativeDocumentMoniker": "Assets\\TutorialInfo\\Scripts\\Editor\\ReadmeEditor.cs",
@@ -50,12 +50,11 @@
               "RelativeToolTip": "Assets\\TutorialInfo\\Scripts\\Editor\\ReadmeEditor.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T15:52:30.044Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-19T15:52:30.044Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Readme.cs",
               "DocumentMoniker": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\TutorialInfo\\Scripts\\Readme.cs",
               "RelativeDocumentMoniker": "Assets\\TutorialInfo\\Scripts\\Readme.cs",
@@ -63,43 +62,42 @@
               "RelativeToolTip": "Assets\\TutorialInfo\\Scripts\\Readme.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T15:52:26.344Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-19T15:52:26.344Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "UIManager.cs",
               "DocumentMoniker": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\Game\u0026Ui\\UIManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Game\u0026Ui\\UIManager.cs",
               "ToolTip": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\Game\u0026Ui\\UIManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Game\u0026Ui\\UIManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAiwC0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-18T16:38:38.07Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ParkingSpace.cs",
               "DocumentMoniker": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\Parking\\ParkingSpace.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Parking\\ParkingSpace.cs",
               "ToolTip": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\Parking\\ParkingSpace.cs",
               "RelativeToolTip": "Assets\\Scripts\\Parking\\ParkingSpace.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAowBMAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAwwD8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-18T16:38:02.008Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "GameManager.cs",
               "DocumentMoniker": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\Game\u0026Ui\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Game\u0026Ui\\GameManager.cs",
               "ToolTip": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\Game\u0026Ui\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Game\u0026Ui\\GameManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABNAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAcwEIAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-18T16:37:05.225Z",
               "EditorCaption": ""
