@@ -15,7 +15,7 @@ MonoBehaviour:
   acceleration: 1500
   brakePower: 3000
   maxSpeed: 88
-  maxSteeringAngle: 30
+  maxSteeringAngle: 60
   minSteeringAngle: 10
   steerSpeed: 5
   slipAllowance: 0.5
