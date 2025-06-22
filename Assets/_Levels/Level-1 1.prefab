@@ -17987,13 +17987,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   aiCarPrefabs:
   - {fileID: 6606356868699494113, guid: 3d49d3141f35c49428f76205dae260bc, type: 3}
+  - {fileID: 4591691155392393144, guid: a9cbfe7195f75844aa7ec0619ca7616f, type: 3}
+  - {fileID: 7644360707672163555, guid: f430073c636116b4b9c0f5e6ddcde097, type: 3}
+  - {fileID: 33538749733570355, guid: 98c57f100a7d7684dba02b8725bbc5d8, type: 3}
+  - {fileID: 6183048251904429594, guid: a82f70a5f0178974093910fc6fd84c38, type: 3}
   spawnPoints:
   - {fileID: 3596208255702629858}
   - {fileID: 8639857319463025585}
   - {fileID: 705068811624758278}
   - {fileID: 7019767069502288709}
   - {fileID: 2113931387560032804}
-  numberOfCarsToSpawn: 5
+  numberOfCarsToSpawn: 15
   initialSpawnDelay: 1
   spawnInterval: 3
 --- !u!1 &2022917489689442077

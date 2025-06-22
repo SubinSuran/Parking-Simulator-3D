@@ -68,7 +68,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\AI\\TrafficSpawner.cs",
               "ToolTip": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\AI\\TrafficSpawner.cs",
               "RelativeToolTip": "Assets\\Scripts\\AI\\TrafficSpawner.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAQwBAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAxwBAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-22T20:41:45.332Z",
               "EditorCaption": ""
@@ -81,7 +81,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\AI\\AICarController.cs",
               "ToolTip": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\AI\\AICarController.cs",
               "RelativeToolTip": "Assets\\Scripts\\AI\\AICarController.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAqwFMAAABkAAAAAAAAAA==",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAAAHIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-22T17:47:39.759Z",
               "EditorCaption": ""
@@ -180,8 +180,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Game\u0026Ui\\GameManager.cs",
               "ViewState": "AgIAADEAAAAAAAAAAAAcwD8AAABoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T16:37:05.225Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-18T16:37:05.225Z"
             },
             {
               "$type": "Document",
