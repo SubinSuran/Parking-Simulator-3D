@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using TMPro;
+using UnityEngine;
 
 public class CarController : MonoBehaviour
 {
@@ -40,6 +41,8 @@ public class CarController : MonoBehaviour
 
     public enum GearState { Reverse, Neutral, Drive }
     public GearState gear = GearState.Neutral;
+
+    public TextMeshPro GearText;
 
     void Start()
     {
