@@ -160,7 +160,7 @@ GameObject:
   - component: {fileID: 8321059876833007370}
   - component: {fileID: 4316107297917945642}
   m_Layer: 5
-  m_Name: LevelCompletePanel
+  m_Name: BUTTON
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
