@@ -12,9 +12,13 @@ public class GameManager : MonoBehaviour
     private int currentLevelIndex = 0;
     private GameObject currentLevelInstance;
 
+    // In GameManager.cs
+
     void Start()
     {
-        // When the game starts, load the very first level
+        // Load the level that was selected in the Main Menu.
+        // We provide a default value of 0 in case we start this scene directly for testing.
+        currentLevelIndex = PlayerPrefs.GetInt("SelectedLevelIndex", 0);
         LoadLevel(currentLevelIndex);
     }
 
