@@ -56,4 +56,13 @@ public static class SaveManager
         // Defaults to 0 if no stars have been earned yet for this level.
         return PlayerPrefs.GetInt(key, 0);
     }
+
+    // In SaveManager.cs
+
+    public static void ResetAllProgress()
+    {
+        // This command deletes all data saved in PlayerPrefs for this project.
+        PlayerPrefs.DeleteAll();
+        Debug.LogWarning("--- ALL PLAYER PROGRESS HAS BEEN RESET! ---");
+    }
 }

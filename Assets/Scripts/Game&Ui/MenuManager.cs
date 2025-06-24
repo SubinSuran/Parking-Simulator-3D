@@ -2,108 +2,135 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using System.Collections;
+using TMPro;
 
-// We add this small helper class to make the Inspector setup cleaner.
-// This groups a button with its corresponding lock icon.
 [System.Serializable]
 public class LevelButtonUI
 {
     public Button button;
-    public GameObject lockIcon;
+    public TextMeshProUGUI levelText; // Let's add the text here for a complete setup
+    public Image[] stars; // Array for the 3 star images on each button
 }
 
 public class MenuManager : MonoBehaviour
 {
     [Header("UI Panels")]
+    public CanvasGroup logoCanvasGroup;
+    public CanvasGroup tutorialCanvasGroup;
     public GameObject mainMenuPanel;
     public GameObject levelsPanel;
+
+    [Header("Animation")]
     public Animator levelsPanelAnimator;
-    public float panelAnimationDuration = 3f;
+    public float panelAnimationDuration = 0.5f;
+
+    [Header("Settings")]
+    public float introFadeDuration = 1.0f;
+    public float logoDisplayDuration = 2.0f;
 
     [Header("Manual Button Setup")]
-    // Create an array to hold your 10 manual buttons and their lock icons.
     public LevelButtonUI[] levelButtons;
+
+    // Static flag to ensure intro only plays once per game session
+    public static bool hasSeenIntro = false;
+    private bool tutorialFinished = false;
 
     void Start()
     {
-        // When the menu starts, update the lock status of all buttons.
+        // Check if we need to play the intro
+        if (hasSeenIntro)
+        {
+            // If we've already seen it, just show the main menu immediately
+            mainMenuPanel.SetActive(true);
+            levelsPanel.SetActive(false);
+            logoCanvasGroup.gameObject.SetActive(false);
+            tutorialCanvasGroup.gameObject.SetActive(false);
+            UpdateLevelButtons();
+        }
+        else
+        {
+            // If this is the first time, play the intro sequence
+            StartCoroutine(StartupSequenceRoutine());
+        }
+    }
+
+    private IEnumerator StartupSequenceRoutine()
+    {
+        // Start with all main panels hidden
+        mainMenuPanel.SetActive(false);
+        levelsPanel.SetActive(false);
+        tutorialCanvasGroup.gameObject.SetActive(true);
+        tutorialCanvasGroup.alpha = 0;
+
+        // Fade in logo
+        logoCanvasGroup.gameObject.SetActive(true);
+        yield return FadeCanvasGroup(logoCanvasGroup, 0f, 1f, introFadeDuration);
+        yield return new WaitForSeconds(logoDisplayDuration);
+
+        // Cross-fade to tutorial
+        StartCoroutine(FadeCanvasGroup(logoCanvasGroup, 1f, 0f, introFadeDuration));
+        yield return FadeCanvasGroup(tutorialCanvasGroup, 0f, 1f, introFadeDuration);
+        logoCanvasGroup.gameObject.SetActive(false);
+
+        // Wait for player to continue from tutorial
+        yield return new WaitUntil(() => tutorialFinished);
+        yield return FadeCanvasGroup(tutorialCanvasGroup, 1f, 0f, introFadeDuration);
+        tutorialCanvasGroup.gameObject.SetActive(false);
+
+        // Now show the main menu and update the buttons
+        mainMenuPanel.SetActive(true);
         UpdateLevelButtons();
-        // Go to the main menu by default.
-        OnBackButtonClicked();
+        hasSeenIntro = true;
     }
 
     void UpdateLevelButtons()
     {
         int highestLevelUnlocked = SaveManager.LoadHighestLevelUnlocked();
 
-        // Loop through all the buttons you assigned in the Inspector.
         for (int i = 0; i < levelButtons.Length; i++)
         {
-            // Check if this level should be locked.
+            // Set level number text
+            if (levelButtons[i].levelText != null)
+            {
+                levelButtons[i].levelText.text = (i + 1).ToString();
+            }
+
+            // Lock/Unlock button
             if ((i + 1) > highestLevelUnlocked)
             {
-                // Lock the button
                 levelButtons[i].button.interactable = false;
-                if (levelButtons[i].lockIcon != null)
-                {
-                    levelButtons[i].lockIcon.SetActive(true);
-                }
+                
             }
             else
             {
-                // Unlock the button
                 levelButtons[i].button.interactable = true;
-                if (levelButtons[i].lockIcon != null)
-                {
-                    levelButtons[i].lockIcon.SetActive(false);
-                }
+                
             }
+
+            // Update star display (we'll add this next)
         }
     }
 
-    // This single function will be called by ALL level buttons.
-    // We will tell each button which levelIndex to send.
-    // In MenuManager.cs
-    public void OnLevelSelected(int levelIndex)
+    private IEnumerator FadeCanvasGroup(CanvasGroup cg, float startAlpha, float endAlpha, float duration)
     {
-        PlayerPrefs.SetInt("SelectedLevelIndex", levelIndex);
-        PlayerPrefs.Save();
-
-        // OLD WAY: SceneManager.LoadScene("MainGame");
-        // NEW WAY:
-        SceneFader.instance.FadeToScene("MainGame");
+        float timer = 0f;
+        while (timer < duration)
+        {
+            cg.alpha = Mathf.Lerp(startAlpha, endAlpha, timer / duration);
+            timer += Time.unscaledDeltaTime;
+            yield return null;
+        }
+        cg.alpha = endAlpha;
     }
 
-    // --- Functions for the main navigation buttons ---
-    // In MenuManager.cs
-
-    public void OnLevelsButtonClicked()
-    {
-         mainMenuPanel.SetActive(false); // We can still do this instantly
-        levelsPanel.SetActive(true);
-        levelsPanelAnimator.SetBool("IsShown", true);
-    }
-
-    public void OnBackButtonClicked()
-    {
-        // Instead of activating the main menu panel directly, we start the coroutine.
-        StartCoroutine(ShowMainMenuAfterAnimation());
-    }
-
-    // --- This is the NEW Coroutine ---
-    IEnumerator ShowMainMenuAfterAnimation()
-    {
-        // 1. Tell the levels panel to play its "slide out" animation.
-        levelsPanelAnimator.SetBool("IsShown", false);
-
-        // 2. Wait for the duration of the animation.
-        yield return new WaitForSeconds(panelAnimationDuration);
-
-        // 3. AFTER the wait is over, activate the main menu panel.
-        mainMenuPanel.SetActive(true);
-        // And ensure the levels panel is fully disabled.
-        levelsPanel.SetActive(false);
-    }
-
+    // --- All public functions for buttons remain the same ---
+    #region Button Clicks
+    public void OnTutorialContinueClicked() { tutorialFinished = true; }
+    public void OnLevelSelected(int levelIndex) { SceneFader.instance.FadeToScene("MainGame"); PlayerPrefs.SetInt("SelectedLevelIndex", levelIndex); PlayerPrefs.Save(); }
     public void OnExitButtonClicked() { Application.Quit(); }
+    public void OnLevelsButtonClicked() { mainMenuPanel.SetActive(false); levelsPanel.SetActive(true); levelsPanelAnimator.SetBool("IsShown", true); }
+    public void OnBackButtonClicked() { StartCoroutine(HideLevelsPanelRoutine()); }
+    public void OnResetProgressClicked() { SaveManager.ResetAllProgress(); MenuManager.hasSeenIntro = false; SceneManager.LoadScene("MainMenu"); }
+    IEnumerator HideLevelsPanelRoutine() { levelsPanelAnimator.SetBool("IsShown", false); yield return new WaitForSeconds(panelAnimationDuration); mainMenuPanel.SetActive(true); levelsPanel.SetActive(false); }
+    #endregion
 }
