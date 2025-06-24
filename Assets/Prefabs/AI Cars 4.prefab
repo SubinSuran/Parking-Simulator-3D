@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1248598967819147742, guid: c4cad50aa03bbca42938fe318344950b, type: 3}
       propertyPath: m_Name
-      value: AI Cars
+      value: AI Cars 4
       objectReference: {fileID: 0}
     - target: {fileID: 1248598967819147742, guid: c4cad50aa03bbca42938fe318344950b, type: 3}
       propertyPath: m_TagString
@@ -56,38 +56,36 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 4101701417775552822, guid: c4cad50aa03bbca42938fe318344950b, type: 3}
+    - target: {fileID: 4101701417775552822, guid: c4cad50aa03bbca42938fe318344950b, type: 3}
+      propertyPath: m_Size.x
+      value: 2.0600357
+      objectReference: {fileID: 0}
+    - target: {fileID: 4101701417775552822, guid: c4cad50aa03bbca42938fe318344950b, type: 3}
+      propertyPath: m_Size.y
+      value: 1.2863848
+      objectReference: {fileID: 0}
+    - target: {fileID: 4101701417775552822, guid: c4cad50aa03bbca42938fe318344950b, type: 3}
+      propertyPath: m_Size.z
+      value: 4.89473
+      objectReference: {fileID: 0}
+    - target: {fileID: 4101701417775552822, guid: c4cad50aa03bbca42938fe318344950b, type: 3}
+      propertyPath: m_Center.x
+      value: 0.020438194
+      objectReference: {fileID: 0}
+    - target: {fileID: 4101701417775552822, guid: c4cad50aa03bbca42938fe318344950b, type: 3}
+      propertyPath: m_Center.y
+      value: 0.83465135
+      objectReference: {fileID: 0}
+    - target: {fileID: 4101701417775552822, guid: c4cad50aa03bbca42938fe318344950b, type: 3}
+      propertyPath: m_Center.z
+      value: -0.037982702
+      objectReference: {fileID: 0}
+    - target: {fileID: 4485099863708357545, guid: c4cad50aa03bbca42938fe318344950b, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: d2344366b80fe3d4f886ec412e0174fa, type: 2}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1248598967819147742, guid: c4cad50aa03bbca42938fe318344950b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 3747655358225749805}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c4cad50aa03bbca42938fe318344950b, type: 3}
---- !u!1 &5434134952936231351 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1248598967819147742, guid: c4cad50aa03bbca42938fe318344950b, type: 3}
-  m_PrefabInstance: {fileID: 6501516535176874089}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &3747655358225749805
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5434134952936231351}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 2.0600357, y: 1.2863848, z: 4.89473}
-  m_Center: {x: 0.020438194, y: 0.83465135, z: -0.037982702}

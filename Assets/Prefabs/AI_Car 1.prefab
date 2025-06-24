@@ -684,8 +684,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 07f44fe3e9c462146a7769b976c50ec4, type: 2}
-  - {fileID: 2100000, guid: ab035d7682921704a9015ac353311d57, type: 2}
+  - {fileID: 2100000, guid: 74196cf5d503c14488ae1ef1dbc6c9a4, type: 2}
+  - {fileID: 2100000, guid: 74196cf5d503c14488ae1ef1dbc6c9a4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -718,9 +718,9 @@ GameObject:
   - component: {fileID: 8817120926152278518}
   - component: {fileID: 5938168919775783988}
   - component: {fileID: 8970810049839048998}
-  - component: {fileID: -6546678610912854687}
+  - component: {fileID: 3423715945886102321}
   m_Layer: 3
-  m_Name: AI_Car
+  m_Name: AI_Car 1
   m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -783,7 +783,7 @@ MonoBehaviour:
   obstacleLayers:
     serializedVersion: 2
     m_Bits: 8
---- !u!65 &-6546678610912854687
+--- !u!65 &3423715945886102321
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

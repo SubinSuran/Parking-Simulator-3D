@@ -27,11 +27,9 @@ public class AICarController : MonoBehaviour
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
-        currentNode = startingNode;
+        currentNode = startingNode; // This will now be assigned by the TrafficSpawner
 
-        // --- ADDED FOR SENSORS ---
-        originalSpeed = agent.speed; // Store the original speed from the Inspector
-        // --- END OF ADDED LOGIC ---
+        originalSpeed = agent.speed;
 
         if (currentNode != null)
         {
@@ -39,7 +37,8 @@ public class AICarController : MonoBehaviour
         }
         else
         {
-            Debug.LogError("AI Car has no starting node assigned!", this.gameObject);
+            // This error will now only happen if the spawner fails for some reason.
+            Debug.LogError("AI Car has no starting node assigned by its spawner!", this.gameObject);
         }
     }
 

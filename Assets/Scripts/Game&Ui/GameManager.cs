@@ -147,6 +147,7 @@ public class GameManager : MonoBehaviour
     // --- Core Level Loading (No Changes Here) ---
     void LoadLevel(int levelIndex)
     {
+        uiManager.ResetHUD();
         uiManager.HideAllScreens(); // First, hide all pop-up panels
         uiManager.ShowHUD();        // Then, ensure the main game HUD is visible
 

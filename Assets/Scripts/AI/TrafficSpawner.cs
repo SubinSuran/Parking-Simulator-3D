@@ -53,10 +53,10 @@ public class TrafficSpawner : MonoBehaviour
             newCar.transform.SetParent(this.transform);
 
             // 5. Tell the new car where to go first.
-            AICarController carController = newCar.GetComponent<AICarController>();
-            if (carController != null)
+            AICarController aICarController = newCar.GetComponent<AICarController>();
+            if (aICarController != null)
             {
-                carController.startingNode = spawnNode;
+                aICarController.startingNode = spawnNode;
             }
 
             // 6. Wait for the specified interval before spawning the next car.

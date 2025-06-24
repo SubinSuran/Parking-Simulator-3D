@@ -3,6 +3,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "LevelData", menuName = "Parking Game/Level Data")]
 public class LevelData : ScriptableObject
 {
+
     [Tooltip("The prefab that contains the level's layout.")]
     public GameObject levelPrefab;
 

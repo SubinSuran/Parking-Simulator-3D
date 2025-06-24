@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI; // Required for Image component
 
@@ -13,13 +14,45 @@ public class UIManager : MonoBehaviour
     // Drag your 3 star Image objects from the LevelCompleteScreen panel here
     public RawImage[] levelCompleteStars;
 
+    [Header("In-Game HUD")]
+    public TextMeshProUGUI parkIndicatorText;
+
     void Start()
     {
         HUDPanel.SetActive(true);
         // Make sure all panels are hidden when the game starts
         HideAllScreens();
     }
+    private void OnEnable()
+    {
+        ParkingSpace.OnReadyToPark += HandleReadyToPark;
+        ParkingSpace.OnNotReadyToPark += HandleNotReadyToPark;
+    }
 
+    private void OnDisable()
+    {
+        ParkingSpace.OnReadyToPark -= HandleReadyToPark;
+        ParkingSpace.OnNotReadyToPark -= HandleNotReadyToPark;
+    }
+
+    // --- ADD THESE TWO NEW HANDLER FUNCTIONS ---
+    void HandleReadyToPark()
+    {
+        if (parkIndicatorText != null)
+        {
+            parkIndicatorText.text = "Press [P] to Park";
+            parkIndicatorText.color = Color.green; // Let's use green for "Go"
+        }
+    }
+
+    void HandleNotReadyToPark()
+    {
+        if (parkIndicatorText != null)
+        {
+            parkIndicatorText.text = "Align Vehicle in Zone & Press [P]";
+            parkIndicatorText.color = Color.white;
+        }
+    }
     /// <summary>
     /// Shows the Level Complete screen and sets the correct number of stars.
     /// </summary>
@@ -63,7 +96,13 @@ public class UIManager : MonoBehaviour
         }
     }
     // --- Other Panel Control Functions ---
+    // Add this new public function to UIManager.cs
 
+    public void ResetHUD()
+    {
+        // We can just call the existing function that already sets the text back to default.
+        HandleNotReadyToPark();
+    }
     public void ShowGameCompleteScreen()
     {
         if (HUDPanel != null) HUDPanel.SetActive(false);
