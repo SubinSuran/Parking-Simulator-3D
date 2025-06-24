@@ -1,46 +1,44 @@
 using UnityEngine;
-using UnityEngine.SceneManagement; // Make sure this is at the top
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
     [Header("Level Management")]
-    public GameObject[] levelPrefabs; // Your array of 10 level prefabs
-    public Transform playerCar;       // The player's car transform
+    // This is now an array of LevelData, not GameObjects
+    public LevelData[] levels;
+    public Transform playerCar;
 
     [Header("System References")]
-    public UIManager uiManager; // The UIManager that controls all UI panels
+    public UIManager uiManager;
 
     // --- Private State Variables ---
     private int currentLevelIndex = 0;
     private GameObject currentLevelInstance;
     private bool isPaused = false;
+    private float levelStartTime; // The stopwatch for the level
 
     // --- Unity Lifecycle Methods ---
 
     void Start()
     {
-        // Load the level that was selected in the Main Menu
         currentLevelIndex = PlayerPrefs.GetInt("SelectedLevelIndex", 0);
         LoadLevel(currentLevelIndex);
     }
 
     private void OnEnable()
     {
-        // Subscribe to events when this object becomes active
         ParkingSpace.OnParkedSuccess += HandleParkedSuccess;
-        CollisionHandler.OnPlayerCrashed += HandleGameOver; // Make sure this matches your script name
+        CollisionHandler.OnPlayerCrashed += HandleGameOver;
     }
 
     private void OnDisable()
     {
-        // Unsubscribe from events when this object is disabled to prevent errors
         ParkingSpace.OnParkedSuccess -= HandleParkedSuccess;
         CollisionHandler.OnPlayerCrashed -= HandleGameOver;
     }
 
     void Update()
     {
-        // Listen for the Escape key to pause/unpause the game
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             TogglePause();
@@ -49,91 +47,55 @@ public class GameManager : MonoBehaviour
 
     // --- Event Handlers ---
 
-
+    // THIS IS THE NEW, UPGRADED METHOD
     void HandleParkedSuccess()
     {
-        Debug.Log("GAME MANAGER: Level Complete!");
+        // 1. Calculate how long the level took
+        float timeTaken = Time.time - levelStartTime;
+        int starsEarned = 0;
 
-        // --- THIS IS THE MISSING LINE ---
-        SaveManager.LevelCompleted(currentLevelIndex);
-        // --- END OF MISSING LINE ---
+        // 2. Get the star thresholds from the current level's data
+        LevelData currentLevelData = levels[currentLevelIndex];
 
-        uiManager.ShowLevelCompleteScreen();
+        // 3. Compare the time taken to the thresholds to award stars
+        if (timeTaken <= currentLevelData.timeFor3Stars)
+        {
+            starsEarned = 3;
+        }
+        else if (timeTaken <= currentLevelData.timeFor2Stars)
+        {
+            starsEarned = 2;
+        }
+        else
+        {
+            starsEarned = 1; // 1 star just for completing the level
+        }
+
+        Debug.Log("Level Complete! Time: " + timeTaken + "s, Stars: " + starsEarned);
+
+        // 4. Save the progress
+        SaveManager.LevelCompleted(currentLevelIndex); // This unlocks the next level
+        SaveManager.SaveStars(currentLevelIndex, starsEarned); // We will add this to SaveManager next
+
+        // 5. Tell the UIManager to show the win screen AND how many stars to display
+        uiManager.ShowLevelCompleteScreen(starsEarned);
     }
 
     void HandleGameOver()
     {
-        Debug.Log("GAME MANAGER: Player has crashed. GAME OVER.");
-        Time.timeScale = 0f; // Freeze the game
-        uiManager.ShowGameOverScreen(); // Tell UIManager to show the Game Over panel
-    }
-
-    // --- Pause Logic ---
-
-    public void TogglePause()
-    {
-        isPaused = !isPaused;
-        if (isPaused)
-        {
-            PauseGame();
-        }
-        else
-        {
-            ResumeGame();
-        }
-    }
-
-    void PauseGame()
-    {
         Time.timeScale = 0f;
-        uiManager.ShowPauseMenu();
+        uiManager.ShowGameOverScreen();
     }
 
-    public void ResumeGame()
-    {
-        Time.timeScale = 1f;
-        uiManager.HidePauseMenu();
-        isPaused = false;
-    }
-
-    // --- UI Button Functions ---
-
-    public void RestartLevel()
-    {
-        uiManager.HideAllScreens(); // Hide the Game Over or Pause panel
-        LoadLevel(currentLevelIndex); // Reload the current level
-    }
-
-    public void LoadNextLevel()
-    {
-        uiManager.HideAllScreens();
-        currentLevelIndex++;
-        if (currentLevelIndex < levelPrefabs.Length)
-        {
-            LoadLevel(currentLevelIndex);
-        }
-        else
-        {
-            Debug.Log("GAME OVER - ALL LEVELS COMPLETE!");
-            uiManager.ShowGameCompleteScreen();
-        }
-    }
-
-    public void GoToMainMenu()
-    {
-        // IMPORTANT: Always reset time scale before changing scenes
-        Time.timeScale = 1f;
-        SceneManager.LoadScene("MainMenu");
-    }
-
-    // --- Core Level Loading ---
+    // --- Level Loading ---
 
     void LoadLevel(int levelIndex)
     {
-        // 1. Reset Time Scale
+        // Start the stopwatch for the new level
+        levelStartTime = Time.time;
+
         Time.timeScale = 1f;
 
-        // 2. Reset the car's crash state for the new attempt
         if (playerCar != null)
         {
             CollisionHandler carCollision = playerCar.GetComponent<CollisionHandler>();
@@ -143,14 +105,14 @@ public class GameManager : MonoBehaviour
             }
         }
 
-        // 3. Destroy the old level and instantiate the new one
         if (currentLevelInstance != null)
         {
             Destroy(currentLevelInstance);
         }
-        currentLevelInstance = Instantiate(levelPrefabs[levelIndex], Vector3.zero, Quaternion.identity);
 
-        // 4. Find the start point and move the car
+        // Make sure to get the prefab from inside the LevelData object
+        currentLevelInstance = Instantiate(levels[levelIndex].levelPrefab, Vector3.zero, Quaternion.identity);
+
         Transform startPoint = currentLevelInstance.transform.Find("PlayerStartPoint");
         if (startPoint != null)
         {
@@ -166,7 +128,51 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-            Debug.LogError("PlayerStartPoint not found in level prefab: " + levelPrefabs[levelIndex].name);
+            Debug.LogError("PlayerStartPoint not found in level prefab: " + levels[levelIndex].levelPrefab.name);
         }
     }
+
+    // --- All other functions (Pause, Restart, NextLevel, etc.) remain the same ---
+    #region UI and Pause Logic
+    public void TogglePause()
+    {
+        isPaused = !isPaused;
+        if (isPaused) { PauseGame(); }
+        else { ResumeGame(); }
+    }
+    void PauseGame()
+    {
+        Time.timeScale = 0f;
+        uiManager.ShowPauseMenu();
+    }
+    public void ResumeGame()
+    {
+        Time.timeScale = 1f;
+        uiManager.HidePauseMenu();
+        isPaused = false;
+    }
+    public void RestartLevel()
+    {
+        uiManager.HideAllScreens();
+        LoadLevel(currentLevelIndex);
+    }
+    public void LoadNextLevel()
+    {
+        uiManager.HideAllScreens();
+        currentLevelIndex++;
+        if (currentLevelIndex < levels.Length)
+        {
+            LoadLevel(currentLevelIndex);
+        }
+        else
+        {
+            uiManager.ShowGameCompleteScreen();
+        }
+    }
+    public void GoToMainMenu()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("MainMenu");
+    }
+    #endregion
 }
