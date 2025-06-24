@@ -1,6 +1,15 @@
-// File: MenuManager.cs
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+
+// We add this small helper class to make the Inspector setup cleaner.
+// This groups a button with its corresponding lock icon.
+[System.Serializable]
+public class LevelButtonUI
+{
+    public Button button;
+    public GameObject lockIcon;
+}
 
 public class MenuManager : MonoBehaviour
 {
@@ -8,58 +17,58 @@ public class MenuManager : MonoBehaviour
     public GameObject mainMenuPanel;
     public GameObject levelsPanel;
 
-    [Header("Level Selection")]
-    public GameObject levelButtonPrefab; // The button prefab we will create
-    public Transform levelButtonGrid;   // The parent object to hold the grid of buttons
-    public int totalLevelCount = 10;    // The total number of levels in our game
+    [Header("Manual Button Setup")]
+    // Create an array to hold your 10 manual buttons and their lock icons.
+    public LevelButtonUI[] levelButtons;
 
     void Start()
     {
-        PopulateLevelButtons();
-        // Start on the main menu panel when the scene loads
+        // When the menu starts, update the lock status of all buttons.
+        UpdateLevelButtons();
+        // Go to the main menu by default.
         OnBackButtonClicked();
     }
 
-    void PopulateLevelButtons()
+    void UpdateLevelButtons()
     {
-        // Clear any old buttons in case we call this again
-        foreach (Transform child in levelButtonGrid)
-        {
-            Destroy(child.gameObject);
-        }
-
         int highestLevelUnlocked = SaveManager.LoadHighestLevelUnlocked();
 
-        for (int i = 0; i < totalLevelCount; i++)
+        // Loop through all the buttons you assigned in the Inspector.
+        for (int i = 0; i < levelButtons.Length; i++)
         {
-            GameObject buttonGO = Instantiate(levelButtonPrefab, levelButtonGrid);
-            LevelButton levelButton = buttonGO.GetComponent<LevelButton>();
-
-            levelButton.Setup(i, this);
-
-            // Lock or unlock the button based on saved progress
+            // Check if this level should be locked.
             if ((i + 1) > highestLevelUnlocked)
             {
-                levelButton.SetLocked(true);
+                // Lock the button
+                levelButtons[i].button.interactable = false;
+                if (levelButtons[i].lockIcon != null)
+                {
+                    levelButtons[i].lockIcon.SetActive(true);
+                }
             }
             else
             {
-                levelButton.SetLocked(false);
+                // Unlock the button
+                levelButtons[i].button.interactable = true;
+                if (levelButtons[i].lockIcon != null)
+                {
+                    levelButtons[i].lockIcon.SetActive(false);
+                }
             }
         }
     }
 
-    // This is called by the LevelButton when it's clicked
+    // This single function will be called by ALL level buttons.
+    // We will tell each button which levelIndex to send.
     public void OnLevelSelected(int levelIndex)
     {
-        // Save the chosen level so the GameManager can load it
+        Debug.Log("Level button " + (levelIndex + 1) + " was clicked.");
         PlayerPrefs.SetInt("SelectedLevelIndex", levelIndex);
         PlayerPrefs.Save();
-
         SceneManager.LoadScene("MainGame");
     }
 
-    // --- Functions for the main menu navigation buttons ---
+    // --- Functions for the main navigation buttons ---
     public void OnLevelsButtonClicked() { mainMenuPanel.SetActive(false); levelsPanel.SetActive(true); }
     public void OnBackButtonClicked() { levelsPanel.SetActive(false); mainMenuPanel.SetActive(true); }
     public void OnExitButtonClicked() { Application.Quit(); }

@@ -49,11 +49,16 @@ public class GameManager : MonoBehaviour
 
     // --- Event Handlers ---
 
+
     void HandleParkedSuccess()
     {
         Debug.Log("GAME MANAGER: Level Complete!");
-        // We will add star calculation logic here later
-        uiManager.ShowLevelCompleteScreen(); // Tell UIManager to show the win screen
+
+        // --- THIS IS THE MISSING LINE ---
+        SaveManager.LevelCompleted(currentLevelIndex);
+        // --- END OF MISSING LINE ---
+
+        uiManager.ShowLevelCompleteScreen();
     }
 
     void HandleGameOver()
