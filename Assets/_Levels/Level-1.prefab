@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1852600212877206469}
   m_Layer: 0
   m_Name: Props_Street Light (88)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -100,7 +100,7 @@ GameObject:
   - component: {fileID: 59336392669781704}
   m_Layer: 0
   m_Name: Natures_House Floor (2)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -208,7 +208,7 @@ GameObject:
   - component: {fileID: 6888254850533187345}
   m_Layer: 0
   m_Name: Props_Street Light (51)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -294,7 +294,7 @@ GameObject:
   - component: {fileID: 9222744515366591424}
   m_Layer: 0
   m_Name: Road Concrete Tile (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -380,7 +380,7 @@ GameObject:
   - component: {fileID: 5312507322376985804}
   m_Layer: 0
   m_Name: Props_Hydrant (2)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -553,7 +553,7 @@ GameObject:
   - component: {fileID: 4278751269366038223}
   m_Layer: 0
   m_Name: Props_Windmill (5)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -771,7 +771,7 @@ GameObject:
   - component: {fileID: 1695839470282843697}
   m_Layer: 0
   m_Name: Props_Bench_1 (15)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -857,7 +857,7 @@ GameObject:
   - component: {fileID: 6272661277669119571}
   m_Layer: 0
   m_Name: Natures_Fir Tree (5)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -943,7 +943,7 @@ GameObject:
   - component: {fileID: 4795866174974366924}
   m_Layer: 0
   m_Name: Building_Restaurant (2)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -1030,7 +1030,7 @@ GameObject:
   - component: {fileID: 4321535329074301216}
   m_Layer: 0
   m_Name: Natures_Big Tree (24)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -1139,7 +1139,7 @@ GameObject:
   - component: {fileID: 4410315381272461158}
   m_Layer: 0
   m_Name: Natures_Big Tree (39)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -1248,7 +1248,7 @@ GameObject:
   - component: {fileID: 8366802372103487068}
   m_Layer: 0
   m_Name: Natures_Big Tree (22)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -1357,7 +1357,7 @@ GameObject:
   - component: {fileID: 7302171029057480465}
   m_Layer: 0
   m_Name: Natures_Big Tree (31)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -1465,7 +1465,7 @@ GameObject:
   - component: {fileID: 1004705343701600235}
   m_Layer: 0
   m_Name: Natures_Pot Bush_big (24)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -1551,7 +1551,7 @@ GameObject:
   - component: {fileID: 268964665407608580}
   m_Layer: 0
   m_Name: Road Concrete Tile (3)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -1638,7 +1638,7 @@ GameObject:
   - component: {fileID: 5560317461031956944}
   m_Layer: 0
   m_Name: Props_Roof prop air (5)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -1779,7 +1779,7 @@ GameObject:
   - component: {fileID: 557901709507202166}
   m_Layer: 0
   m_Name: Props_Traffic Signal_big (32)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -1865,7 +1865,7 @@ GameObject:
   - component: {fileID: 4828249659945801649}
   m_Layer: 0
   m_Name: Props_Traffic Signal_big (14)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -1952,7 +1952,7 @@ GameObject:
   - component: {fileID: 1862875881974998257}
   m_Layer: 0
   m_Name: Natures_Big Tree (37)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -2061,7 +2061,7 @@ GameObject:
   - component: {fileID: 2824275181153508861}
   m_Layer: 0
   m_Name: Props_Bus Stop (2)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -2170,7 +2170,7 @@ GameObject:
   - component: {fileID: 5987437001299105546}
   m_Layer: 0
   m_Name: Natures_Cube Tree (4)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -2278,7 +2278,7 @@ GameObject:
   - component: {fileID: 8127880031483808382}
   m_Layer: 0
   m_Name: Props_Street Light (59)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -2365,7 +2365,7 @@ GameObject:
   - component: {fileID: 7487327971443816961}
   m_Layer: 0
   m_Name: Props_Coffee shop chair (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -2473,7 +2473,7 @@ GameObject:
   - component: {fileID: 7570222566850300827}
   m_Layer: 0
   m_Name: Natures_Fir Tree (44)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -2639,7 +2639,7 @@ GameObject:
   - component: {fileID: 482878128020877363}
   m_Layer: 0
   m_Name: Natures_Big Tree (44)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -2747,7 +2747,7 @@ GameObject:
   - component: {fileID: 408746441300414991}
   m_Layer: 0
   m_Name: Props_Street Light (98)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -2879,7 +2879,7 @@ GameObject:
   - component: {fileID: 6756772903090342523}
   m_Layer: 0
   m_Name: Props_Bench_1 (10)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -3074,7 +3074,7 @@ GameObject:
   - component: {fileID: 7404076889831998130}
   m_Layer: 0
   m_Name: Props_Traffic Signal_small (6)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -3160,7 +3160,7 @@ GameObject:
   - component: {fileID: 9202967483344287337}
   m_Layer: 0
   m_Name: Natures_Rock_Big (2)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -3333,7 +3333,7 @@ GameObject:
   - component: {fileID: 6612429440319161990}
   m_Layer: 0
   m_Name: Building Sky_small_color03 (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -3419,7 +3419,7 @@ GameObject:
   - component: {fileID: 2622709229106230766}
   m_Layer: 0
   m_Name: Vehicle_SUV_color03 (2)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -3505,7 +3505,7 @@ GameObject:
   - component: {fileID: 7840629479705884848}
   m_Layer: 0
   m_Name: Props_Traffic Signal_small (2)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -3591,7 +3591,7 @@ GameObject:
   - component: {fileID: 418699320575250325}
   m_Layer: 0
   m_Name: Props_Hydrant (15)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -3677,7 +3677,7 @@ GameObject:
   - component: {fileID: 5540300625187468640}
   m_Layer: 0
   m_Name: Natures_Bush_01 (11)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -3764,7 +3764,7 @@ GameObject:
   - component: {fileID: 5438041669171928864}
   m_Layer: 0
   m_Name: Natures_Big Tree (2)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -3919,7 +3919,7 @@ GameObject:
   - component: {fileID: 3889382473754988209}
   m_Layer: 0
   m_Name: Natures_Pot Bush_small (8)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -4005,7 +4005,7 @@ GameObject:
   - component: {fileID: 4812987137766147275}
   m_Layer: 0
   m_Name: Natures_Grass Fence (2)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -4229,7 +4229,7 @@ GameObject:
   - component: {fileID: 8581285806844207763}
   m_Layer: 0
   m_Name: BuildingSet
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -4283,7 +4283,7 @@ GameObject:
   - component: {fileID: 7404132120930696800}
   m_Layer: 0
   m_Name: Natures_House Floor (11)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -4501,7 +4501,7 @@ GameObject:
   - component: {fileID: 4010670149767372482}
   m_Layer: 0
   m_Name: Building Sky_small_color02
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -4609,7 +4609,7 @@ GameObject:
   - component: {fileID: 1873972230289730857}
   m_Layer: 0
   m_Name: Vehicle_Pick up Truck_color02 (7)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -4695,7 +4695,7 @@ GameObject:
   - component: {fileID: 2113120745463241206}
   m_Layer: 0
   m_Name: Props_Street Light (101)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -4868,7 +4868,7 @@ GameObject:
   - component: {fileID: 5385385515080519365}
   m_Layer: 0
   m_Name: Props_Traffic Signal_big (35)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -4954,7 +4954,7 @@ GameObject:
   - component: {fileID: 8139023429049018769}
   m_Layer: 0
   m_Name: Natures_Bush_01 (17)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -5040,7 +5040,7 @@ GameObject:
   - component: {fileID: 4045218272636733320}
   m_Layer: 0
   m_Name: Props_Hydrant (14)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -5126,7 +5126,7 @@ GameObject:
   - component: {fileID: 6511305123286428543}
   m_Layer: 0
   m_Name: Building_Pizza (2)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -5212,7 +5212,7 @@ GameObject:
   - component: {fileID: 381321844140775380}
   m_Layer: 0
   m_Name: Props_Street Light (72)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -5298,7 +5298,7 @@ GameObject:
   - component: {fileID: 22705053304181717}
   m_Layer: 0
   m_Name: Building_Fruits  Shop
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -5384,7 +5384,7 @@ GameObject:
   - component: {fileID: 9007244540836054526}
   m_Layer: 0
   m_Name: Props_Street Light (80)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -5471,7 +5471,7 @@ GameObject:
   - component: {fileID: 5802549356310167877}
   m_Layer: 0
   m_Name: Road Lane_04 (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -5579,7 +5579,7 @@ GameObject:
   - component: {fileID: 8524901895579200766}
   m_Layer: 0
   m_Name: Props_BillBoard_small
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -5711,7 +5711,7 @@ GameObject:
   - component: {fileID: 2537143274170418349}
   m_Layer: 0
   m_Name: Natures_Bush_01 (14)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -5797,7 +5797,7 @@ GameObject:
   - component: {fileID: 4383835565563681525}
   m_Layer: 0
   m_Name: Props_Street Light (35)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -5883,7 +5883,7 @@ GameObject:
   - component: {fileID: 6259430151167621832}
   m_Layer: 0
   m_Name: Props_Traffic Signal_small (8)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -6055,7 +6055,7 @@ GameObject:
   - component: {fileID: 631325767699444089}
   m_Layer: 0
   m_Name: Props_Traffic Signal_big (41)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -6141,7 +6141,7 @@ GameObject:
   - component: {fileID: 8772864293359031701}
   m_Layer: 0
   m_Name: Props_Street Light (65)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -6314,7 +6314,7 @@ GameObject:
   - component: {fileID: 8160779765674910407}
   m_Layer: 0
   m_Name: Natures_Grass Fence (9)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -6400,7 +6400,7 @@ GameObject:
   - component: {fileID: 7309322830725042740}
   m_Layer: 0
   m_Name: Building_Auto Service
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -6487,7 +6487,7 @@ GameObject:
   - component: {fileID: 6309312842532370487}
   m_Layer: 0
   m_Name: Building_Bar (2)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -6595,7 +6595,7 @@ GameObject:
   - component: {fileID: 8695745692383413936}
   m_Layer: 0
   m_Name: Props_Roof Antenna (4)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -6681,7 +6681,7 @@ GameObject:
   - component: {fileID: 6741221288766011697}
   m_Layer: 0
   m_Name: Props_Street Light (82)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -6767,7 +6767,7 @@ GameObject:
   - component: {fileID: 6085213924811536228}
   m_Layer: 0
   m_Name: Natures_Fir Tree (47)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -6853,7 +6853,7 @@ GameObject:
   - component: {fileID: 175589692582695484}
   m_Layer: 0
   m_Name: Props_Bench_1 (19)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -6939,7 +6939,7 @@ GameObject:
   - component: {fileID: 1336110594390544228}
   m_Layer: 0
   m_Name: Natures_Pot Bush_big (25)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -7026,7 +7026,7 @@ GameObject:
   - component: {fileID: 7243069750977631469}
   m_Layer: 0
   m_Name: Natures_Cube Tree (5)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -7134,7 +7134,7 @@ GameObject:
   - component: {fileID: 4140908334927205377}
   m_Layer: 0
   m_Name: Props_Bench_1 (11)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -7221,7 +7221,7 @@ GameObject:
   - component: {fileID: 92027003750956774}
   m_Layer: 0
   m_Name: Building Sky_small_color02 (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -7329,7 +7329,7 @@ GameObject:
   - component: {fileID: 7520150363592347414}
   m_Layer: 0
   m_Name: Props_BillBoard_small (5)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -7571,7 +7571,7 @@ GameObject:
   - component: {fileID: 4288306915042692691}
   m_Layer: 0
   m_Name: Natures_Pot Bush_small (12)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -7657,7 +7657,7 @@ GameObject:
   - component: {fileID: 8562447871384651394}
   m_Layer: 0
   m_Name: Road Tile
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -7743,7 +7743,7 @@ GameObject:
   - component: {fileID: 9210224903021773228}
   m_Layer: 0
   m_Name: Natures_Rock_Big (13)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -7829,7 +7829,7 @@ GameObject:
   - component: {fileID: 2812093597562748059}
   m_Layer: 0
   m_Name: Props_Traffic Signal_big (43)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -7915,7 +7915,7 @@ GameObject:
   - component: {fileID: 5172256250342478082}
   m_Layer: 0
   m_Name: Natures_Grass Tile (9)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -8048,7 +8048,7 @@ GameObject:
   - component: {fileID: 3623006287856339300}
   m_Layer: 0
   m_Name: Props_Hydrant (25)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -8134,7 +8134,7 @@ GameObject:
   - component: {fileID: 8004769618975660202}
   m_Layer: 0
   m_Name: Props_Street Light (94)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -8220,7 +8220,7 @@ GameObject:
   - component: {fileID: 2052172287211770981}
   m_Layer: 0
   m_Name: Building_House_04_color01
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -8416,7 +8416,7 @@ GameObject:
   - component: {fileID: 4574655864922814997}
   m_Layer: 0
   m_Name: Building_Gift Shop
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -8524,7 +8524,7 @@ GameObject:
   - component: {fileID: 953285234311587906}
   m_Layer: 0
   m_Name: Props_Bench_1 (14)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -8829,7 +8829,7 @@ GameObject:
   - component: {fileID: 4981941090411779193}
   m_Layer: 0
   m_Name: Props_Windmill (15)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -8938,7 +8938,7 @@ GameObject:
   - component: {fileID: 6066623402917085866}
   m_Layer: 0
   m_Name: Natures_Fir Tree (4)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -9025,7 +9025,7 @@ GameObject:
   - component: {fileID: 693265923661735170}
   m_Layer: 0
   m_Name: Building_House_02_color01
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -9133,7 +9133,7 @@ GameObject:
   - component: {fileID: 6907867399298046337}
   m_Layer: 0
   m_Name: Props_Hydrant (20)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -9219,7 +9219,7 @@ GameObject:
   - component: {fileID: 2856000591305678231}
   m_Layer: 0
   m_Name: Building_House_04_color02
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -9305,7 +9305,7 @@ GameObject:
   - component: {fileID: 2717369457514965097}
   m_Layer: 0
   m_Name: Props_Street Light (124)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -9392,7 +9392,7 @@ GameObject:
   - component: {fileID: 127844906565810907}
   m_Layer: 0
   m_Name: Natures_Cube Tree
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -9500,7 +9500,7 @@ GameObject:
   - component: {fileID: 47919171872350227}
   m_Layer: 0
   m_Name: Natures_Pot Bush_big (8)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -9586,7 +9586,7 @@ GameObject:
   - component: {fileID: 4690984376280861240}
   m_Layer: 0
   m_Name: Props_Street Light (7)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -9672,7 +9672,7 @@ GameObject:
   - component: {fileID: 1508092663280457617}
   m_Layer: 0
   m_Name: Natures_Pot Bush_big (19)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -9758,7 +9758,7 @@ GameObject:
   - component: {fileID: 9179873100612632322}
   m_Layer: 0
   m_Name: Natures_Fir Tree (38)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -9954,7 +9954,7 @@ GameObject:
   - component: {fileID: 7391779737046583282}
   m_Layer: 0
   m_Name: Natures_House Floor (21)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -10062,7 +10062,7 @@ GameObject:
   - component: {fileID: 4720496972070135777}
   m_Layer: 0
   m_Name: Building_House_02_color03 (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -10236,7 +10236,7 @@ GameObject:
   - component: {fileID: 2539726386099657894}
   m_Layer: 0
   m_Name: Props_Windmill (3)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -10346,7 +10346,7 @@ GameObject:
   - component: {fileID: 6121774668586003530}
   m_Layer: 0
   m_Name: Natures_Big Tree (15)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -10454,7 +10454,7 @@ GameObject:
   - component: {fileID: 4598497812300450774}
   m_Layer: 0
   m_Name: Road Split Line (2)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -10540,7 +10540,7 @@ GameObject:
   - component: {fileID: 4275359391435393272}
   m_Layer: 0
   m_Name: Natures_Fir Tree (33)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -10735,7 +10735,7 @@ GameObject:
   - component: {fileID: 2192251258591305028}
   m_Layer: 0
   m_Name: Natures_Rock_Big (24)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -10821,7 +10821,7 @@ GameObject:
   - component: {fileID: 2385930537901961887}
   m_Layer: 0
   m_Name: Building_Bakery (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -10908,7 +10908,7 @@ GameObject:
   - component: {fileID: 1245229215555888561}
   m_Layer: 0
   m_Name: Natures_Cube Tree (7)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -11016,7 +11016,7 @@ GameObject:
   - component: {fileID: 6257023494307016843}
   m_Layer: 0
   m_Name: Building_Coffee Shop (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -11102,7 +11102,7 @@ GameObject:
   - component: {fileID: 5600879282960042995}
   m_Layer: 0
   m_Name: Props_Street Light (61)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -11188,7 +11188,7 @@ GameObject:
   - component: {fileID: 8612730006734780005}
   m_Layer: 0
   m_Name: Building_House_03_color02 (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -11305,7 +11305,7 @@ GameObject:
   - component: {fileID: 4783033194142696216}
   m_Layer: 0
   m_Name: Natures_Grass Fence (8)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -11391,7 +11391,7 @@ GameObject:
   - component: {fileID: 2287242808750608043}
   m_Layer: 0
   m_Name: Natures_Fir Tree (10)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -11478,7 +11478,7 @@ GameObject:
   - component: {fileID: 3248731850401779156}
   m_Layer: 0
   m_Name: Vehicle_Car_color02 (5)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -11586,7 +11586,7 @@ GameObject:
   - component: {fileID: 1758071229939574370}
   m_Layer: 0
   m_Name: Natures_Fir Tree (25)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -11758,7 +11758,7 @@ GameObject:
   - component: {fileID: 1384379522525722617}
   m_Layer: 0
   m_Name: Building_House_01_color03
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -11844,7 +11844,7 @@ GameObject:
   - component: {fileID: 9023517040322022493}
   m_Layer: 0
   m_Name: Natures_Fir Tree (36)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -11930,7 +11930,7 @@ GameObject:
   - component: {fileID: 8250212349356593643}
   m_Layer: 0
   m_Name: Natures_Rock_Big (3)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -12016,7 +12016,7 @@ GameObject:
   - component: {fileID: 7626626742217983913}
   m_Layer: 0
   m_Name: Natures_Fir Tree (2)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -12103,7 +12103,7 @@ GameObject:
   - component: {fileID: 7387228646900520002}
   m_Layer: 0
   m_Name: Props_Roof Helipad (3)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -12211,7 +12211,7 @@ GameObject:
   - component: {fileID: 8382039684294412130}
   m_Layer: 0
   m_Name: Vehicle_Container_color02 (5)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -12384,7 +12384,7 @@ GameObject:
   - component: {fileID: 2963902028128705629}
   m_Layer: 0
   m_Name: Natures_Grass Tile (4)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -12470,7 +12470,7 @@ GameObject:
   - component: {fileID: 6242502257725376941}
   m_Layer: 0
   m_Name: Natures_Grass Bar (2)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -12689,7 +12689,7 @@ GameObject:
   - component: {fileID: 3443868269194406303}
   m_Layer: 0
   m_Name: Building_Residential_color01 (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -12775,7 +12775,7 @@ GameObject:
   - component: {fileID: 6913976889770250212}
   m_Layer: 0
   m_Name: Props_Traffic Signal_small
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -12862,7 +12862,7 @@ GameObject:
   - component: {fileID: 6747338285209459563}
   m_Layer: 0
   m_Name: Vehicle_Car_color02
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -12971,7 +12971,7 @@ GameObject:
   - component: {fileID: 7578865873564804914}
   m_Layer: 0
   m_Name: Natures_Cube Tree (6)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -13079,7 +13079,7 @@ GameObject:
   - component: {fileID: 5084283699409019960}
   m_Layer: 0
   m_Name: Props_Street Light (9)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -13252,7 +13252,7 @@ GameObject:
   - component: {fileID: 4525328568389376104}
   m_Layer: 0
   m_Name: Natures_Fir Tree (43)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -13338,7 +13338,7 @@ GameObject:
   - component: {fileID: 1682330098812373726}
   m_Layer: 0
   m_Name: Building Sky_big_color02
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -13425,7 +13425,7 @@ GameObject:
   - component: {fileID: 8089992895406547878}
   m_Layer: 0
   m_Name: Building Sky_small_color02 (2)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -13620,7 +13620,7 @@ GameObject:
   - component: {fileID: 4463301697433619360}
   m_Layer: 0
   m_Name: Natures_Big Tree (35)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -13728,7 +13728,7 @@ GameObject:
   - component: {fileID: 6081548816540934475}
   m_Layer: 0
   m_Name: Natures_Grass Bar (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -13814,7 +13814,7 @@ GameObject:
   - component: {fileID: 6344059969474086785}
   m_Layer: 0
   m_Name: Props_Street Light (62)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -13901,7 +13901,7 @@ GameObject:
   - component: {fileID: 6840327718254218193}
   m_Layer: 0
   m_Name: Road Lane_01 (16)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -14009,7 +14009,7 @@ GameObject:
   - component: {fileID: 8222991089540039276}
   m_Layer: 0
   m_Name: Natures_Rock_Big (20)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -14095,7 +14095,7 @@ GameObject:
   - component: {fileID: 448951647891050565}
   m_Layer: 0
   m_Name: Props_Traffic Signal_big (27)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -14181,7 +14181,7 @@ GameObject:
   - component: {fileID: 2290961472958804732}
   m_Layer: 0
   m_Name: Building_Clothing
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -14315,7 +14315,7 @@ GameObject:
   - component: {fileID: 3183267417503144170}
   m_Layer: 0
   m_Name: Props_Traffic Signal_big (9)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -14402,7 +14402,7 @@ GameObject:
   - component: {fileID: 7843921441822128797}
   m_Layer: 0
   m_Name: Building_Residential_color03 (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -14510,7 +14510,7 @@ GameObject:
   - component: {fileID: 5091894245918952702}
   m_Layer: 0
   m_Name: Props_Street Light (30)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -14706,7 +14706,7 @@ GameObject:
   - component: {fileID: 4998737937362756924}
   m_Layer: 0
   m_Name: Natures_House Floor (5)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -14815,7 +14815,7 @@ GameObject:
   - component: {fileID: 988596645260855345}
   m_Layer: 0
   m_Name: Building_Chicken Shop
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -14923,7 +14923,7 @@ GameObject:
   - component: {fileID: 7185415520471019473}
   m_Layer: 0
   m_Name: Props_Bench_1 (2)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -15009,7 +15009,7 @@ GameObject:
   - component: {fileID: 8901755310011562265}
   m_Layer: 0
   m_Name: Natures_Pot Bush_big (7)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -15095,7 +15095,7 @@ GameObject:
   - component: {fileID: 5134054709152568228}
   m_Layer: 0
   m_Name: Vehicle_Pick up Truck_color02 (5)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -15181,7 +15181,7 @@ GameObject:
   - component: {fileID: 7012892939724487900}
   m_Layer: 0
   m_Name: Natures_Pot Bush_small (5)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -15376,7 +15376,7 @@ GameObject:
   - component: {fileID: 8279608147893584698}
   m_Layer: 0
   m_Name: Props_BillBoard_small (4)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -15463,7 +15463,7 @@ GameObject:
   - component: {fileID: 3901308854300898414}
   m_Layer: 0
   m_Name: Props_Windmill (4)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -15659,7 +15659,7 @@ GameObject:
   - component: {fileID: 6493134679659390139}
   m_Layer: 0
   m_Name: Natures_Rock_Big
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -15745,7 +15745,7 @@ GameObject:
   - component: {fileID: 3755485345240306006}
   m_Layer: 0
   m_Name: Natures_Pot Bush_big (12)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -15878,7 +15878,7 @@ GameObject:
   - component: {fileID: 4647864298456283293}
   m_Layer: 0
   m_Name: Natures_Pot Bush_small (24)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -15964,7 +15964,7 @@ GameObject:
   - component: {fileID: 7693939596104397134}
   m_Layer: 0
   m_Name: Props_Hydrant (22)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -16137,7 +16137,7 @@ GameObject:
   - component: {fileID: 2761906337237548239}
   m_Layer: 0
   m_Name: Natures_Fir Tree (34)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -16270,7 +16270,7 @@ GameObject:
   - component: {fileID: 730484663756815177}
   m_Layer: 0
   m_Name: Building_House_03_color03
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -16602,7 +16602,7 @@ GameObject:
   - component: {fileID: 2436527450364037023}
   m_Layer: 0
   m_Name: NonPlayableArea
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -17346,7 +17346,7 @@ GameObject:
   - component: {fileID: 5248783710659373799}
   m_Layer: 0
   m_Name: Natures_Big Tree (4)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -17563,7 +17563,7 @@ GameObject:
   - component: {fileID: 7654244081169588978}
   m_Layer: 0
   m_Name: Natures_Grass Tile Small
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -17782,7 +17782,7 @@ GameObject:
   - component: {fileID: 858840049766922649}
   m_Layer: 0
   m_Name: Props_Roof_prop
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -17868,7 +17868,7 @@ GameObject:
   - component: {fileID: 3519005892329583465}
   m_Layer: 0
   m_Name: Props_Street Light (44)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -18013,7 +18013,7 @@ GameObject:
   - component: {fileID: 5696512548072321828}
   m_Layer: 0
   m_Name: Props_Street Light (24)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -18100,7 +18100,7 @@ GameObject:
   - component: {fileID: 1243455845568712177}
   m_Layer: 0
   m_Name: Natures_House Floor (18)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -18294,7 +18294,7 @@ GameObject:
   - component: {fileID: 569233454967189664}
   m_Layer: 0
   m_Name: Natures_Rock_Big (21)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -18467,7 +18467,7 @@ GameObject:
   - component: {fileID: 1341653888891323382}
   m_Layer: 0
   m_Name: Natures_Cube Tree (10)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -18575,7 +18575,7 @@ GameObject:
   - component: {fileID: 3826248611613930394}
   m_Layer: 0
   m_Name: Props_Traffic Signal_big (48)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -18661,7 +18661,7 @@ GameObject:
   - component: {fileID: 7914361169879459161}
   m_Layer: 0
   m_Name: Props_Street Light (102)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -18834,7 +18834,7 @@ GameObject:
   - component: {fileID: 4841381060519847284}
   m_Layer: 0
   m_Name: Props_Street Light (29)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -18920,7 +18920,7 @@ GameObject:
   - component: {fileID: 2762318600470666677}
   m_Layer: 0
   m_Name: Natures_Pot Bush_small (23)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -19007,7 +19007,7 @@ GameObject:
   - component: {fileID: 3249220221266235626}
   m_Layer: 0
   m_Name: Natures_House Floor (4)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -19161,7 +19161,7 @@ GameObject:
   - component: {fileID: 7152955536305955608}
   m_Layer: 0
   m_Name: Vehicle_Pick up Truck_color03 (3)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -19247,7 +19247,7 @@ GameObject:
   - component: {fileID: 2529376511963169492}
   m_Layer: 0
   m_Name: Natures_Pot Bush_small (27)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -19334,7 +19334,7 @@ GameObject:
   - component: {fileID: 4548570111092317477}
   m_Layer: 0
   m_Name: Road Lane_01
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -19442,7 +19442,7 @@ GameObject:
   - component: {fileID: 8391598686125950225}
   m_Layer: 0
   m_Name: Props_Street Light (86)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -19528,7 +19528,7 @@ GameObject:
   - component: {fileID: 6110764574873437352}
   m_Layer: 0
   m_Name: Props_Traffic Signal_big (15)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -19723,7 +19723,7 @@ GameObject:
   - component: {fileID: 4730393961386866947}
   m_Layer: 0
   m_Name: Building Sky_small_color01
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -19810,7 +19810,7 @@ GameObject:
   - component: {fileID: 8499695483859546098}
   m_Layer: 0
   m_Name: Natures_House Floor
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -19918,7 +19918,7 @@ GameObject:
   - component: {fileID: 4823947779295670442}
   m_Layer: 0
   m_Name: Natures_Grass Tile (3)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -20004,7 +20004,7 @@ GameObject:
   - component: {fileID: 776625028144105364}
   m_Layer: 0
   m_Name: Props_Hydrant (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -20090,7 +20090,7 @@ GameObject:
   - component: {fileID: 8090874556331816357}
   m_Layer: 0
   m_Name: Natures_Bush_01 (31)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -20177,7 +20177,7 @@ GameObject:
   - component: {fileID: 3131565142368939136}
   m_Layer: 0
   m_Name: Natures_Big Tree (5)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -20285,7 +20285,7 @@ GameObject:
   - component: {fileID: 6506066747184498561}
   m_Layer: 0
   m_Name: Natures_Bush_01 (39)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -20371,7 +20371,7 @@ GameObject:
   - component: {fileID: 5037553947839386706}
   m_Layer: 0
   m_Name: Props_Street Light (36)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -20457,7 +20457,7 @@ GameObject:
   - component: {fileID: 4192858084652040995}
   m_Layer: 0
   m_Name: Natures_Bush_01 (37)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -20543,7 +20543,7 @@ GameObject:
   - component: {fileID: 4781013239639849773}
   m_Layer: 0
   m_Name: Props_Street Light (33)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -20630,7 +20630,7 @@ GameObject:
   - component: {fileID: 583278196669760538}
   m_Layer: 0
   m_Name: Road Lane_01 (57)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -20893,7 +20893,7 @@ GameObject:
   - component: {fileID: 5510642199736830963}
   m_Layer: 0
   m_Name: Natures_Pot Bush_big (30)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -20979,7 +20979,7 @@ GameObject:
   - component: {fileID: 5756920450142974350}
   m_Layer: 0
   m_Name: Natures_Grass Tile (5)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -21066,7 +21066,7 @@ GameObject:
   - component: {fileID: 6336638509150859872}
   m_Layer: 0
   m_Name: Props_Bus Stop (3)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -21175,7 +21175,7 @@ GameObject:
   - component: {fileID: 7743366330965896820}
   m_Layer: 0
   m_Name: Natures_House Floor (6)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -21416,7 +21416,7 @@ GameObject:
   - component: {fileID: 1437600647184608416}
   m_Layer: 0
   m_Name: Vehicle_Container_color02 (3)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -21502,7 +21502,7 @@ GameObject:
   - component: {fileID: 2830040583253802790}
   m_Layer: 0
   m_Name: Props_Street Light (90)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -21589,7 +21589,7 @@ GameObject:
   - component: {fileID: 2223515363073531763}
   m_Layer: 0
   m_Name: Natures_Big Tree (9)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -21697,7 +21697,7 @@ GameObject:
   - component: {fileID: 291886987737771693}
   m_Layer: 0
   m_Name: Vehicle_SUV_color03 (6)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -21783,7 +21783,7 @@ GameObject:
   - component: {fileID: 5918740258614755041}
   m_Layer: 0
   m_Name: Natures_Rock_Big (9)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -21870,7 +21870,7 @@ GameObject:
   - component: {fileID: 5415922149293278126}
   m_Layer: 0
   m_Name: Props_Coffee shop chair
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -21978,7 +21978,7 @@ GameObject:
   - component: {fileID: 5120204229940448896}
   m_Layer: 0
   m_Name: Props_Street Light (104)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -22151,7 +22151,7 @@ GameObject:
   - component: {fileID: 4899121024372378015}
   m_Layer: 0
   m_Name: Natures_Big Tree (10)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -22368,7 +22368,7 @@ GameObject:
   - component: {fileID: 6749757740893283535}
   m_Layer: 0
   m_Name: Vehicle_Police Car
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -22454,7 +22454,7 @@ GameObject:
   - component: {fileID: 897620415051107929}
   m_Layer: 0
   m_Name: Building_Fast Food (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -22540,7 +22540,7 @@ GameObject:
   - component: {fileID: 5508424680769563593}
   m_Layer: 0
   m_Name: Natures_Grass Bar
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -22626,7 +22626,7 @@ GameObject:
   - component: {fileID: 3463185373987316654}
   m_Layer: 0
   m_Name: Natures_Bush_01 (28)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -22798,7 +22798,7 @@ GameObject:
   - component: {fileID: 5684424814273233741}
   m_Layer: 0
   m_Name: Building_Pizza (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -22884,7 +22884,7 @@ GameObject:
   - component: {fileID: 608340439816465784}
   m_Layer: 0
   m_Name: Natures_Pot Bush_small (13)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -22970,7 +22970,7 @@ GameObject:
   - component: {fileID: 3917497471573724526}
   m_Layer: 0
   m_Name: Props_Street Light (12)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -23056,7 +23056,7 @@ GameObject:
   - component: {fileID: 6421407796056071367}
   m_Layer: 0
   m_Name: Props_BillBoard_small (3)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -23142,7 +23142,7 @@ GameObject:
   - component: {fileID: 6125865171987834217}
   m_Layer: 0
   m_Name: Vehicle_Pick up Truck_color01 (8)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -23228,7 +23228,7 @@ GameObject:
   - component: {fileID: 8960897138700178682}
   m_Layer: 0
   m_Name: Natures_Grass Tile (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -23314,7 +23314,7 @@ GameObject:
   - component: {fileID: 9044618984502806629}
   m_Layer: 0
   m_Name: Vehicle_Pick up Truck_color02 (6)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -23400,7 +23400,7 @@ GameObject:
   - component: {fileID: 5364710289901582593}
   m_Layer: 0
   m_Name: Natures_Grass Bar (4)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -23486,7 +23486,7 @@ GameObject:
   - component: {fileID: 238233769610425862}
   m_Layer: 0
   m_Name: Props_Street Light (112)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -23603,7 +23603,7 @@ GameObject:
   - component: {fileID: 2055683827392662504}
   m_Layer: 0
   m_Name: Props_Street Light (58)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -23690,7 +23690,7 @@ GameObject:
   - component: {fileID: 9057369775730097828}
   m_Layer: 0
   m_Name: Natures_Cube Tree (11)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -23798,7 +23798,7 @@ GameObject:
   - component: {fileID: 2270785776199469707}
   m_Layer: 0
   m_Name: Natures_Bush_01 (41)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -23885,7 +23885,7 @@ GameObject:
   - component: {fileID: 4448011873158928308}
   m_Layer: 0
   m_Name: Natures_House Floor (16)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -23994,7 +23994,7 @@ GameObject:
   - component: {fileID: 6191669742662672830}
   m_Layer: 0
   m_Name: Props_Windmill
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -24103,7 +24103,7 @@ GameObject:
   - component: {fileID: 2952905025479072644}
   m_Layer: 0
   m_Name: Props_Bench_1 (13)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -24189,7 +24189,7 @@ GameObject:
   - component: {fileID: 1930645703818431885}
   m_Layer: 0
   m_Name: Natures_Fir Tree (37)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -24276,7 +24276,7 @@ GameObject:
   - component: {fileID: 6342747787218382188}
   m_Layer: 0
   m_Name: Props_Roof Helipad (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -24384,7 +24384,7 @@ GameObject:
   - component: {fileID: 1514669762609660571}
   m_Layer: 0
   m_Name: Building_House_01_color01
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -24470,7 +24470,7 @@ GameObject:
   - component: {fileID: 1403099850701441245}
   m_Layer: 0
   m_Name: Natures_Bush_01 (29)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -24556,7 +24556,7 @@ GameObject:
   - component: {fileID: 165767991097859944}
   m_Layer: 0
   m_Name: Natures_Rock_Big (26)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -24994,7 +24994,7 @@ GameObject:
   - component: {fileID: 4664434836340498275}
   m_Layer: 0
   m_Name: Natures_Rock_Big (15)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -25080,7 +25080,7 @@ GameObject:
   - component: {fileID: 8889558327200427665}
   m_Layer: 0
   m_Name: Natures_Bush_01 (21)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -25166,7 +25166,7 @@ GameObject:
   - component: {fileID: 8261437018093322522}
   m_Layer: 0
   m_Name: Props_Hydrant (4)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -25252,7 +25252,7 @@ GameObject:
   - component: {fileID: 7856252575169835190}
   m_Layer: 0
   m_Name: Natures_Bush_01 (12)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -25386,7 +25386,7 @@ GameObject:
   - component: {fileID: 8399327276020572490}
   m_Layer: 0
   m_Name: Building_House_03_color01
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -25494,7 +25494,7 @@ GameObject:
   - component: {fileID: 5034225230260506141}
   m_Layer: 0
   m_Name: Props_Street Light (6)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -25580,7 +25580,7 @@ GameObject:
   - component: {fileID: 3145680922226046498}
   m_Layer: 0
   m_Name: Natures_Fir Tree (41)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -25775,7 +25775,7 @@ GameObject:
   - component: {fileID: 4472305029287422604}
   m_Layer: 0
   m_Name: Props_Traffic Signal_big (28)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -25861,7 +25861,7 @@ GameObject:
   - component: {fileID: 4000300945958191359}
   m_Layer: 0
   m_Name: Natures_Pot Bush_small (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -25947,7 +25947,7 @@ GameObject:
   - component: {fileID: 7337099684885117868}
   m_Layer: 0
   m_Name: Natures_Pot Bush_big (31)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -26064,7 +26064,7 @@ GameObject:
   - component: {fileID: 4223411952242938940}
   m_Layer: 0
   m_Name: Props_Street Light (67)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -26150,7 +26150,7 @@ GameObject:
   - component: {fileID: 3673010705732981800}
   m_Layer: 0
   m_Name: Props_Roof Antenna
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -26236,7 +26236,7 @@ GameObject:
   - component: {fileID: 4137828520087442885}
   m_Layer: 0
   m_Name: Building_Shoes Shop
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -26323,7 +26323,7 @@ GameObject:
   - component: {fileID: 3754143387217176440}
   m_Layer: 0
   m_Name: Building_Gift Shop (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -26563,7 +26563,7 @@ GameObject:
   - component: {fileID: 1901360988133859836}
   m_Layer: 0
   m_Name: Natures_Rock_Big (11)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -26650,7 +26650,7 @@ GameObject:
   - component: {fileID: 5838628263178717648}
   m_Layer: 0
   m_Name: Natures_Cube Tree (8)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -26758,7 +26758,7 @@ GameObject:
   - component: {fileID: 5885492101821012127}
   m_Layer: 0
   m_Name: Props_Street Light (41)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -26844,7 +26844,7 @@ GameObject:
   - component: {fileID: 4314721920105747349}
   m_Layer: 0
   m_Name: Props_Traffic Signal_big (50)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -26962,7 +26962,7 @@ GameObject:
   - component: {fileID: 7047515076020508710}
   m_Layer: 0
   m_Name: Props_Roof prop air (8)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -27070,7 +27070,7 @@ GameObject:
   - component: {fileID: 6322184020839963518}
   m_Layer: 0
   m_Name: Natures_Grass Bar (6)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -27156,7 +27156,7 @@ GameObject:
   - component: {fileID: 2239841112467818935}
   m_Layer: 0
   m_Name: Building_House_04_color03
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -27243,7 +27243,7 @@ GameObject:
   - component: {fileID: 1153180265634453053}
   m_Layer: 0
   m_Name: Natures_Big Tree (27)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -27437,7 +27437,7 @@ GameObject:
   - component: {fileID: 1768943150768507236}
   m_Layer: 0
   m_Name: Building_Residential_color01
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -27523,7 +27523,7 @@ GameObject:
   - component: {fileID: 5816849399078575642}
   m_Layer: 0
   m_Name: Building_House_02_color03
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -27610,7 +27610,7 @@ GameObject:
   - component: {fileID: 6503320709684494033}
   m_Layer: 0
   m_Name: Building Sky_big_color01 (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -27718,7 +27718,7 @@ GameObject:
   - component: {fileID: 1796664847135338244}
   m_Layer: 0
   m_Name: Props_Traffic Signal_small (3)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -27804,7 +27804,7 @@ GameObject:
   - component: {fileID: 5137571594185447915}
   m_Layer: 0
   m_Name: Props_Street Light (16)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -27890,7 +27890,7 @@ GameObject:
   - component: {fileID: 6761676207063308346}
   m_Layer: 0
   m_Name: Building_House_03_color02
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -27976,7 +27976,7 @@ GameObject:
   - component: {fileID: 2223141935440978644}
   m_Layer: 0
   m_Name: Natures_Fir Tree
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -28062,7 +28062,7 @@ GameObject:
   - component: {fileID: 5646545465776429020}
   m_Layer: 0
   m_Name: Natures_Rock_Big (17)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -28149,7 +28149,7 @@ GameObject:
   - component: {fileID: 1667905678318746276}
   m_Layer: 0
   m_Name: Natures_House Floor (17)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -28257,7 +28257,7 @@ GameObject:
   - component: {fileID: 8699730921708031977}
   m_Layer: 0
   m_Name: Road Split Line (4)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -28343,7 +28343,7 @@ GameObject:
   - component: {fileID: 2754563971222052448}
   m_Layer: 0
   m_Name: Props_Hydrant (7)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -28430,7 +28430,7 @@ GameObject:
   - component: {fileID: 1081177225914791529}
   m_Layer: 0
   m_Name: Natures_Grass Tile
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -28516,7 +28516,7 @@ GameObject:
   - component: {fileID: 1129480834256458153}
   m_Layer: 0
   m_Name: Vehicle_Taxi (12)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -28602,7 +28602,7 @@ GameObject:
   - component: {fileID: 6989138294670555313}
   m_Layer: 0
   m_Name: Props_Dustbin (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -28688,7 +28688,7 @@ GameObject:
   - component: {fileID: 7232924736731135962}
   m_Layer: 0
   m_Name: Natures_Bush_01 (32)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -28977,7 +28977,7 @@ GameObject:
   - component: {fileID: 7782770398111188254}
   m_Layer: 0
   m_Name: Natures_Rock_Big (19)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -29063,7 +29063,7 @@ GameObject:
   - component: {fileID: 811068368118154643}
   m_Layer: 0
   m_Name: Props_Traffic Signal_small (4)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -29149,7 +29149,7 @@ GameObject:
   - component: {fileID: 8147715595460836104}
   m_Layer: 0
   m_Name: Vehicle_SUV_color01 (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -29322,7 +29322,7 @@ GameObject:
   - component: {fileID: 9167503241817255980}
   m_Layer: 0
   m_Name: Props_Traffic Signal_big (23)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -29408,7 +29408,7 @@ GameObject:
   - component: {fileID: 960092075329573563}
   m_Layer: 0
   m_Name: Props_Street Light (125)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -29495,7 +29495,7 @@ GameObject:
   - component: {fileID: 864932333898018540}
   m_Layer: 0
   m_Name: Props_Windmill (8)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -29604,7 +29604,7 @@ GameObject:
   - component: {fileID: 4878255496653999468}
   m_Layer: 0
   m_Name: Props_Bench_1 (5)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -29691,7 +29691,7 @@ GameObject:
   - component: {fileID: 2317973974023532125}
   m_Layer: 0
   m_Name: Props_Roof prop air (4)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -29799,7 +29799,7 @@ GameObject:
   - component: {fileID: 8693449031041024302}
   m_Layer: 0
   m_Name: Props_Street Light (113)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -29971,7 +29971,7 @@ GameObject:
   - component: {fileID: 4236923589072004640}
   m_Layer: 0
   m_Name: Natures_Rock_Big (16)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -30104,7 +30104,7 @@ GameObject:
   - component: {fileID: 8070659418588095144}
   m_Layer: 0
   m_Name: Props_Hydrant (12)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -30190,7 +30190,7 @@ GameObject:
   - component: {fileID: 5541679067258233477}
   m_Layer: 0
   m_Name: Natures_Grass Fence (7)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -30276,7 +30276,7 @@ GameObject:
   - component: {fileID: 8361995042487864784}
   m_Layer: 0
   m_Name: Props_Street Light (81)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -30362,7 +30362,7 @@ GameObject:
   - component: {fileID: 900988351591440504}
   m_Layer: 0
   m_Name: Props_Traffic Signal_big (44)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -30448,7 +30448,7 @@ GameObject:
   - component: {fileID: 600376484165884574}
   m_Layer: 0
   m_Name: Props_Street Light (123)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -30534,7 +30534,7 @@ GameObject:
   - component: {fileID: 8210622826524168363}
   m_Layer: 0
   m_Name: Natures_Pot Bush_big (16)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -30651,7 +30651,7 @@ GameObject:
   - component: {fileID: 7000100657734272092}
   m_Layer: 0
   m_Name: Building_Stadium
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -30737,7 +30737,7 @@ GameObject:
   - component: {fileID: 3732585610249620067}
   m_Layer: 0
   m_Name: Natures_Pot Bush_small (18)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -30824,7 +30824,7 @@ GameObject:
   - component: {fileID: 9130837972101141269}
   m_Layer: 0
   m_Name: Props_Roof prop air (7)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -31377,7 +31377,7 @@ GameObject:
   - component: {fileID: 1207387150749769104}
   m_Layer: 0
   m_Name: Props_Hydrant (5)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -31463,7 +31463,7 @@ GameObject:
   - component: {fileID: 6019619978012248264}
   m_Layer: 0
   m_Name: Props_Traffic Signal_big (22)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -31635,7 +31635,7 @@ GameObject:
   - component: {fileID: 4375459305316350829}
   m_Layer: 0
   m_Name: Props_Traffic Signal_big (36)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -31722,7 +31722,7 @@ GameObject:
   - component: {fileID: 5947938253515090582}
   m_Layer: 0
   m_Name: Road Lane_01 (58)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -31830,7 +31830,7 @@ GameObject:
   - component: {fileID: 405185663478829706}
   m_Layer: 0
   m_Name: Natures_Grass Fence
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -31916,7 +31916,7 @@ GameObject:
   - component: {fileID: 5037016557012388995}
   m_Layer: 0
   m_Name: Natures_Bush_01 (38)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -32002,7 +32002,7 @@ GameObject:
   - component: {fileID: 2084974466916926325}
   m_Layer: 0
   m_Name: Natures_Grass Fence (14)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -32088,7 +32088,7 @@ GameObject:
   - component: {fileID: 3699572186852807529}
   m_Layer: 0
   m_Name: Props_Street Light (34)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -32174,7 +32174,7 @@ GameObject:
   - component: {fileID: 8778453257401369763}
   m_Layer: 0
   m_Name: Props_Street Light (103)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -32260,7 +32260,7 @@ GameObject:
   - component: {fileID: 5652863064480919366}
   m_Layer: 0
   m_Name: Vehicle_Truck_color01 (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -32346,7 +32346,7 @@ GameObject:
   - component: {fileID: 8397470169327179845}
   m_Layer: 0
   m_Name: Natures_Grass Fence (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -32494,7 +32494,7 @@ GameObject:
   - component: {fileID: 8069276128667741488}
   m_Layer: 0
   m_Name: Props_Bench_1 (4)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -32667,7 +32667,7 @@ GameObject:
   - component: {fileID: 244119320694700104}
   m_Layer: 0
   m_Name: Props_Street Light (43)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -32909,7 +32909,7 @@ GameObject:
   - component: {fileID: 8689006581589751506}
   m_Layer: 0
   m_Name: Natures_Fir Tree (27)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -32995,7 +32995,7 @@ GameObject:
   - component: {fileID: 6446187985418171901}
   m_Layer: 0
   m_Name: Props_Traffic Signal_big (46)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -33082,7 +33082,7 @@ GameObject:
   - component: {fileID: 2806347021948771688}
   m_Layer: 0
   m_Name: Natures_Big Tree (3)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -33190,7 +33190,7 @@ GameObject:
   - component: {fileID: 6139708288610269322}
   m_Layer: 0
   m_Name: Props_Street Light (50)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -33276,7 +33276,7 @@ GameObject:
   - component: {fileID: 7160627861909142410}
   m_Layer: 0
   m_Name: Props_Bench_1 (18)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -33362,7 +33362,7 @@ GameObject:
   - component: {fileID: 5705988028601179003}
   m_Layer: 0
   m_Name: Props_Street Light (83)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -33448,7 +33448,7 @@ GameObject:
   - component: {fileID: 3456204835440994664}
   m_Layer: 0
   m_Name: Props_Street Light (100)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -33581,7 +33581,7 @@ GameObject:
   - component: {fileID: 7962450356864678325}
   m_Layer: 0
   m_Name: Natures_Grass Fence (11)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -33667,7 +33667,7 @@ GameObject:
   - component: {fileID: 4623245361370686693}
   m_Layer: 0
   m_Name: Road Concrete Tile (5)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -33754,7 +33754,7 @@ GameObject:
   - component: {fileID: 1355199742484672740}
   m_Layer: 0
   m_Name: Natures_Big Tree (29)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -33863,7 +33863,7 @@ GameObject:
   - component: {fileID: 4848915497994857722}
   m_Layer: 0
   m_Name: Natures_Big Tree (25)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -33971,7 +33971,7 @@ GameObject:
   - component: {fileID: 8417045529659596417}
   m_Layer: 0
   m_Name: Natures_Bush_01 (40)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -34057,7 +34057,7 @@ GameObject:
   - component: {fileID: 7258920948537279614}
   m_Layer: 0
   m_Name: Natures_Pot Bush_small (17)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -34143,7 +34143,7 @@ GameObject:
   - component: {fileID: 3936060858638951013}
   m_Layer: 0
   m_Name: Natures_Pot Bush_big (6)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -34229,7 +34229,7 @@ GameObject:
   - component: {fileID: 7493835199185978607}
   m_Layer: 0
   m_Name: Props_Street Light (3)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -34315,7 +34315,7 @@ GameObject:
   - component: {fileID: 1969502159527802540}
   m_Layer: 0
   m_Name: Natures_Rock_Big (27)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -34487,7 +34487,7 @@ GameObject:
   - component: {fileID: 2077154718588207663}
   m_Layer: 0
   m_Name: Vehicle_Taxi (5)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -34573,7 +34573,7 @@ GameObject:
   - component: {fileID: 1054024383120935381}
   m_Layer: 0
   m_Name: Vehicle_SUV_color01 (9)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -34660,7 +34660,7 @@ GameObject:
   - component: {fileID: 2563728279020855720}
   m_Layer: 0
   m_Name: Natures_Big Tree (8)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -34814,7 +34814,7 @@ GameObject:
   - component: {fileID: 8508514082927027691}
   m_Layer: 0
   m_Name: Natures_Rock_Big (22)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -34900,7 +34900,7 @@ GameObject:
   - component: {fileID: 7418336145687064688}
   m_Layer: 0
   m_Name: Natures_Fir Tree (3)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -34987,7 +34987,7 @@ GameObject:
   - component: {fileID: 2131984438383146546}
   m_Layer: 0
   m_Name: Road Lane Half
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -35095,7 +35095,7 @@ GameObject:
   - component: {fileID: 3275604478397822578}
   m_Layer: 0
   m_Name: Vehicle_Bus_color01
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -35268,7 +35268,7 @@ GameObject:
   - component: {fileID: 7855747346025813890}
   m_Layer: 0
   m_Name: Natures_Big Tree (45)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -35423,7 +35423,7 @@ GameObject:
   - component: {fileID: 2738699823772113580}
   m_Layer: 0
   m_Name: Natures_Pot Bush_small (20)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -35509,7 +35509,7 @@ GameObject:
   - component: {fileID: 511416238399252494}
   m_Layer: 0
   m_Name: Natures_Rock_Big (25)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -35595,7 +35595,7 @@ GameObject:
   - component: {fileID: 5635051678301294034}
   m_Layer: 0
   m_Name: Vehicle_Car_color03
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -35681,7 +35681,7 @@ GameObject:
   - component: {fileID: 3373078669408421940}
   m_Layer: 0
   m_Name: Props_Hydrant (23)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -35768,7 +35768,7 @@ GameObject:
   - component: {fileID: 3431035486803601699}
   m_Layer: 0
   m_Name: Natures_House Floor (25)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -35877,7 +35877,7 @@ GameObject:
   - component: {fileID: 5784293419825947550}
   m_Layer: 0
   m_Name: Props_Roof prop air (11)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -36017,7 +36017,7 @@ GameObject:
   - component: {fileID: 2456162261195309988}
   m_Layer: 0
   m_Name: Natures_House Floor (12)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -36212,7 +36212,7 @@ GameObject:
   - component: {fileID: 1265052514677786758}
   m_Layer: 0
   m_Name: Props_Street Light (107)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -36298,7 +36298,7 @@ GameObject:
   - component: {fileID: 2505128566214929139}
   m_Layer: 0
   m_Name: Props_Traffic Signal_big (5)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -36384,7 +36384,7 @@ GameObject:
   - component: {fileID: 4420503239299012425}
   m_Layer: 0
   m_Name: Props_Street Light (64)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -36471,7 +36471,7 @@ GameObject:
   - component: {fileID: 7900030736169073555}
   m_Layer: 0
   m_Name: Road Lane_01 (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -36626,7 +36626,7 @@ GameObject:
   - component: {fileID: 3187453704188345967}
   m_Layer: 0
   m_Name: Natures_Pot Bush_big (18)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -36712,7 +36712,7 @@ GameObject:
   - component: {fileID: 1986032734878580120}
   m_Layer: 0
   m_Name: Props_Street Light (37)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -36798,7 +36798,7 @@ GameObject:
   - component: {fileID: 7662221420444096349}
   m_Layer: 0
   m_Name: Props_Bench_1 (16)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -36884,7 +36884,7 @@ GameObject:
   - component: {fileID: 5309624258465256235}
   m_Layer: 0
   m_Name: Natures_Fir Tree (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -36970,7 +36970,7 @@ GameObject:
   - component: {fileID: 7226365909287812994}
   m_Layer: 0
   m_Name: Building_Restaurant (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -37056,7 +37056,7 @@ GameObject:
   - component: {fileID: 8016458133120228457}
   m_Layer: 0
   m_Name: Props_Street Light (14)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -37142,7 +37142,7 @@ GameObject:
   - component: {fileID: 3453781229252264916}
   m_Layer: 0
   m_Name: Natures_Pot Bush_small (29)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -37228,7 +37228,7 @@ GameObject:
   - component: {fileID: 4739220426627421869}
   m_Layer: 0
   m_Name: Props_Street Light (8)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -37314,7 +37314,7 @@ GameObject:
   - component: {fileID: 7597455855824445373}
   m_Layer: 0
   m_Name: Props_Street Light (99)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -37463,7 +37463,7 @@ GameObject:
   - component: {fileID: 2948355764329417812}
   m_Layer: 0
   m_Name: Road Lane_01 (10)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -37680,7 +37680,7 @@ GameObject:
   - component: {fileID: 2404442764902003076}
   m_Layer: 0
   m_Name: Vehicle_Pick up Truck_color03 (2)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -37766,7 +37766,7 @@ GameObject:
   - component: {fileID: 1771037070313407890}
   m_Layer: 0
   m_Name: Props_Street Light (22)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -37852,7 +37852,7 @@ GameObject:
   - component: {fileID: 8890075532818628123}
   m_Layer: 0
   m_Name: Props_Street Light (32)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -37939,7 +37939,7 @@ GameObject:
   - component: {fileID: 4414675265126005194}
   m_Layer: 0
   m_Name: Props_Windmill (7)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -38048,7 +38048,7 @@ GameObject:
   - component: {fileID: 6829067450970807019}
   m_Layer: 0
   m_Name: Natures_Bush_01 (27)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -38134,7 +38134,7 @@ GameObject:
   - component: {fileID: 7381793313328305689}
   m_Layer: 0
   m_Name: Natures_Pot Bush_big (22)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -38221,7 +38221,7 @@ GameObject:
   - component: {fileID: 4158431414996818721}
   m_Layer: 0
   m_Name: Building_Chicken Shop (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -38485,7 +38485,7 @@ GameObject:
   - component: {fileID: 770337639304685940}
   m_Layer: 0
   m_Name: Props_Street Light (10)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -38571,7 +38571,7 @@ GameObject:
   - component: {fileID: 4356219268123811445}
   m_Layer: 0
   m_Name: Natures_Bush_01 (13)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -38657,7 +38657,7 @@ GameObject:
   - component: {fileID: 9078620200781646404}
   m_Layer: 0
   m_Name: Natures_Pot Bush_small (3)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -38744,7 +38744,7 @@ GameObject:
   - component: {fileID: 1401666613490185908}
   m_Layer: 0
   m_Name: Props_Roof prop air (10)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -38962,7 +38962,7 @@ GameObject:
   - component: {fileID: 3443268600616297958}
   m_Layer: 0
   m_Name: Natures_House Floor (3)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -39070,7 +39070,7 @@ GameObject:
   - component: {fileID: 2726292978288180193}
   m_Layer: 0
   m_Name: Road Concrete Tile
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -39157,7 +39157,7 @@ GameObject:
   - component: {fileID: 9091333040855645967}
   m_Layer: 0
   m_Name: Natures_House Floor (20)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -39265,7 +39265,7 @@ GameObject:
   - component: {fileID: 1693026041638098771}
   m_Layer: 0
   m_Name: Props_Street Light (95)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -39351,7 +39351,7 @@ GameObject:
   - component: {fileID: 969382734803450633}
   m_Layer: 0
   m_Name: Natures_Bush_01 (24)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -39523,7 +39523,7 @@ GameObject:
   - component: {fileID: 3500218612770406772}
   m_Layer: 0
   m_Name: Props_Hydrant (24)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -39655,7 +39655,7 @@ GameObject:
   - component: {fileID: 8012702988318433071}
   m_Layer: 0
   m_Name: Natures_Bush_01 (16)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -39742,7 +39742,7 @@ GameObject:
   - component: {fileID: 7584497265190436390}
   m_Layer: 0
   m_Name: Natures_House Floor (8)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -39959,7 +39959,7 @@ GameObject:
   - component: {fileID: 1901197022187465574}
   m_Layer: 0
   m_Name: Props_Traffic Signal_big (2)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -40045,7 +40045,7 @@ GameObject:
   - component: {fileID: 145937112681034046}
   m_Layer: 0
   m_Name: Natures_Rock_Big (23)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -40131,7 +40131,7 @@ GameObject:
   - component: {fileID: 4193692187879276052}
   m_Layer: 0
   m_Name: Vehicle_Container_color03 (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -40218,7 +40218,7 @@ GameObject:
   - component: {fileID: 7265153991881505875}
   m_Layer: 0
   m_Name: Props_Windmill (14)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -40569,7 +40569,7 @@ GameObject:
   - component: {fileID: 2437834063677053228}
   m_Layer: 0
   m_Name: Props_Street Light (120)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -40655,7 +40655,7 @@ GameObject:
   - component: {fileID: 1851481268321520591}
   m_Layer: 0
   m_Name: Props_Street Light (89)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -40742,7 +40742,7 @@ GameObject:
   - component: {fileID: 6868106731829449384}
   m_Layer: 0
   m_Name: Natures_House Floor (14)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -40850,7 +40850,7 @@ GameObject:
   - component: {fileID: 6049705142684908089}
   m_Layer: 0
   m_Name: Natures_Bush_01 (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -40936,7 +40936,7 @@ GameObject:
   - component: {fileID: 8839597031471044122}
   m_Layer: 0
   m_Name: Vehicle_Taxi (7)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -41022,7 +41022,7 @@ GameObject:
   - component: {fileID: 5003050128371178483}
   m_Layer: 0
   m_Name: Natures_Pot Bush_small (4)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -41108,7 +41108,7 @@ GameObject:
   - component: {fileID: 4966827642220462166}
   m_Layer: 0
   m_Name: Props_Traffic Signal_big (19)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -41194,7 +41194,7 @@ GameObject:
   - component: {fileID: 7824216842692106867}
   m_Layer: 0
   m_Name: Vehicle_Pick up Truck_color01 (6)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -41280,7 +41280,7 @@ GameObject:
   - component: {fileID: 3912804565047607923}
   m_Layer: 0
   m_Name: Building Sky_big_color03 (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -41367,7 +41367,7 @@ GameObject:
   - component: {fileID: 8719264736186126301}
   m_Layer: 0
   m_Name: Natures_House Floor (28)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -41476,7 +41476,7 @@ GameObject:
   - component: {fileID: 8789873815388688503}
   m_Layer: 0
   m_Name: Natures_Big Tree (6)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -41584,7 +41584,7 @@ GameObject:
   - component: {fileID: 8820042011155611639}
   m_Layer: 0
   m_Name: Natures_Fir Tree (9)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -41670,7 +41670,7 @@ GameObject:
   - component: {fileID: 8115169198116034755}
   m_Layer: 0
   m_Name: Props_Traffic Signal_big (47)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -41756,7 +41756,7 @@ GameObject:
   - component: {fileID: 9171000636435335169}
   m_Layer: 0
   m_Name: Natures_Bush_01 (26)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -41960,7 +41960,7 @@ GameObject:
   - component: {fileID: 6904637387805411933}
   m_Layer: 0
   m_Name: Natures_Cube Tree (9)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -42069,7 +42069,7 @@ GameObject:
   - component: {fileID: 536669738955336543}
   m_Layer: 0
   m_Name: Natures_Big Tree (14)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -42178,7 +42178,7 @@ GameObject:
   - component: {fileID: 5546498658295267827}
   m_Layer: 0
   m_Name: Natures_Big Tree (30)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -42287,7 +42287,7 @@ GameObject:
   - component: {fileID: 5601898633651375502}
   m_Layer: 0
   m_Name: Props_Windmill (12)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -42505,7 +42505,7 @@ GameObject:
   - component: {fileID: 3470109590376601295}
   m_Layer: 0
   m_Name: Natures_Fir Tree (6)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -42592,7 +42592,7 @@ GameObject:
   - component: {fileID: 2846381116633376040}
   m_Layer: 0
   m_Name: Natures_House Floor (7)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -42700,7 +42700,7 @@ GameObject:
   - component: {fileID: 8621778225288463827}
   m_Layer: 0
   m_Name: Natures_Pot Bush_small (10)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -42786,7 +42786,7 @@ GameObject:
   - component: {fileID: 8778530882867627060}
   m_Layer: 0
   m_Name: Vehicle_SUV_color01 (8)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -42872,7 +42872,7 @@ GameObject:
   - component: {fileID: 8957466238445163545}
   m_Layer: 0
   m_Name: Natures_Bush_01 (7)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -42958,7 +42958,7 @@ GameObject:
   - component: {fileID: 7948117358122091210}
   m_Layer: 0
   m_Name: Natures_Bush_01 (23)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -43044,7 +43044,7 @@ GameObject:
   - component: {fileID: 5585283834497255997}
   m_Layer: 0
   m_Name: Props_Traffic Signal_big (42)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -43216,7 +43216,7 @@ GameObject:
   - component: {fileID: 2547564149430451308}
   m_Layer: 0
   m_Name: Props_Street Light (74)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -43390,7 +43390,7 @@ GameObject:
   - component: {fileID: 2873647996292698402}
   m_Layer: 0
   m_Name: Props_Bus Stop (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -43498,7 +43498,7 @@ GameObject:
   - component: {fileID: 6126327859109064646}
   m_Layer: 0
   m_Name: Natures_Grass Fence (16)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -43584,7 +43584,7 @@ GameObject:
   - component: {fileID: 1497887616909479723}
   m_Layer: 0
   m_Name: Props_Street Light (85)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -43670,7 +43670,7 @@ GameObject:
   - component: {fileID: 5641231362686424425}
   m_Layer: 0
   m_Name: Natures_Pot Bush_small (14)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -43756,7 +43756,7 @@ GameObject:
   - component: {fileID: 8874728889352581138}
   m_Layer: 0
   m_Name: Props_Street Light (4)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -43842,7 +43842,7 @@ GameObject:
   - component: {fileID: 8289636757758123064}
   m_Layer: 0
   m_Name: Road Tile Small
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -44006,7 +44006,7 @@ GameObject:
   - component: {fileID: 8496882212279306501}
   m_Layer: 0
   m_Name: Natures_Big Tree (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -44246,7 +44246,7 @@ GameObject:
   - component: {fileID: 2157596748647776580}
   m_Layer: 0
   m_Name: Natures_Bush_01 (3)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -44330,7 +44330,7 @@ GameObject:
   - component: {fileID: 6367291742069204597}
   m_Layer: 0
   m_Name: BuildingSet-6
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -44393,7 +44393,7 @@ GameObject:
   - component: {fileID: 5320546864174439175}
   m_Layer: 0
   m_Name: Props_Street Light (92)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -44479,7 +44479,7 @@ GameObject:
   - component: {fileID: 4259269839219478977}
   m_Layer: 0
   m_Name: Props_Street Light (42)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -44674,7 +44674,7 @@ GameObject:
   - component: {fileID: 8229243125476540445}
   m_Layer: 0
   m_Name: Natures_Fir Tree (49)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -44847,7 +44847,7 @@ GameObject:
   - component: {fileID: 2090057639309846583}
   m_Layer: 0
   m_Name: Props_Traffic Signal_big (25)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -44933,7 +44933,7 @@ GameObject:
   - component: {fileID: 211839606928445695}
   m_Layer: 0
   m_Name: Props_Bench_1 (3)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -45020,7 +45020,7 @@ GameObject:
   - component: {fileID: 2490312943231245991}
   m_Layer: 0
   m_Name: Natures_House Floor (19)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -45128,7 +45128,7 @@ GameObject:
   - component: {fileID: 5954804379398341334}
   m_Layer: 0
   m_Name: Road Split Line (3)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -45246,7 +45246,7 @@ GameObject:
   - component: {fileID: 8315847199456923110}
   m_Layer: 0
   m_Name: Natures_Big Tree (42)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -45354,7 +45354,7 @@ GameObject:
   - component: {fileID: 3978782952291906232}
   m_Layer: 0
   m_Name: Building_Factory
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -45558,7 +45558,7 @@ GameObject:
   - component: {fileID: 8813263629426242280}
   m_Layer: 0
   m_Name: Natures_Rock_Big (12)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -45644,7 +45644,7 @@ GameObject:
   - component: {fileID: 605289547204289894}
   m_Layer: 0
   m_Name: Natures_Pot Bush_big (23)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -45730,7 +45730,7 @@ GameObject:
   - component: {fileID: 5012304942057164932}
   m_Layer: 0
   m_Name: Props_Bench_1 (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -45816,7 +45816,7 @@ GameObject:
   - component: {fileID: 8263448535425424428}
   m_Layer: 0
   m_Name: Vehicle_SUV_color02 (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -45951,7 +45951,7 @@ GameObject:
   - component: {fileID: 1025771345506114066}
   m_Layer: 0
   m_Name: Props_Windmill (9)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -46060,7 +46060,7 @@ GameObject:
   - component: {fileID: 4192812644240556512}
   m_Layer: 0
   m_Name: Props_Street Light (66)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -46146,7 +46146,7 @@ GameObject:
   - component: {fileID: 4046544724785666818}
   m_Layer: 0
   m_Name: Props_Street Light (55)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -46232,7 +46232,7 @@ GameObject:
   - component: {fileID: 1320638107671775791}
   m_Layer: 0
   m_Name: Props_Street Light (23)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -46404,7 +46404,7 @@ GameObject:
   - component: {fileID: 1781416624395117416}
   m_Layer: 0
   m_Name: Road Split Line (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -46578,7 +46578,7 @@ GameObject:
   - component: {fileID: 810668373585445716}
   m_Layer: 0
   m_Name: Natures_Big Tree (16)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -46686,7 +46686,7 @@ GameObject:
   - component: {fileID: 3571118158491129242}
   m_Layer: 0
   m_Name: Natures_Bush_01 (4)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -46772,7 +46772,7 @@ GameObject:
   - component: {fileID: 1055188575338758499}
   m_Layer: 0
   m_Name: Props_Traffic Signal_big (29)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -46859,7 +46859,7 @@ GameObject:
   - component: {fileID: 5374924540263437949}
   m_Layer: 0
   m_Name: Props_Windmill (2)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -46968,7 +46968,7 @@ GameObject:
   - component: {fileID: 1433332854333273320}
   m_Layer: 0
   m_Name: Natures_Grass Bar (3)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -47055,7 +47055,7 @@ GameObject:
   - component: {fileID: 3576459525479759088}
   m_Layer: 0
   m_Name: Natures_House Floor (23)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -47241,7 +47241,7 @@ GameObject:
   - component: {fileID: 3725541251119478742}
   m_Layer: 0
   m_Name: Vehicle_Truck_color03 (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -47327,7 +47327,7 @@ GameObject:
   - component: {fileID: 6962397823259302417}
   m_Layer: 0
   m_Name: Natures_Pot Bush_small (21)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -47413,7 +47413,7 @@ GameObject:
   - component: {fileID: 4926095227636746506}
   m_Layer: 0
   m_Name: Props_Bench_1 (12)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -47546,7 +47546,7 @@ GameObject:
   - component: {fileID: 1707461617090555667}
   m_Layer: 0
   m_Name: Natures_Rock_Big (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -47632,7 +47632,7 @@ GameObject:
   - component: {fileID: 8617187846438350316}
   m_Layer: 0
   m_Name: Props_Street Light (76)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -47719,7 +47719,7 @@ GameObject:
   - component: {fileID: 4811836040144695090}
   m_Layer: 0
   m_Name: Natures_Big Tree (23)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -47827,7 +47827,7 @@ GameObject:
   - component: {fileID: 5592252555266525807}
   m_Layer: 0
   m_Name: Props_Traffic Signal_big (45)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -47913,7 +47913,7 @@ GameObject:
   - component: {fileID: 3418444970499483827}
   m_Layer: 0
   m_Name: Natures_Fir Tree (26)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -47999,7 +47999,7 @@ GameObject:
   - component: {fileID: 6120918202046779499}
   m_Layer: 0
   m_Name: Natures_Fir Tree (42)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -48085,7 +48085,7 @@ GameObject:
   - component: {fileID: 841656206933673719}
   m_Layer: 0
   m_Name: Natures_Rock_Big (6)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -48171,7 +48171,7 @@ GameObject:
   - component: {fileID: 474771461474565876}
   m_Layer: 0
   m_Name: Props_Street Light (47)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -48258,7 +48258,7 @@ GameObject:
   - component: {fileID: 9219262490242613268}
   m_Layer: 0
   m_Name: Building_Gift Shop (2)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -48366,7 +48366,7 @@ GameObject:
   - component: {fileID: 5521772902089747594}
   m_Layer: 0
   m_Name: Props_Street Light (53)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -48452,7 +48452,7 @@ GameObject:
   - component: {fileID: 2804523203780350023}
   m_Layer: 0
   m_Name: Natures_Grass Fence (5)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -48539,7 +48539,7 @@ GameObject:
   - component: {fileID: 8204780506400172414}
   m_Layer: 0
   m_Name: Props_Roof prop air (3)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -48647,7 +48647,7 @@ GameObject:
   - component: {fileID: 2217522807322640398}
   m_Layer: 0
   m_Name: Natures_Pot Bush_big
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -48820,7 +48820,7 @@ GameObject:
   - component: {fileID: 5992954730698716646}
   m_Layer: 0
   m_Name: Props_Street Light (60)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -48992,7 +48992,7 @@ GameObject:
   - component: {fileID: 7949399198808061261}
   m_Layer: 0
   m_Name: Props_Hydrant (9)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -49078,7 +49078,7 @@ GameObject:
   - component: {fileID: 5676843972460811460}
   m_Layer: 0
   m_Name: Natures_Pot Bush_big (4)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -49164,7 +49164,7 @@ GameObject:
   - component: {fileID: 4652454393471274230}
   m_Layer: 0
   m_Name: Props_Street Light (21)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -49250,7 +49250,7 @@ GameObject:
   - component: {fileID: 2708507876191609400}
   m_Layer: 0
   m_Name: Natures_Pot Bush_small (30)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -49336,7 +49336,7 @@ GameObject:
   - component: {fileID: 7530914124546002505}
   m_Layer: 0
   m_Name: Natures_Pot Bush_small (9)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -49422,7 +49422,7 @@ GameObject:
   - component: {fileID: 6286350642199888958}
   m_Layer: 0
   m_Name: Natures_Rock_Big (18)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -49508,7 +49508,7 @@ GameObject:
   - component: {fileID: 5994478825969299792}
   m_Layer: 0
   m_Name: Props_Street Light (105)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -49766,7 +49766,7 @@ GameObject:
   - component: {fileID: 1585357958462232592}
   m_Layer: 0
   m_Name: Vehicle_SUV_color01 (5)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -49852,7 +49852,7 @@ GameObject:
   - component: {fileID: 3216335292568628999}
   m_Layer: 0
   m_Name: Vehicle_SUV_color03 (7)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -50107,7 +50107,7 @@ GameObject:
   - component: {fileID: 7869557384277201835}
   m_Layer: 0
   m_Name: Props_Street Light (54)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -50193,7 +50193,7 @@ GameObject:
   - component: {fileID: 1885423219911058838}
   m_Layer: 0
   m_Name: Props_Hydrant (18)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -50279,7 +50279,7 @@ GameObject:
   - component: {fileID: 2521593903924666318}
   m_Layer: 0
   m_Name: Props_Street Light (13)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -50365,7 +50365,7 @@ GameObject:
   - component: {fileID: 311273622402198594}
   m_Layer: 0
   m_Name: Props_Traffic Signal_big (21)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -50452,7 +50452,7 @@ GameObject:
   - component: {fileID: 4192357265748361559}
   m_Layer: 0
   m_Name: Natures_Big Tree (21)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -50561,7 +50561,7 @@ GameObject:
   - component: {fileID: 7169974722642565225}
   m_Layer: 0
   m_Name: Natures_House Floor (22)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -50755,7 +50755,7 @@ GameObject:
   - component: {fileID: 2068817856341771599}
   m_Layer: 0
   m_Name: Props_Street Light (46)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -51027,7 +51027,7 @@ GameObject:
   - component: {fileID: 2093893928715149248}
   m_Layer: 0
   m_Name: Props_Dustbin
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -51113,7 +51113,7 @@ GameObject:
   - component: {fileID: 797456818231429073}
   m_Layer: 0
   m_Name: Natures_Pot Bush_small (31)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -51200,7 +51200,7 @@ GameObject:
   - component: {fileID: 4570203367117564831}
   m_Layer: 0
   m_Name: Natures_House Floor (15)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -51308,7 +51308,7 @@ GameObject:
   - component: {fileID: 3192137163486213558}
   m_Layer: 0
   m_Name: Props_BillBoard_large
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -51395,7 +51395,7 @@ GameObject:
   - component: {fileID: 1714050565156643951}
   m_Layer: 0
   m_Name: Props_Roof prop air (6)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -51503,7 +51503,7 @@ GameObject:
   - component: {fileID: 7242866407350359150}
   m_Layer: 0
   m_Name: Props_Street Light (45)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -51589,7 +51589,7 @@ GameObject:
   - component: {fileID: 9161338368435356230}
   m_Layer: 0
   m_Name: Props_Hydrant (10)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -51787,7 +51787,7 @@ GameObject:
   - component: {fileID: 5166111469384134751}
   m_Layer: 0
   m_Name: Natures_Bush_01 (30)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -52068,7 +52068,7 @@ GameObject:
   - component: {fileID: 7766166407455276478}
   m_Layer: 0
   m_Name: Props_Street Light
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -52154,7 +52154,7 @@ GameObject:
   - component: {fileID: 5041639396782656422}
   m_Layer: 0
   m_Name: Props_Traffic Signal_big (11)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -52241,7 +52241,7 @@ GameObject:
   - component: {fileID: 5072596602897342257}
   m_Layer: 0
   m_Name: Natures_Big Tree (32)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -52349,7 +52349,7 @@ GameObject:
   - component: {fileID: 2918169330080153967}
   m_Layer: 0
   m_Name: Natures_Fir Tree (31)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -52435,7 +52435,7 @@ GameObject:
   - component: {fileID: 7153688466220817949}
   m_Layer: 0
   m_Name: Props_Roof Antenna (2)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -52608,7 +52608,7 @@ GameObject:
   - component: {fileID: 8115257638781001043}
   m_Layer: 0
   m_Name: Props_Windmill (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -52717,7 +52717,7 @@ GameObject:
   - component: {fileID: 4690479859544099072}
   m_Layer: 0
   m_Name: Natures_Bush_01 (19)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -52891,7 +52891,7 @@ GameObject:
   - component: {fileID: 8109855020302809794}
   m_Layer: 0
   m_Name: Natures_Big Tree (40)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -52999,7 +52999,7 @@ GameObject:
   - component: {fileID: 2797041377598318101}
   m_Layer: 0
   m_Name: Props_Street Light (39)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -53085,7 +53085,7 @@ GameObject:
   - component: {fileID: 5016221261449136040}
   m_Layer: 0
   m_Name: Natures_Bush_01 (36)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -53172,7 +53172,7 @@ GameObject:
   - component: {fileID: 1392233930103608410}
   m_Layer: 0
   m_Name: Natures_Big Tree (43)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -53280,7 +53280,7 @@ GameObject:
   - component: {fileID: 2390231721754738276}
   m_Layer: 0
   m_Name: Props_Traffic Signal_big (7)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -53584,7 +53584,7 @@ GameObject:
   - component: {fileID: 8667505301922015307}
   m_Layer: 0
   m_Name: Props_Hydrant
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -53670,7 +53670,7 @@ GameObject:
   - component: {fileID: 6855003771988476596}
   m_Layer: 0
   m_Name: Props_Bench_1 (8)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -53865,7 +53865,7 @@ GameObject:
   - component: {fileID: 2240270039874920638}
   m_Layer: 0
   m_Name: Natures_Grass Fence (10)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -53951,7 +53951,7 @@ GameObject:
   - component: {fileID: 4541050265347419852}
   m_Layer: 0
   m_Name: Natures_Rock_Big (4)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -54038,7 +54038,7 @@ GameObject:
   - component: {fileID: 2784666690892950325}
   m_Layer: 0
   m_Name: Natures_House Floor (10)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -54146,7 +54146,7 @@ GameObject:
   - component: {fileID: 5209834136616906218}
   m_Layer: 0
   m_Name: Props_Street Light (118)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -54232,7 +54232,7 @@ GameObject:
   - component: {fileID: 7281797072653958363}
   m_Layer: 0
   m_Name: Building_Pizza
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -54318,7 +54318,7 @@ GameObject:
   - component: {fileID: 92171499529596604}
   m_Layer: 0
   m_Name: Natures_Rock_Big (8)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -54404,7 +54404,7 @@ GameObject:
   - component: {fileID: 661939244099584679}
   m_Layer: 0
   m_Name: Props_Street Light (25)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -54576,7 +54576,7 @@ GameObject:
   - component: {fileID: 721373184070918306}
   m_Layer: 0
   m_Name: Natures_Fir Tree (39)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -54710,7 +54710,7 @@ GameObject:
   - component: {fileID: 3005485828026708301}
   m_Layer: 0
   m_Name: Natures_Big Tree (12)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -54818,7 +54818,7 @@ GameObject:
   - component: {fileID: 443087774381867812}
   m_Layer: 0
   m_Name: Props_Traffic Signal_big (12)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -54951,7 +54951,7 @@ GameObject:
   - component: {fileID: 5414341709435704298}
   m_Layer: 0
   m_Name: Natures_Pot Bush_big (5)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -55124,7 +55124,7 @@ GameObject:
   - component: {fileID: 4486177256490808413}
   m_Layer: 0
   m_Name: Natures_Big Tree (33)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -55232,7 +55232,7 @@ GameObject:
   - component: {fileID: 2986136245148327031}
   m_Layer: 0
   m_Name: Natures_Pot Bush_small (7)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -55366,7 +55366,7 @@ GameObject:
   - component: {fileID: 668546236131817351}
   m_Layer: 0
   m_Name: Natures_Pot Bush_small (26)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -55452,7 +55452,7 @@ GameObject:
   - component: {fileID: 4076418760119847900}
   m_Layer: 0
   m_Name: Props_Street Light (19)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -55538,7 +55538,7 @@ GameObject:
   - component: {fileID: 1228498811110313542}
   m_Layer: 0
   m_Name: Natures_Grass Fence (4)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -55624,7 +55624,7 @@ GameObject:
   - component: {fileID: 6740683016348081866}
   m_Layer: 0
   m_Name: Props_Hydrant (3)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -55710,7 +55710,7 @@ GameObject:
   - component: {fileID: 8011761263825752829}
   m_Layer: 0
   m_Name: Building Sky_small_color03 (3)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -55796,7 +55796,7 @@ GameObject:
   - component: {fileID: 2940470886005510124}
   m_Layer: 0
   m_Name: Natures_Bush_01 (5)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -55916,7 +55916,7 @@ GameObject:
   - component: {fileID: 7874155929222943189}
   m_Layer: 0
   m_Name: Natures_Fir Tree (50)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -56282,7 +56282,7 @@ GameObject:
   - component: {fileID: 4862353725798684693}
   m_Layer: 0
   m_Name: Props_Street Light (126)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -56369,7 +56369,7 @@ GameObject:
   - component: {fileID: 5833153898746154154}
   m_Layer: 0
   m_Name: Road Lane_01 (11)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -56477,7 +56477,7 @@ GameObject:
   - component: {fileID: 8165257558690861591}
   m_Layer: 0
   m_Name: Props_Street Light (52)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -56563,7 +56563,7 @@ GameObject:
   - component: {fileID: 8947466693526928059}
   m_Layer: 0
   m_Name: Props_Traffic Signal_big (24)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -56649,7 +56649,7 @@ GameObject:
   - component: {fileID: 2951005466729992855}
   m_Layer: 0
   m_Name: Natures_Pot Bush_big (15)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -56735,7 +56735,7 @@ GameObject:
   - component: {fileID: 137376559132504333}
   m_Layer: 0
   m_Name: Props_Street Light (106)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -56822,7 +56822,7 @@ GameObject:
   - component: {fileID: 2126662987235383664}
   m_Layer: 0
   m_Name: Props_Roof prop air (9)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -56930,7 +56930,7 @@ GameObject:
   - component: {fileID: 2494316628473422290}
   m_Layer: 0
   m_Name: Natures_Bush_01 (42)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -57016,7 +57016,7 @@ GameObject:
   - component: {fileID: 1370530544481853463}
   m_Layer: 0
   m_Name: Props_Traffic Signal_big (10)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -57102,7 +57102,7 @@ GameObject:
   - component: {fileID: 2246945756397449707}
   m_Layer: 0
   m_Name: Building_Coffee Shop
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -57188,7 +57188,7 @@ GameObject:
   - component: {fileID: 7946382030167377923}
   m_Layer: 0
   m_Name: Natures_Bush_01 (18)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -57361,7 +57361,7 @@ GameObject:
   - component: {fileID: 2721526120964655875}
   m_Layer: 0
   m_Name: Natures_Fir Tree (52)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -57448,7 +57448,7 @@ GameObject:
   - component: {fileID: 2161104166067801831}
   m_Layer: 0
   m_Name: Road Lane_01 (59)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -57556,7 +57556,7 @@ GameObject:
   - component: {fileID: 9010999150230772442}
   m_Layer: 0
   m_Name: Natures_Bush_01 (20)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -57642,7 +57642,7 @@ GameObject:
   - component: {fileID: 7970774177802502854}
   m_Layer: 0
   m_Name: Natures_Bush_01 (22)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -57729,7 +57729,7 @@ GameObject:
   - component: {fileID: 5865450903559654876}
   m_Layer: 0
   m_Name: Natures_Big Tree (41)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -57837,7 +57837,7 @@ GameObject:
   - component: {fileID: 3557410113988260322}
   m_Layer: 0
   m_Name: Props_Hydrant (8)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -58034,7 +58034,7 @@ GameObject:
   - component: {fileID: 4314663147501018121}
   m_Layer: 0
   m_Name: Natures_House Floor (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -58361,7 +58361,7 @@ GameObject:
   - component: {fileID: 4536731965519387641}
   m_Layer: 0
   m_Name: Natures_Big Tree (34)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -58469,7 +58469,7 @@ GameObject:
   - component: {fileID: 6683258106059466571}
   m_Layer: 0
   m_Name: Natures_Fir Tree (35)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -58556,7 +58556,7 @@ GameObject:
   - component: {fileID: 7423123644427850423}
   m_Layer: 0
   m_Name: Building_House_03_color03 (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -58665,7 +58665,7 @@ GameObject:
   - component: {fileID: 6656976642146669319}
   m_Layer: 0
   m_Name: Natures_Big Tree (11)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -58860,7 +58860,7 @@ GameObject:
   - component: {fileID: 5803976951516190687}
   m_Layer: 0
   m_Name: Natures_Pot Bush_big (26)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -58946,7 +58946,7 @@ GameObject:
   - component: {fileID: 372927202016074746}
   m_Layer: 0
   m_Name: Props_Street Light (57)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -59032,7 +59032,7 @@ GameObject:
   - component: {fileID: 8826214921942907366}
   m_Layer: 0
   m_Name: Props_Street Light (40)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -59118,7 +59118,7 @@ GameObject:
   - component: {fileID: 982351130251203142}
   m_Layer: 0
   m_Name: Natures_Fir Tree (48)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -59291,7 +59291,7 @@ GameObject:
   - component: {fileID: 3671273026951518492}
   m_Layer: 0
   m_Name: Props_Bench_1 (9)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -59377,7 +59377,7 @@ GameObject:
   - component: {fileID: 7409329795070486529}
   m_Layer: 0
   m_Name: Building Sky_small_color03 (2)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -59698,7 +59698,7 @@ GameObject:
   - component: {fileID: 1612038828013572197}
   m_Layer: 0
   m_Name: Road Split Line (5)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -60088,7 +60088,7 @@ GameObject:
   - component: {fileID: 7539685481487354628}
   m_Layer: 0
   m_Name: Building_House_01_color02
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -60261,7 +60261,7 @@ GameObject:
   - component: {fileID: 2465836693307140664}
   m_Layer: 0
   m_Name: Natures_Bush_01 (33)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -60348,7 +60348,7 @@ GameObject:
   - component: {fileID: 2507663118177344442}
   m_Layer: 0
   m_Name: Building_Music Store
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -60456,7 +60456,7 @@ GameObject:
   - component: {fileID: 2641018717915852553}
   m_Layer: 0
   m_Name: Natures_Pot Bush_big (29)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -60542,7 +60542,7 @@ GameObject:
   - component: {fileID: 7518806054500958160}
   m_Layer: 0
   m_Name: Natures_Fir Tree (7)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -60714,7 +60714,7 @@ GameObject:
   - component: {fileID: 2725929666569164121}
   m_Layer: 0
   m_Name: Props_BillBoard_small (2)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -60800,7 +60800,7 @@ GameObject:
   - component: {fileID: 755065754774293759}
   m_Layer: 0
   m_Name: Natures_Fir Tree (8)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -60886,7 +60886,7 @@ GameObject:
   - component: {fileID: 7835199079496258411}
   m_Layer: 0
   m_Name: Building_Bakery
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -61004,7 +61004,7 @@ GameObject:
   - component: {fileID: 70916876841645549}
   m_Layer: 0
   m_Name: Road Lane_01 (60)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -61112,7 +61112,7 @@ GameObject:
   - component: {fileID: 4132791509005479862}
   m_Layer: 0
   m_Name: Building_Restaurant
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -61198,7 +61198,7 @@ GameObject:
   - component: {fileID: 7325255039221863737}
   m_Layer: 0
   m_Name: Vehicle_SUV_color03 (3)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -61371,7 +61371,7 @@ GameObject:
   - component: {fileID: 6888189342022653731}
   m_Layer: 0
   m_Name: Natures_Big Tree (19)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -61565,7 +61565,7 @@ GameObject:
   - component: {fileID: 9104381042893756294}
   m_Layer: 0
   m_Name: Building Sky_big_color02 (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -61760,7 +61760,7 @@ GameObject:
   - component: {fileID: 6711624225416705864}
   m_Layer: 0
   m_Name: Natures_Pot Bush_big (27)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -61846,7 +61846,7 @@ GameObject:
   - component: {fileID: 3763177649138441075}
   m_Layer: 0
   m_Name: Props_Street Light (75)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -61933,7 +61933,7 @@ GameObject:
   - component: {fileID: 2186139614504158451}
   m_Layer: 0
   m_Name: Natures_Big Tree (7)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -62237,7 +62237,7 @@ GameObject:
   - component: {fileID: 33115292344829787}
   m_Layer: 0
   m_Name: Props_Street Light (73)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -62323,7 +62323,7 @@ GameObject:
   - component: {fileID: 8206667393222599522}
   m_Layer: 0
   m_Name: Props_Street Light (26)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -62409,7 +62409,7 @@ GameObject:
   - component: {fileID: 3722736031922613523}
   m_Layer: 0
   m_Name: Props_Traffic Signal_small (5)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -62627,7 +62627,7 @@ GameObject:
   - component: {fileID: 2252620582349892591}
   m_Layer: 0
   m_Name: Natures_Bush_01 (34)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -62713,7 +62713,7 @@ GameObject:
   - component: {fileID: 7050326196193899774}
   m_Layer: 0
   m_Name: Natures_Bush_01 (2)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -62916,7 +62916,7 @@ GameObject:
   - component: {fileID: 61718844366790645}
   m_Layer: 0
   m_Name: Props_Street Light (77)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -63002,7 +63002,7 @@ GameObject:
   - component: {fileID: 889569415567642761}
   m_Layer: 0
   m_Name: Props_Street Light (108)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -63088,7 +63088,7 @@ GameObject:
   - component: {fileID: 163194964918210518}
   m_Layer: 0
   m_Name: Props_Traffic Signal_big (40)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -63175,7 +63175,7 @@ GameObject:
   - component: {fileID: 7666480826020820681}
   m_Layer: 0
   m_Name: Natures_Cube Tree (3)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -63283,7 +63283,7 @@ GameObject:
   - component: {fileID: 7695407682979097443}
   m_Layer: 0
   m_Name: Props_Street Light (27)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -63369,7 +63369,7 @@ GameObject:
   - component: {fileID: 435693079146638028}
   m_Layer: 0
   m_Name: Props_BillBoard_large (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -63455,7 +63455,7 @@ GameObject:
   - component: {fileID: 127983280408754315}
   m_Layer: 0
   m_Name: Props_Roof Antenna (3)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -63541,7 +63541,7 @@ GameObject:
   - component: {fileID: 6650481226654605439}
   m_Layer: 0
   m_Name: Props_Traffic Signal_small (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -63627,7 +63627,7 @@ GameObject:
   - component: {fileID: 2573642788856849239}
   m_Layer: 0
   m_Name: Props_Street Light (5)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -63713,7 +63713,7 @@ GameObject:
   - component: {fileID: 7909701943842684667}
   m_Layer: 0
   m_Name: Props_Hydrant (13)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -63799,7 +63799,7 @@ GameObject:
   - component: {fileID: 598042026205934785}
   m_Layer: 0
   m_Name: Props_BillBoard_small (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -63972,7 +63972,7 @@ GameObject:
   - component: {fileID: 1731029758498960504}
   m_Layer: 0
   m_Name: Props_Traffic Signal_big (31)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -64058,7 +64058,7 @@ GameObject:
   - component: {fileID: 942283019859976427}
   m_Layer: 0
   m_Name: Props_Street Light (11)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -64231,7 +64231,7 @@ GameObject:
   - component: {fileID: 3468671247363846974}
   m_Layer: 0
   m_Name: Props_Bus Stop
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -64339,7 +64339,7 @@ GameObject:
   - component: {fileID: 2772096824549351421}
   m_Layer: 0
   m_Name: Natures_Fir Tree (45)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -64425,7 +64425,7 @@ GameObject:
   - component: {fileID: 686992539795587152}
   m_Layer: 0
   m_Name: Props_Traffic Signal_big (4)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -64511,7 +64511,7 @@ GameObject:
   - component: {fileID: 618673655516693670}
   m_Layer: 0
   m_Name: Vehicle_SUV_color01 (7)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -64659,7 +64659,7 @@ GameObject:
   - component: {fileID: 6548048530578575387}
   m_Layer: 0
   m_Name: Props_Street Light (17)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -64745,7 +64745,7 @@ GameObject:
   - component: {fileID: 1849459839251271504}
   m_Layer: 0
   m_Name: Props_Hydrant (21)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -64832,7 +64832,7 @@ GameObject:
   - component: {fileID: 4617580308460453445}
   m_Layer: 0
   m_Name: Natures_Big Tree (17)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -64940,7 +64940,7 @@ GameObject:
   - component: {fileID: 7625114292932717368}
   m_Layer: 0
   m_Name: Natures_Grass Fence (6)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -65027,7 +65027,7 @@ GameObject:
   - component: {fileID: 3237650573035107106}
   m_Layer: 0
   m_Name: Props_Windmill (13)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -65224,7 +65224,7 @@ GameObject:
   - component: {fileID: 7035518103531920838}
   m_Layer: 0
   m_Name: Road Lane Half (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -65332,7 +65332,7 @@ GameObject:
   - component: {fileID: 7636899795953292676}
   m_Layer: 0
   m_Name: Natures_Bush_01 (8)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -65418,7 +65418,7 @@ GameObject:
   - component: {fileID: 1292783051149288990}
   m_Layer: 0
   m_Name: Props_Traffic Signal_big (8)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -65505,7 +65505,7 @@ GameObject:
   - component: {fileID: 3741700948006618152}
   m_Layer: 0
   m_Name: Road Lane_01 (17)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -65661,7 +65661,7 @@ GameObject:
   - component: {fileID: 8024010194370333035}
   m_Layer: 0
   m_Name: Props_Street Light (38)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -65748,7 +65748,7 @@ GameObject:
   - component: {fileID: 2434754640321317068}
   m_Layer: 0
   m_Name: Natures_House Floor (29)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -65856,7 +65856,7 @@ GameObject:
   - component: {fileID: 1854599552139308480}
   m_Layer: 0
   m_Name: Natures_Pot Bush_big (20)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -66029,7 +66029,7 @@ GameObject:
   - component: {fileID: 6900188265921277206}
   m_Layer: 0
   m_Name: Props_Windmill (16)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -66138,7 +66138,7 @@ GameObject:
   - component: {fileID: 3898629306360391103}
   m_Layer: 0
   m_Name: Natures_Pot Bush_big (11)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -66225,7 +66225,7 @@ GameObject:
   - component: {fileID: 7942483044073129644}
   m_Layer: 0
   m_Name: Building_Bar
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -66333,7 +66333,7 @@ GameObject:
   - component: {fileID: 2616214473987439624}
   m_Layer: 0
   m_Name: Building Sky_big_color03
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -66419,7 +66419,7 @@ GameObject:
   - component: {fileID: 2381497957044851631}
   m_Layer: 0
   m_Name: Natures_Bush_01 (10)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -66506,7 +66506,7 @@ GameObject:
   - component: {fileID: 1621880240136646186}
   m_Layer: 0
   m_Name: Props_Roof Helipad
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -66614,7 +66614,7 @@ GameObject:
   - component: {fileID: 2295133392142774296}
   m_Layer: 0
   m_Name: Props_Street Light (91)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -66700,7 +66700,7 @@ GameObject:
   - component: {fileID: 2769882258758080439}
   m_Layer: 0
   m_Name: Natures_Fir Tree (51)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -66787,7 +66787,7 @@ GameObject:
   - component: {fileID: 2770061613459067501}
   m_Layer: 0
   m_Name: Natures_Big Tree (28)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -66895,7 +66895,7 @@ GameObject:
   - component: {fileID: 992861611370795195}
   m_Layer: 0
   m_Name: Road Concrete Tile (2)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -67090,7 +67090,7 @@ GameObject:
   - component: {fileID: 8303696814396642662}
   m_Layer: 0
   m_Name: Natures_Pot Bush_big (10)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -67177,7 +67177,7 @@ GameObject:
   - component: {fileID: 9030767146228740995}
   m_Layer: 0
   m_Name: Natures_Big Tree (38)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -67285,7 +67285,7 @@ GameObject:
   - component: {fileID: 405349029917855513}
   m_Layer: 0
   m_Name: Natures_Grass Tile (2)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -67457,7 +67457,7 @@ GameObject:
   - component: {fileID: 8929161604933389507}
   m_Layer: 0
   m_Name: Natures_Bush_01 (9)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -67544,7 +67544,7 @@ GameObject:
   - component: {fileID: 5280983213201144724}
   m_Layer: 0
   m_Name: Building_Books Shop
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -67652,7 +67652,7 @@ GameObject:
   - component: {fileID: 2194837694331563185}
   m_Layer: 0
   m_Name: Props_Traffic Signal_big (6)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -67738,7 +67738,7 @@ GameObject:
   - component: {fileID: 1390213350939418283}
   m_Layer: 0
   m_Name: Props_Street Light (115)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -67824,7 +67824,7 @@ GameObject:
   - component: {fileID: 2474998813877455479}
   m_Layer: 0
   m_Name: Props_Street Light (2)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -67910,7 +67910,7 @@ GameObject:
   - component: {fileID: 7246397105680857776}
   m_Layer: 0
   m_Name: Natures_Bush_01 (25)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -68043,7 +68043,7 @@ GameObject:
   - component: {fileID: 6583515448310514983}
   m_Layer: 0
   m_Name: Natures_Pot Bush_big (14)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -68129,7 +68129,7 @@ GameObject:
   - component: {fileID: 9008544993788714700}
   m_Layer: 0
   m_Name: Natures_Grass Fence (15)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -68216,7 +68216,7 @@ GameObject:
   - component: {fileID: 555641364382185133}
   m_Layer: 0
   m_Name: Natures_House Floor (26)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -68324,7 +68324,7 @@ GameObject:
   - component: {fileID: 3939193656064841484}
   m_Layer: 0
   m_Name: Building_Pizza (3)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -68411,7 +68411,7 @@ GameObject:
   - component: {fileID: 7444430056581741136}
   m_Layer: 0
   m_Name: Road Lane_01 (61)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -68519,7 +68519,7 @@ GameObject:
   - component: {fileID: 8305690771014090432}
   m_Layer: 0
   m_Name: Props_Street Light (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -68605,7 +68605,7 @@ GameObject:
   - component: {fileID: 2937832250397863357}
   m_Layer: 0
   m_Name: Props_Street Light (87)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -68691,7 +68691,7 @@ GameObject:
   - component: {fileID: 570360210612070152}
   m_Layer: 0
   m_Name: Building_House_04_color03 (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -68777,7 +68777,7 @@ GameObject:
   - component: {fileID: 2623875519460142414}
   m_Layer: 0
   m_Name: Props_Street Light (109)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -68863,7 +68863,7 @@ GameObject:
   - component: {fileID: 8475706558003048509}
   m_Layer: 0
   m_Name: Natures_Fir Tree (28)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -69066,7 +69066,7 @@ GameObject:
   - component: {fileID: 193118934715289084}
   m_Layer: 0
   m_Name: Props_Bench_1 (7)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -69153,7 +69153,7 @@ GameObject:
   - component: {fileID: 5855151002247287293}
   m_Layer: 0
   m_Name: Building_Drug Store
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -69261,7 +69261,7 @@ GameObject:
   - component: {fileID: 436458054759869866}
   m_Layer: 0
   m_Name: Natures_Fir Tree (32)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -69347,7 +69347,7 @@ GameObject:
   - component: {fileID: 2875003486882630068}
   m_Layer: 0
   m_Name: Natures_Pot Bush_small (11)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -69433,7 +69433,7 @@ GameObject:
   - component: {fileID: 1284439113060830476}
   m_Layer: 0
   m_Name: Props_Street Light (48)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -69566,7 +69566,7 @@ GameObject:
   - component: {fileID: 234692162470965793}
   m_Layer: 0
   m_Name: Natures_Grass Fence (13)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -69652,7 +69652,7 @@ GameObject:
   - component: {fileID: 3686062446533744025}
   m_Layer: 0
   m_Name: Natures_Pot Bush_big (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -69739,7 +69739,7 @@ GameObject:
   - component: {fileID: 26801465478994360}
   m_Layer: 0
   m_Name: Natures_House Floor (24)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -69847,7 +69847,7 @@ GameObject:
   - component: {fileID: 6098687420904497891}
   m_Layer: 0
   m_Name: Building_Fast Food
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -69933,7 +69933,7 @@ GameObject:
   - component: {fileID: 5756445179316241588}
   m_Layer: 0
   m_Name: Props_Bench_1 (17)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -70019,7 +70019,7 @@ GameObject:
   - component: {fileID: 2067077625447141762}
   m_Layer: 0
   m_Name: Natures_Fir Tree (40)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -70105,7 +70105,7 @@ GameObject:
   - component: {fileID: 2399341841984089323}
   m_Layer: 0
   m_Name: Props_Street Light (117)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -70191,7 +70191,7 @@ GameObject:
   - component: {fileID: 878252019009845995}
   m_Layer: 0
   m_Name: Natures_Bush_01 (15)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -70277,7 +70277,7 @@ GameObject:
   - component: {fileID: 3205599012439699987}
   m_Layer: 0
   m_Name: Natures_Pot Bush_small (2)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -70363,7 +70363,7 @@ GameObject:
   - component: {fileID: 4818462736870185994}
   m_Layer: 0
   m_Name: Natures_Grass Tile (8)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -70449,7 +70449,7 @@ GameObject:
   - component: {fileID: 368874274532828462}
   m_Layer: 0
   m_Name: Props_Roof_prop (2)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -70535,7 +70535,7 @@ GameObject:
   - component: {fileID: 7045861682502256646}
   m_Layer: 0
   m_Name: Props_Street Light (96)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -70621,7 +70621,7 @@ GameObject:
   - component: {fileID: 6551820696646206596}
   m_Layer: 0
   m_Name: Props_Bench_1 (6)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -70708,7 +70708,7 @@ GameObject:
   - component: {fileID: 4145665041129731322}
   m_Layer: 0
   m_Name: Building_House_02_color02 (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -71066,7 +71066,7 @@ GameObject:
   - component: {fileID: 5319902361083622637}
   m_Layer: 0
   m_Name: Road Lane_02
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -71392,7 +71392,7 @@ GameObject:
   - component: {fileID: 3814835319000878092}
   m_Layer: 0
   m_Name: Natures_Bush_01 (6)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -71478,7 +71478,7 @@ GameObject:
   - component: {fileID: 1113400026286351675}
   m_Layer: 0
   m_Name: Natures_Pot Bush_small (19)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -71564,7 +71564,7 @@ GameObject:
   - component: {fileID: 3651639355041108978}
   m_Layer: 0
   m_Name: Vehicle_Container_color02
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -71650,7 +71650,7 @@ GameObject:
   - component: {fileID: 2773760759752017992}
   m_Layer: 0
   m_Name: Vehicle_Pick up Truck_color01 (7)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -71736,7 +71736,7 @@ GameObject:
   - component: {fileID: 5376778750125434781}
   m_Layer: 0
   m_Name: Natures_Grass Fence (12)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -71822,7 +71822,7 @@ GameObject:
   - component: {fileID: 8538249091331694505}
   m_Layer: 0
   m_Name: Natures_Pot Bush_big (3)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -71908,7 +71908,7 @@ GameObject:
   - component: {fileID: 8079253733105537828}
   m_Layer: 0
   m_Name: Props_Street Light (78)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -72080,7 +72080,7 @@ GameObject:
   - component: {fileID: 978964306057176352}
   m_Layer: 0
   m_Name: Props_Street Light (79)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -72166,7 +72166,7 @@ GameObject:
   - component: {fileID: 1133835019532895406}
   m_Layer: 0
   m_Name: Natures_Pot Bush_small
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -72252,7 +72252,7 @@ GameObject:
   - component: {fileID: 7783953263565321887}
   m_Layer: 0
   m_Name: Props_Street Light (49)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -72338,7 +72338,7 @@ GameObject:
   - component: {fileID: 6351032781957552746}
   m_Layer: 0
   m_Name: Props_Street Light (93)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -72424,7 +72424,7 @@ GameObject:
   - component: {fileID: 7282159716815834601}
   m_Layer: 0
   m_Name: Natures_Pot Bush_big (21)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -72541,7 +72541,7 @@ GameObject:
   - component: {fileID: 2320988512734905875}
   m_Layer: 0
   m_Name: Natures_Grass Tile (6)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -72628,7 +72628,7 @@ GameObject:
   - component: {fileID: 611906328001501782}
   m_Layer: 0
   m_Name: Natures_House Floor (13)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -72736,7 +72736,7 @@ GameObject:
   - component: {fileID: 8256269541138168934}
   m_Layer: 0
   m_Name: Props_Street Light (122)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -72822,7 +72822,7 @@ GameObject:
   - component: {fileID: 6611504826303737790}
   m_Layer: 0
   m_Name: Natures_Grass Bar (5)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -72908,7 +72908,7 @@ GameObject:
   - component: {fileID: 7004979320570575085}
   m_Layer: 0
   m_Name: Props_Traffic Signal_big (33)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -72994,7 +72994,7 @@ GameObject:
   - component: {fileID: 3479114286279958189}
   m_Layer: 0
   m_Name: Vehicle_SUV_color01 (2)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -73127,7 +73127,7 @@ GameObject:
   - component: {fileID: 5485033712477581000}
   m_Layer: 0
   m_Name: Vehicle_Pick up Truck_color02 (2)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -73214,7 +73214,7 @@ GameObject:
   - component: {fileID: 7443487681755028290}
   m_Layer: 0
   m_Name: Vehicle_Car_color02 (4)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -73323,7 +73323,7 @@ GameObject:
   - component: {fileID: 5171662494392781261}
   m_Layer: 0
   m_Name: Road Lane_04 (2)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -73431,7 +73431,7 @@ GameObject:
   - component: {fileID: 8019664362674116072}
   m_Layer: 0
   m_Name: Natures_Rock_Big (10)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -73627,7 +73627,7 @@ GameObject:
   - component: {fileID: 3438802456338092647}
   m_Layer: 0
   m_Name: Building_House_02_color02
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -73735,7 +73735,7 @@ GameObject:
   - component: {fileID: 1836070143212403596}
   m_Layer: 0
   m_Name: Props_Street Light (97)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -73821,7 +73821,7 @@ GameObject:
   - component: {fileID: 204138602158910664}
   m_Layer: 0
   m_Name: Building_House_01_color01 (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -73908,7 +73908,7 @@ GameObject:
   - component: {fileID: 2258463693867130456}
   m_Layer: 0
   m_Name: Road Lane_01 (62)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -74016,7 +74016,7 @@ GameObject:
   - component: {fileID: 2101909408549112337}
   m_Layer: 0
   m_Name: Natures_Rock_Big (7)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -74149,7 +74149,7 @@ GameObject:
   - component: {fileID: 5605923247241651741}
   m_Layer: 0
   m_Name: Road Split Line
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -74235,7 +74235,7 @@ GameObject:
   - component: {fileID: 4530905545274756504}
   m_Layer: 0
   m_Name: Natures_Grass Fence (3)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -74430,7 +74430,7 @@ GameObject:
   - component: {fileID: 5907827105578744585}
   m_Layer: 0
   m_Name: Props_Hydrant (11)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -74517,7 +74517,7 @@ GameObject:
   - component: {fileID: 4880693151453744538}
   m_Layer: 0
   m_Name: Natures_Big Tree
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -74625,7 +74625,7 @@ GameObject:
   - component: {fileID: 4989289493562104901}
   m_Layer: 0
   m_Name: Props_Bench_1
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -74798,7 +74798,7 @@ GameObject:
   - component: {fileID: 6961514814393086434}
   m_Layer: 0
   m_Name: Natures_Bush_01 (43)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -74885,7 +74885,7 @@ GameObject:
   - component: {fileID: 7342084046897035983}
   m_Layer: 0
   m_Name: Building_House_02_color01 (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -74994,7 +74994,7 @@ GameObject:
   - component: {fileID: 8096130027004751367}
   m_Layer: 0
   m_Name: Props_Windmill (6)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -75190,7 +75190,7 @@ GameObject:
   - component: {fileID: 1916118064615545332}
   m_Layer: 0
   m_Name: Props_Windmill (10)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -75299,7 +75299,7 @@ GameObject:
   - component: {fileID: 3985085897424880729}
   m_Layer: 0
   m_Name: Props_Hydrant (17)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -75385,7 +75385,7 @@ GameObject:
   - component: {fileID: 2105699901662196969}
   m_Layer: 0
   m_Name: Props_Street Light (15)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -75472,7 +75472,7 @@ GameObject:
   - component: {fileID: 5232417286642586064}
   m_Layer: 0
   m_Name: Road Lane_04
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -75580,7 +75580,7 @@ GameObject:
   - component: {fileID: 8503457057562328275}
   m_Layer: 0
   m_Name: Vehicle_Taxi (11)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -75666,7 +75666,7 @@ GameObject:
   - component: {fileID: 8651891936670665704}
   m_Layer: 0
   m_Name: Natures_Rock_Big (5)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -75752,7 +75752,7 @@ GameObject:
   - component: {fileID: 5200381028223357285}
   m_Layer: 0
   m_Name: Props_Street Light (70)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -75838,7 +75838,7 @@ GameObject:
   - component: {fileID: 5374097785330637840}
   m_Layer: 0
   m_Name: Natures_Fir Tree (30)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -75924,7 +75924,7 @@ GameObject:
   - component: {fileID: 6704194400112866361}
   m_Layer: 0
   m_Name: Props_Hydrant (6)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -76011,7 +76011,7 @@ GameObject:
   - component: {fileID: 3643184544221320528}
   m_Layer: 0
   m_Name: Natures_Big Tree (36)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -76120,7 +76120,7 @@ GameObject:
   - component: {fileID: 9081087021364138332}
   m_Layer: 0
   m_Name: Natures_Big Tree (26)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -76228,7 +76228,7 @@ GameObject:
   - component: {fileID: 6919757164354295079}
   m_Layer: 0
   m_Name: Vehicle_Car_color01 (2)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -76314,7 +76314,7 @@ GameObject:
   - component: {fileID: 6460748037220062542}
   m_Layer: 0
   m_Name: Vehicle_Pick up Truck_color01 (9)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -76401,7 +76401,7 @@ GameObject:
   - component: {fileID: 5491105873354429103}
   m_Layer: 0
   m_Name: Natures_Cube Tree (2)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -76595,7 +76595,7 @@ GameObject:
   - component: {fileID: 4096416727082121356}
   m_Layer: 0
   m_Name: Natures_Pot Bush_small (6)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -76790,7 +76790,7 @@ GameObject:
   - component: {fileID: 8341444159360841997}
   m_Layer: 0
   m_Name: Props_Street Light (20)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -76876,7 +76876,7 @@ GameObject:
   - component: {fileID: 4974926810460446854}
   m_Layer: 0
   m_Name: Natures_Pot Bush_small (22)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -76963,7 +76963,7 @@ GameObject:
   - component: {fileID: 5797780818053728108}
   m_Layer: 0
   m_Name: Natures_Big Tree (20)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -77071,7 +77071,7 @@ GameObject:
   - component: {fileID: 1030549258833374957}
   m_Layer: 0
   m_Name: Props_Street Light (18)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -77157,7 +77157,7 @@ GameObject:
   - component: {fileID: 5671684209852831166}
   m_Layer: 0
   m_Name: Props_Traffic Signal_big (13)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -77244,7 +77244,7 @@ GameObject:
   - component: {fileID: 377744432395815681}
   m_Layer: 0
   m_Name: Natures_Cube Tree (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -77353,7 +77353,7 @@ GameObject:
   - component: {fileID: 2925010743502059793}
   m_Layer: 0
   m_Name: Props_Roof prop air (2)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -77618,7 +77618,7 @@ GameObject:
   - component: {fileID: 4214680251492626505}
   m_Layer: 0
   m_Name: Natures_Pot Bush_small (16)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -77704,7 +77704,7 @@ GameObject:
   - component: {fileID: 8708759055874586195}
   m_Layer: 0
   m_Name: Natures_Pot Bush_big (28)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -77790,7 +77790,7 @@ GameObject:
   - component: {fileID: 3948353160719619608}
   m_Layer: 0
   m_Name: Vehicle_Pick up Truck_color01
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -77876,7 +77876,7 @@ GameObject:
   - component: {fileID: 2711051300547394932}
   m_Layer: 0
   m_Name: Props_Street Light (110)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -77963,7 +77963,7 @@ GameObject:
   - component: {fileID: 8898772196057722927}
   m_Layer: 0
   m_Name: Building_Bar (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -78071,7 +78071,7 @@ GameObject:
   - component: {fileID: 8587817057386690443}
   m_Layer: 0
   m_Name: Natures_Rock_Big (14)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -78237,7 +78237,7 @@ GameObject:
   - component: {fileID: 7172313925865582025}
   m_Layer: 0
   m_Name: Natures_House Floor (27)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -78345,7 +78345,7 @@ GameObject:
   - component: {fileID: 404443530889140252}
   m_Layer: 0
   m_Name: Props_Street Light (63)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -78431,7 +78431,7 @@ GameObject:
   - component: {fileID: 8922413525514468274}
   m_Layer: 0
   m_Name: Natures_Grass Bar (7)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -78517,7 +78517,7 @@ GameObject:
   - component: {fileID: 5377456614128781183}
   m_Layer: 0
   m_Name: Props_Street Light (121)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -78603,7 +78603,7 @@ GameObject:
   - component: {fileID: 77320593474709639}
   m_Layer: 0
   m_Name: Props_Street Light (116)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -78689,7 +78689,7 @@ GameObject:
   - component: {fileID: 545454792418432558}
   m_Layer: 0
   m_Name: Natures_Grass Tile Small (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -78775,7 +78775,7 @@ GameObject:
   - component: {fileID: 1168604376423244409}
   m_Layer: 0
   m_Name: Vehicle_Pick up Truck_color02 (8)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -78861,7 +78861,7 @@ GameObject:
   - component: {fileID: 7623906036394802621}
   m_Layer: 0
   m_Name: Natures_Fir Tree (46)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -78947,7 +78947,7 @@ GameObject:
   - component: {fileID: 5061728715917545517}
   m_Layer: 0
   m_Name: Natures_Bush_01 (35)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -79033,7 +79033,7 @@ GameObject:
   - component: {fileID: 4173706522825880352}
   m_Layer: 0
   m_Name: Props_Street Light (119)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -79119,7 +79119,7 @@ GameObject:
   - component: {fileID: 3581351094603460064}
   m_Layer: 0
   m_Name: Natures_Fir Tree (29)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -79205,7 +79205,7 @@ GameObject:
   - component: {fileID: 5526802281910369408}
   m_Layer: 0
   m_Name: Natures_Grass Tile (7)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -79322,7 +79322,7 @@ GameObject:
   - component: {fileID: 8541860374673188901}
   m_Layer: 0
   m_Name: Props_Traffic Signal_big
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -79495,7 +79495,7 @@ GameObject:
   - component: {fileID: 1812365252287601980}
   m_Layer: 0
   m_Name: Natures_Pot Bush_small (28)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -79581,7 +79581,7 @@ GameObject:
   - component: {fileID: 7623439946957103561}
   m_Layer: 0
   m_Name: Props_Traffic Signal_big (16)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -79667,7 +79667,7 @@ GameObject:
   - component: {fileID: 1986400585738606883}
   m_Layer: 0
   m_Name: Props_Traffic Signal_big (18)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -79753,7 +79753,7 @@ GameObject:
   - component: {fileID: 5776672270132992775}
   m_Layer: 0
   m_Name: Props_Roof_prop (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -79839,7 +79839,7 @@ GameObject:
   - component: {fileID: 6531582401847006833}
   m_Layer: 0
   m_Name: Natures_Pot Bush_small (25)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -80120,7 +80120,7 @@ GameObject:
   - component: {fileID: 3877184075113473307}
   m_Layer: 0
   m_Name: Natures_Pot Bush_big (9)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -80206,7 +80206,7 @@ GameObject:
   - component: {fileID: 1798023976489616401}
   m_Layer: 0
   m_Name: Natures_Pot Bush_big (17)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -80488,7 +80488,7 @@ GameObject:
   - component: {fileID: 647760238874111572}
   m_Layer: 0
   m_Name: Props_Windmill (11)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -80597,7 +80597,7 @@ GameObject:
   - component: {fileID: 7991185182347118309}
   m_Layer: 0
   m_Name: Natures_Pot Bush_small (15)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -80684,7 +80684,7 @@ GameObject:
   - component: {fileID: 2585369926124854182}
   m_Layer: 0
   m_Name: Natures_House Floor (9)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -80792,7 +80792,7 @@ GameObject:
   - component: {fileID: 1559163413437604296}
   m_Layer: 0
   m_Name: Props_Street Light (84)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -80878,7 +80878,7 @@ GameObject:
   - component: {fileID: 8438844535819860402}
   m_Layer: 0
   m_Name: Props_Street Light (56)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -81050,7 +81050,7 @@ GameObject:
   - component: {fileID: 4059379627896585649}
   m_Layer: 0
   m_Name: Natures_Bush_01
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -81136,7 +81136,7 @@ GameObject:
   - component: {fileID: 9149664130094038373}
   m_Layer: 0
   m_Name: Natures_Pot Bush_big (13)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -81222,7 +81222,7 @@ GameObject:
   - component: {fileID: 696859238807223717}
   m_Layer: 0
   m_Name: Props_Traffic Signal_big (30)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -81308,7 +81308,7 @@ GameObject:
   - component: {fileID: 5040244278447235781}
   m_Layer: 0
   m_Name: Props_Traffic Signal_small (7)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -81528,7 +81528,7 @@ GameObject:
   - component: {fileID: 5237085596518835245}
   m_Layer: 0
   m_Name: Props_Roof Helipad (4)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -81637,7 +81637,7 @@ GameObject:
   - component: {fileID: 8066626502599035157}
   m_Layer: 0
   m_Name: Natures_Big Tree (18)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -81745,7 +81745,7 @@ GameObject:
   - component: {fileID: 5027898800854980634}
   m_Layer: 0
   m_Name: Natures_Pot Bush_big (2)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -81831,7 +81831,7 @@ GameObject:
   - component: {fileID: 1788016972149376375}
   m_Layer: 0
   m_Name: Vehicle_Ambulance (4)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -81918,7 +81918,7 @@ GameObject:
   - component: {fileID: 8724692780021933486}
   m_Layer: 0
   m_Name: Props_Roof prop air
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -82027,7 +82027,7 @@ GameObject:
   - component: {fileID: 2460482695459175034}
   m_Layer: 0
   m_Name: Natures_Cube Tree (12)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -82136,7 +82136,7 @@ GameObject:
   - component: {fileID: 3160965309070485650}
   m_Layer: 0
   m_Name: Props_Roof prop air (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -82244,7 +82244,7 @@ GameObject:
   - component: {fileID: 1691321772015980478}
   m_Layer: 0
   m_Name: Props_Street Light (71)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -82331,7 +82331,7 @@ GameObject:
   - component: {fileID: 6655064008845366743}
   m_Layer: 0
   m_Name: Natures_Big Tree (13)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
