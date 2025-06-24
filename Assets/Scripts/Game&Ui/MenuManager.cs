@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 // We add this small helper class to make the Inspector setup cleaner.
 // This groups a button with its corresponding lock icon.
@@ -16,6 +17,8 @@ public class MenuManager : MonoBehaviour
     [Header("UI Panels")]
     public GameObject mainMenuPanel;
     public GameObject levelsPanel;
+    public Animator levelsPanelAnimator;
+    public float panelAnimationDuration = 3f;
 
     [Header("Manual Button Setup")]
     // Create an array to hold your 10 manual buttons and their lock icons.
@@ -60,16 +63,47 @@ public class MenuManager : MonoBehaviour
 
     // This single function will be called by ALL level buttons.
     // We will tell each button which levelIndex to send.
+    // In MenuManager.cs
     public void OnLevelSelected(int levelIndex)
     {
-        Debug.Log("Level button " + (levelIndex + 1) + " was clicked.");
         PlayerPrefs.SetInt("SelectedLevelIndex", levelIndex);
         PlayerPrefs.Save();
-        SceneManager.LoadScene("MainGame");
+
+        // OLD WAY: SceneManager.LoadScene("MainGame");
+        // NEW WAY:
+        SceneFader.instance.FadeToScene("MainGame");
     }
 
     // --- Functions for the main navigation buttons ---
-    public void OnLevelsButtonClicked() { mainMenuPanel.SetActive(false); levelsPanel.SetActive(true); }
-    public void OnBackButtonClicked() { levelsPanel.SetActive(false); mainMenuPanel.SetActive(true); }
+    // In MenuManager.cs
+
+    public void OnLevelsButtonClicked()
+    {
+         mainMenuPanel.SetActive(false); // We can still do this instantly
+        levelsPanel.SetActive(true);
+        levelsPanelAnimator.SetBool("IsShown", true);
+    }
+
+    public void OnBackButtonClicked()
+    {
+        // Instead of activating the main menu panel directly, we start the coroutine.
+        StartCoroutine(ShowMainMenuAfterAnimation());
+    }
+
+    // --- This is the NEW Coroutine ---
+    IEnumerator ShowMainMenuAfterAnimation()
+    {
+        // 1. Tell the levels panel to play its "slide out" animation.
+        levelsPanelAnimator.SetBool("IsShown", false);
+
+        // 2. Wait for the duration of the animation.
+        yield return new WaitForSeconds(panelAnimationDuration);
+
+        // 3. AFTER the wait is over, activate the main menu panel.
+        mainMenuPanel.SetActive(true);
+        // And ensure the levels panel is fully disabled.
+        levelsPanel.SetActive(false);
+    }
+
     public void OnExitButtonClicked() { Application.Quit(); }
 }

@@ -8,13 +8,14 @@ public class UIManager : MonoBehaviour
     public GameObject gameCompleteScreen;
     public GameObject gameOverPanel;
     public GameObject pauseMenuPanel;
-
+    public GameObject HUDPanel;
     [Header("Star Display")]
     // Drag your 3 star Image objects from the LevelCompleteScreen panel here
     public RawImage[] levelCompleteStars;
 
     void Start()
     {
+        HUDPanel.SetActive(true);
         // Make sure all panels are hidden when the game starts
         HideAllScreens();
     }
@@ -25,6 +26,7 @@ public class UIManager : MonoBehaviour
     /// <param name="starsEarned">The number of stars (1, 2, or 3) to display.</param>
     public void ShowLevelCompleteScreen(int starsEarned)
     {
+        if (HUDPanel != null) HUDPanel.SetActive(false);
         if (levelCompleteScreen != null)
         {
             levelCompleteScreen.SetActive(true);
@@ -45,34 +47,56 @@ public class UIManager : MonoBehaviour
             }
         }
     }
+    
 
+    public bool IsAnyPanelActive()
+    {
+        // This will check if any of your main panels are currently active.
+        // We don't include the Pause Menu itself in this check.
+        if (levelCompleteScreen.activeSelf || gameCompleteScreen.activeSelf || gameOverPanel.activeSelf)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
     // --- Other Panel Control Functions ---
 
     public void ShowGameCompleteScreen()
     {
+        if (HUDPanel != null) HUDPanel.SetActive(false);
         if (gameCompleteScreen != null) gameCompleteScreen.SetActive(true);
     }
 
     public void ShowGameOverScreen()
     {
+        if(HUDPanel!=null) HUDPanel.SetActive(false);
         if (gameOverPanel != null) gameOverPanel.SetActive(true);
     }
 
     public void ShowPauseMenu()
     {
+        if (HUDPanel != null) HUDPanel.SetActive(false);
         if (pauseMenuPanel != null) pauseMenuPanel.SetActive(true);
     }
 
     public void HidePauseMenu()
     {
+        if (HUDPanel != null) HUDPanel.SetActive(true);
         if (pauseMenuPanel != null) pauseMenuPanel.SetActive(false);
     }
-
+    public void ShowHUD()
+    {
+        if (HUDPanel != null) HUDPanel.SetActive(true);
+    }
     public void HideAllScreens()
     {
         if (levelCompleteScreen != null) levelCompleteScreen.SetActive(false);
         if (gameCompleteScreen != null) gameCompleteScreen.SetActive(false);
         if (gameOverPanel != null) gameOverPanel.SetActive(false);
         if (pauseMenuPanel != null) pauseMenuPanel.SetActive(false);
+        
     }
 }
