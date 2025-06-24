@@ -1,6 +1,6 @@
-using TMPro;
 using UnityEngine;
-using UnityEngine.UI; // Required for Image component
+using UnityEngine.UI;
+using TMPro;
 
 public class UIManager : MonoBehaviour
 {
@@ -10,19 +10,20 @@ public class UIManager : MonoBehaviour
     public GameObject gameOverPanel;
     public GameObject pauseMenuPanel;
     public GameObject HUDPanel;
-    [Header("Star Display")]
-    // Drag your 3 star Image objects from the LevelCompleteScreen panel here
-    public RawImage[] levelCompleteStars;
 
-    [Header("In-Game HUD")]
+    [Header("Display Elements")]
+    // Use Image for sprites. RawImage is for raw texture data.
+    public RawImage[] levelCompleteStars;
+    public TextMeshProUGUI gameOverMessageText;
     public TextMeshProUGUI parkIndicatorText;
 
     void Start()
     {
-        HUDPanel.SetActive(true);
-        // Make sure all panels are hidden when the game starts
-        HideAllScreens();
+        // When the game starts, show the main HUD and hide all other pop-up panels.
+        ResetHUD();
     }
+
+    // Subscribe to events from the ParkingSpace script
     private void OnEnable()
     {
         ParkingSpace.OnReadyToPark += HandleReadyToPark;
@@ -35,28 +36,14 @@ public class UIManager : MonoBehaviour
         ParkingSpace.OnNotReadyToPark -= HandleNotReadyToPark;
     }
 
-    // --- ADD THESE TWO NEW HANDLER FUNCTIONS ---
-    void HandleReadyToPark()
-    {
-        if (parkIndicatorText != null)
-        {
-            parkIndicatorText.text = "Press [P] to Park";
-            parkIndicatorText.color = Color.green; // Let's use green for "Go"
-        }
-    }
+    // --- Handlers for Parking Indicator ---
+    void HandleReadyToPark() { if (parkIndicatorText != null) { parkIndicatorText.text = "Press [P] to Park"; parkIndicatorText.color = Color.green; } }
+    void HandleNotReadyToPark() { if (parkIndicatorText != null) { parkIndicatorText.text = "Align Vehicle in Zone"; parkIndicatorText.color = Color.white; } }
 
-    void HandleNotReadyToPark()
-    {
-        if (parkIndicatorText != null)
-        {
-            parkIndicatorText.text = "Align Vehicle in Zone & Press [P]";
-            parkIndicatorText.color = Color.white;
-        }
-    }
-    /// <summary>
-    /// Shows the Level Complete screen and sets the correct number of stars.
-    /// </summary>
-    /// <param name="starsEarned">The number of stars (1, 2, or 3) to display.</param>
+    // --- Public Functions called by GameManager ---
+
+    // In UIManager.cs
+
     public void ShowLevelCompleteScreen(int starsEarned)
     {
         if (HUDPanel != null) HUDPanel.SetActive(false);
@@ -67,75 +54,48 @@ public class UIManager : MonoBehaviour
             // Loop through the star images you've assigned in the Inspector
             for (int i = 0; i < levelCompleteStars.Length; i++)
             {
-                // If the current star's index is less than the number of stars earned, show it.
-                // Example: If starsEarned is 2, it will enable star 0 and star 1.
-                if (i < starsEarned)
+                // --- NEW SAFETY CHECK ---
+                // First, make sure the slot in the array isn't empty
+                if (levelCompleteStars[i] != null)
                 {
-                    levelCompleteStars[i].enabled = true; // Makes the star visible
-                }
-                else
-                {
-                    levelCompleteStars[i].enabled = false; // Makes the star invisible
+                    // If the current star's index is less than the number of stars earned, show it.
+                    levelCompleteStars[i].enabled = (i < starsEarned);
                 }
             }
         }
     }
-    
 
-    public bool IsAnyPanelActive()
+    // This function now correctly takes a string argument
+    public void ShowGameOverScreen()
     {
-        // This will check if any of your main panels are currently active.
-        // We don't include the Pause Menu itself in this check.
-        if (levelCompleteScreen.activeSelf || gameCompleteScreen.activeSelf || gameOverPanel.activeSelf)
+        if (HUDPanel != null) HUDPanel.SetActive(false);
+        if (gameOverPanel != null)
         {
-            return true;
-        }
-        else
-        {
-            return false;
+            gameOverPanel.SetActive(true);
         }
     }
-    // --- Other Panel Control Functions ---
-    // Add this new public function to UIManager.cs
+
+    public void ShowPauseMenu() { if (HUDPanel != null) HUDPanel.SetActive(false); if (pauseMenuPanel != null) pauseMenuPanel.SetActive(true); }
+    public void HidePauseMenu() { if (HUDPanel != null) HUDPanel.SetActive(true); if (pauseMenuPanel != null) pauseMenuPanel.SetActive(false); }
+    public void ShowGameCompleteScreen() { if (HUDPanel != null) HUDPanel.SetActive(false); if (gameCompleteScreen != null) gameCompleteScreen.SetActive(true); }
 
     public void ResetHUD()
     {
-        // We can just call the existing function that already sets the text back to default.
+        if (HUDPanel != null) HUDPanel.SetActive(true);
         HandleNotReadyToPark();
-    }
-    public void ShowGameCompleteScreen()
-    {
-        if (HUDPanel != null) HUDPanel.SetActive(false);
-        if (gameCompleteScreen != null) gameCompleteScreen.SetActive(true);
+        HideAllScreens();
     }
 
-    public void ShowGameOverScreen()
-    {
-        if(HUDPanel!=null) HUDPanel.SetActive(false);
-        if (gameOverPanel != null) gameOverPanel.SetActive(true);
-    }
-
-    public void ShowPauseMenu()
-    {
-        if (HUDPanel != null) HUDPanel.SetActive(false);
-        if (pauseMenuPanel != null) pauseMenuPanel.SetActive(true);
-    }
-
-    public void HidePauseMenu()
-    {
-        if (HUDPanel != null) HUDPanel.SetActive(true);
-        if (pauseMenuPanel != null) pauseMenuPanel.SetActive(false);
-    }
-    public void ShowHUD()
-    {
-        if (HUDPanel != null) HUDPanel.SetActive(true);
-    }
     public void HideAllScreens()
     {
         if (levelCompleteScreen != null) levelCompleteScreen.SetActive(false);
         if (gameCompleteScreen != null) gameCompleteScreen.SetActive(false);
         if (gameOverPanel != null) gameOverPanel.SetActive(false);
         if (pauseMenuPanel != null) pauseMenuPanel.SetActive(false);
-        
+    }
+
+    public bool IsAnyPanelActive()
+    {
+        return levelCompleteScreen.activeSelf || gameCompleteScreen.activeSelf || gameOverPanel.activeSelf;
     }
 }

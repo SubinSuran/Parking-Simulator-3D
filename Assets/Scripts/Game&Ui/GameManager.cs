@@ -16,10 +16,11 @@ public class GameManager : MonoBehaviour
     private GameObject currentLevelInstance;
     private bool isPaused = false;
     private float levelStartTime;
+    private bool hasCrashedThisAttempt = false;
 
+    // --- Unity Lifecycle & Event Subscription ---
     void Start()
     {
-        uiManager.HUDPanel.SetActive(true);
         currentLevelIndex = PlayerPrefs.GetInt("SelectedLevelIndex", 0);
         LoadLevel(currentLevelIndex);
     }
@@ -49,55 +50,61 @@ public class GameManager : MonoBehaviour
 
     // --- Event Handlers ---
 
-    void HandleParkedSuccess()
+    void HandleParkedSuccess(bool wasParkedInReverse)
     {
-        StartCoroutine(HandleParkedSuccessRoutine());
+        StartCoroutine(HandleParkedSuccessRoutine(wasParkedInReverse));
     }
 
     void OnPlayerCrashed()
     {
-        StartCoroutine(HandleGameOverRoutine());
-    }
-
-    IEnumerator HandleParkedSuccessRoutine()
-    {
-        yield return new WaitForSeconds(1f); // Wait 1 second after parking
-
-        float timeTaken = Time.time - levelStartTime;
-        int starsEarned = 0;
-        LevelData currentLevelData = levels[currentLevelIndex];
-
-        if (timeTaken <= currentLevelData.timeFor3Stars) { starsEarned = 3; }
-        else if (timeTaken <= currentLevelData.timeFor2Stars) { starsEarned = 2; }
-        else { starsEarned = 1; }
-
-        SaveManager.LevelCompleted(currentLevelIndex);
-        SaveManager.SaveStars(currentLevelIndex, starsEarned);
-
-        // Use the fader to show the win screen
-        SceneFader.instance.FadeTransition(() => {
-            uiManager.ShowLevelCompleteScreen(starsEarned);
-        });
-    }
-
-    IEnumerator HandleGameOverRoutine()
-    {
-
-        yield return new WaitForSeconds(1f); // Wait 3 seconds after crashing
-
-        // Use the fader to show the game over screen
+        hasCrashedThisAttempt = true;
+        isPaused = true;
         SceneFader.instance.FadeTransition(() => {
             Time.timeScale = 0f;
             uiManager.ShowGameOverScreen();
         });
     }
 
-    // --- Pause & UI Button Logic ---
+    IEnumerator HandleParkedSuccessRoutine(bool wasParkedInReverse)
+    {
+        yield return new WaitForSeconds(1f); // Brief pause after parking
 
+        LevelData currentLevelData = levels[currentLevelIndex];
+
+        // --- CHECK FOR FAILURE FIRST ---
+        if (currentLevelData.failOnCollision && hasCrashedThisAttempt)
+        {
+            SceneFader.instance.FadeTransition(() => {
+                uiManager.ShowGameOverScreen();
+            });
+            yield break; // Stop the coroutine
+        }
+        if (currentLevelData.objective == LevelObjectiveType.ReverseParkOnly && !wasParkedInReverse)
+        {
+            SceneFader.instance.FadeTransition(() => {
+                uiManager.ShowGameOverScreen();
+            });
+            yield break; // Stop the coroutine
+        }
+
+        // --- IF NO FAILURE, CALCULATE STARS ---
+        float timeTaken = Time.time - levelStartTime;
+        int starsEarned = 1;
+        if (timeTaken <= currentLevelData.timeFor3Stars) { starsEarned = 3; }
+        else if (timeTaken <= currentLevelData.timeFor2Stars) { starsEarned = 2; }
+
+        SaveManager.LevelCompleted(currentLevelIndex);
+        SaveManager.SaveStars(currentLevelIndex, starsEarned);
+
+        SceneFader.instance.FadeTransition(() => {
+            uiManager.ShowLevelCompleteScreen(starsEarned);
+        });
+    }
+
+    // --- Pause & UI Button Logic ---
     public void PauseGame()
     {
         isPaused = true;
-        // Use the fader to show the pause menu
         SceneFader.instance.FadeTransition(() => {
             Time.timeScale = 0f;
             uiManager.ShowPauseMenu();
@@ -107,53 +114,25 @@ public class GameManager : MonoBehaviour
     public void ResumeGame()
     {
         isPaused = false;
-        // Use the fader to hide the pause menu and resume
         SceneFader.instance.FadeTransition(() => {
             uiManager.HidePauseMenu();
             Time.timeScale = 1f;
         });
     }
 
-    public void RestartLevel()
-    {
-        SceneFader.instance.FadeTransition(() => {
-            uiManager.HideAllScreens();
-            LoadLevel(currentLevelIndex);
-        });
-    }
+    // All other functions call the fader...
+    public void RestartLevel() { SceneFader.instance.FadeTransition(() => { uiManager.HideAllScreens(); LoadLevel(currentLevelIndex); }); }
+    public void LoadNextLevel() { SceneFader.instance.FadeTransition(() => { uiManager.HideAllScreens(); currentLevelIndex++; if (currentLevelIndex < levels.Length) LoadLevel(currentLevelIndex); else uiManager.ShowGameCompleteScreen(); }); }
+    public void GoToMainMenu() { Time.timeScale = 1f; SceneFader.instance.FadeToScene("MainMenu"); }
 
-    public void LoadNextLevel()
-    {
-        SceneFader.instance.FadeTransition(() => {
-            uiManager.HideAllScreens();
-            currentLevelIndex++;
-            if (currentLevelIndex < levels.Length)
-            {
-                LoadLevel(currentLevelIndex);
-            }
-            else
-            {
-                uiManager.ShowGameCompleteScreen();
-            }
-        });
-    }
-
-    public void GoToMainMenu()
-    {
-        Time.timeScale = 1f;
-        SceneFader.instance.FadeToScene("MainMenu");
-    }
-
-    // --- Core Level Loading (No Changes Here) ---
+    // --- Core Level Loading ---
     void LoadLevel(int levelIndex)
     {
         uiManager.ResetHUD();
-        uiManager.HideAllScreens(); // First, hide all pop-up panels
-        uiManager.ShowHUD();        // Then, ensure the main game HUD is visible
-
-        levelStartTime = Time.time;
         Time.timeScale = 1f;
         isPaused = false;
+        hasCrashedThisAttempt = false;
+        levelStartTime = Time.time;
 
         if (playerCar != null)
         {

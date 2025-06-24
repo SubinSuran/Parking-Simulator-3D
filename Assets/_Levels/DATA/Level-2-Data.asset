@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: Level-2-Data
   m_EditorClassIdentifier: 
   levelPrefab: {fileID: 8041725363217937315, guid: ef5d8d48ba93876409482a201936b823, type: 3}
+  objective: 0
+  failOnCollision: 0
   timeFor3Stars: 30
   timeFor2Stars: 60

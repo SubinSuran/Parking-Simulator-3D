@@ -8,20 +8,24 @@ public class AICarController : MonoBehaviour
     [Tooltip("The very first waypoint node the car should drive towards.")]
     public WaypointNode startingNode;
 
-    // --- ADDED FOR SENSORS ---
+    // --- MODIFIED FOR SENSORS ---
     [Header("Sensors")]
     [Tooltip("How far ahead the car 'looks' for obstacles.")]
     public float sensorLength = 5f;
     [Tooltip("The layers that the sensor will detect as obstacles (e.g., other cars).")]
     public LayerMask obstacleLayers;
-    // --- END OF ADDED VARIABLES ---
+    [Tooltip("How far to the side (left/right) the side sensors are positioned.")]
+    public float sideSensorOffset = 0.75f; // Adjust this value based on your car's width
+    [Tooltip("Offset forward from the car's pivot for the sensor origin.")]
+    public float sensorForwardOffset = 1.5f;
+    [Tooltip("Vertical offset for the sensors to be slightly above ground.")]
+    public float sensorHeightOffset = 0.5f;
+    // --- END OF MODIFIED VARIABLES ---
 
     private NavMeshAgent agent;
     private WaypointNode currentNode;
 
-    // --- ADDED FOR SENSORS ---
     private float originalSpeed; // To remember the car's top speed
-    // --- END OF ADDED VARIABLES ---
 
 
     void Start()
@@ -44,12 +48,11 @@ public class AICarController : MonoBehaviour
 
     void Update()
     {
-        // --- ADDED FOR SENSORS ---
         CheckForObstacles(); // Call the sensor logic every frame
-        // --- END OF ADDED LOGIC ---
 
         // If the agent is close to its destination, it's time to pick a new one.
-        if (agent.pathPending == false && agent.remainingDistance < 0.5f)
+        // Only proceed if not stopped by an obstacle
+        if (!agent.isStopped && agent.pathPending == false && agent.remainingDistance < 0.5f)
         {
             GoToNextNode();
         }
@@ -58,10 +61,10 @@ public class AICarController : MonoBehaviour
     void GoToNextNode()
     {
         // Check if the current node has any connections
-        if (currentNode.nextWaypoints.Count == 0)
+        if (currentNode == null || currentNode.nextWaypoints.Count == 0)
         {
             // If it's a dead end, we can just destroy the car or stop it.
-            Debug.Log("AI Car reached a dead end.");
+            Debug.Log("AI Car reached a dead end or has a null current node. Stopping.");
             agent.isStopped = true;
             return;
         }
@@ -83,34 +86,72 @@ public class AICarController : MonoBehaviour
         }
     }
 
-    // --- PASTED CheckForObstacles METHOD ---
-    // In AICarController.cs
-
+    /// <summary>
+    /// Checks for obstacles using three forward-facing raycasts (center, left, right).
+    /// Stops the agent if any obstacle is detected.
+    /// </summary>
     void CheckForObstacles()
     {
         RaycastHit hit;
-        Vector3 sensorStartPos = transform.position + transform.forward * 1.5f;
-        sensorStartPos.y += 0.5f;
+        bool obstacleDetected = false;
 
-        if (Physics.Raycast(sensorStartPos, transform.forward, out hit, sensorLength, obstacleLayers))
+        // Calculate the base starting position for all sensors (front-center of the car)
+        Vector3 baseSensorStartPos = transform.position + transform.forward * sensorForwardOffset;
+        baseSensorStartPos.y += sensorHeightOffset; // Lift sensors slightly off the ground
+
+        // --- CENTER SENSOR ---
+        Vector3 centerSensorPos = baseSensorStartPos;
+        if (Physics.Raycast(centerSensorPos, transform.forward, out hit, sensorLength, obstacleLayers))
         {
-            // --- CHANGED LOGIC ---
-            // Obstacle detected! Stop the agent completely.
-            agent.isStopped = true;
-
-            Debug.DrawLine(sensorStartPos, hit.point, Color.red);
+            obstacleDetected = true;
+            Debug.DrawLine(centerSensorPos, hit.point, Color.red);
         }
         else
         {
-            // --- CHANGED LOGIC ---
-            // No obstacle, tell the agent it's clear to move again.
-            agent.isStopped = false;
+            Debug.DrawLine(centerSensorPos, centerSensorPos + transform.forward * sensorLength, Color.green);
+        }
 
-            // We also make sure the speed is at its normal value.
+        // --- RIGHT SENSOR ---
+        Vector3 rightSensorPos = baseSensorStartPos + transform.right * sideSensorOffset;
+        if (Physics.Raycast(rightSensorPos, transform.forward, out hit, sensorLength, obstacleLayers))
+        {
+            obstacleDetected = true;
+            Debug.DrawLine(rightSensorPos, hit.point, Color.red);
+        }
+        else
+        {
+            Debug.DrawLine(rightSensorPos, rightSensorPos + transform.forward * sensorLength, Color.green);
+        }
+
+        // --- LEFT SENSOR ---
+        Vector3 leftSensorPos = baseSensorStartPos - transform.right * sideSensorOffset;
+        if (Physics.Raycast(leftSensorPos, transform.forward, out hit, sensorLength, obstacleLayers))
+        {
+            obstacleDetected = true;
+            Debug.DrawLine(leftSensorPos, hit.point, Color.red);
+        }
+        else
+        {
+            Debug.DrawLine(leftSensorPos, leftSensorPos + transform.forward * sensorLength, Color.green);
+        }
+
+        // --- Apply movement state based on obstacle detection ---
+        if (obstacleDetected)
+        {
+            agent.isStopped = true; // Stop if any sensor detects an obstacle
+            agent.speed = 0f; // Ensure speed is also set to zero
+        }
+        else
+        {
+            // Only resume if not already stopped by pathing (e.g., dead end)
+            if (agent.isStopped)
+            {
+                // If it was stopped due to an obstacle, re-enable movement
+                agent.isStopped = false;
+                agent.speed = originalSpeed; // Restore original speed
+            }
+            // If agent wasn't stopped by an obstacle, ensure speed is normal
             agent.speed = originalSpeed;
-
-            Debug.DrawLine(sensorStartPos, sensorStartPos + transform.forward * sensorLength, Color.green);
         }
     }
-    // --- END OF PASTED METHOD ---
 }

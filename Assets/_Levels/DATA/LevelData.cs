@@ -1,16 +1,23 @@
 using UnityEngine;
 
+// We define the possible objectives here in an enum
+public enum LevelObjectiveType
+{
+    ParkInTime,
+    ReverseParkOnly
+}
+
 [CreateAssetMenu(fileName = "LevelData", menuName = "Parking Game/Level Data")]
 public class LevelData : ScriptableObject
 {
-
-    [Tooltip("The prefab that contains the level's layout.")]
+    [Header("Level Setup")]
     public GameObject levelPrefab;
 
-    [Header("Star Timings (in seconds)")]
-    [Tooltip("Finish under this time to get 3 stars.")]
-    public float timeFor3Stars = 30f;
+    [Header("Objectives")]
+    public LevelObjectiveType objective; // The dropdown to select the objective
+    public bool failOnCollision = true;  // Should crashing fail the level?
 
-    [Tooltip("Finish under this time to get 2 stars.")]
+    [Header("Star Timings (in seconds)")]
+    public float timeFor3Stars = 30f;
     public float timeFor2Stars = 60f;
 }
