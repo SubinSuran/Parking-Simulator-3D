@@ -263,7 +263,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.16666667
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: cfe26f8e3079d03498059170bd7985f0, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: c6bc58e9f325ecc44b0d1395758389d1, type: 2}
   m_BuildHeightMesh: 0
 --- !u!1 &6688221806146258890
 GameObject:
@@ -1591,7 +1591,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3847865738516354634, guid: edead5ab5012cb14fafdec0840e7a6e8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.5
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 3847865738516354634, guid: edead5ab5012cb14fafdec0840e7a6e8, type: 3}
       propertyPath: m_LocalPosition.z

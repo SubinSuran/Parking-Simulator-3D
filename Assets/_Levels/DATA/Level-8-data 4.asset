@@ -16,4 +16,6 @@ MonoBehaviour:
   objective: 1
   failOnCollision: 1
   timeFor3Stars: 45
-  timeFor2Stars: 90
+  timeFor2Stars: 60
+  timeFor1Star: 80
+  timeForGameOver: 100

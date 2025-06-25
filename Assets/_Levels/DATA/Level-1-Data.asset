@@ -17,3 +17,5 @@ MonoBehaviour:
   failOnCollision: 0
   timeFor3Stars: 30
   timeFor2Stars: 60
+  timeFor1Star: 70
+  timeForGameOver: 90

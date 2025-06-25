@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6336cde66b92f84f826f523eb614ae0, type: 3}
   m_Name: Level-5-data
   m_EditorClassIdentifier: 
-  levelPrefab: {fileID: 7829557919873188182, guid: 3c59e424b56e1c24ab346f1efce9c778, type: 3}
+  levelPrefab: {fileID: 8163824180671774399, guid: 9366a1557d0bb7647b485ea3919e8a6c, type: 3}
   objective: 1
   failOnCollision: 1
   timeFor3Stars: 30
   timeFor2Stars: 60
+  timeFor1Star: 70
+  timeForGameOver: 90
