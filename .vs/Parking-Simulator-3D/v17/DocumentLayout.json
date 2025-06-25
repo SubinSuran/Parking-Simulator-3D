@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\Unity\\Projects\\Parking-Simulator-3D\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D7514728-2C5A-C891-9589-A68D81BF2924}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\Parking-Simulator-3D\\assets\\scripts\\ai\\parkingrouteguide.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D7514728-2C5A-C891-9589-A68D81BF2924}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\Parking-Simulator-3D\\assets\\scripts\\game\u0026ui\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7514728-2C5A-C891-9589-A68D81BF2924}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\u0026ui\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7514728-2C5A-C891-9589-A68D81BF2924}|Assembly-CSharp.csproj|d:\\unity\\projects\\parking-simulator-3d\\assets\\scripts\\ai\\parkingrouteguide.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7514728-2C5A-C891-9589-A68D81BF2924}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ai\\parkingrouteguide.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D7514728-2C5A-C891-9589-A68D81BF2924}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\Parking-Simulator-3D\\assets\\scripts\\ai\\aicarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7514728-2C5A-C891-9589-A68D81BF2924}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ai\\aicarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7514728-2C5A-C891-9589-A68D81BF2924}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\Parking-Simulator-3D\\assets\\scripts\\game\u0026ui\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7514728-2C5A-C891-9589-A68D81BF2924}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\u0026ui\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D7514728-2C5A-C891-9589-A68D81BF2924}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\Parking-Simulator-3D\\assets\\scripts\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -86,7 +86,7 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\Projects\\DriftAndPark 3D\\Assets\\Drift\u0026Park\\Scripts\\Core\\Cars\\ParkingRouteGuide.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7514728-2C5A-C891-9589-A68D81BF2924}|Assembly-CSharp.csproj|d:\\unity\\projects\\parking-simulator-3d\\assets\\scripts\\game\u0026ui\\objectivetext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D7514728-2C5A-C891-9589-A68D81BF2924}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\Parking-Simulator-3D\\assets\\scripts\\game\u0026ui\\objectivetext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7514728-2C5A-C891-9589-A68D81BF2924}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\u0026ui\\objectivetext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -97,45 +97,127 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ObjectiveText.cs",
-              "DocumentMoniker": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\Game\u0026Ui\\ObjectiveText.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Game\u0026Ui\\ObjectiveText.cs",
-              "ToolTip": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\Game\u0026Ui\\ObjectiveText.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Game\u0026Ui\\ObjectiveText.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 18,
+              "Title": "LevelData.cs",
+              "DocumentMoniker": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\_Levels\\DATA\\LevelData.cs",
+              "RelativeDocumentMoniker": "Assets\\_Levels\\DATA\\LevelData.cs",
+              "ToolTip": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\_Levels\\DATA\\LevelData.cs",
+              "RelativeToolTip": "Assets\\_Levels\\DATA\\LevelData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T23:01:12.664Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T14:46:32.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CollisionHandler.cs",
+              "DocumentMoniker": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\Car\u0027\\CollisionHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Car\u0027\\CollisionHandler.cs",
+              "ToolTip": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\Car\u0027\\CollisionHandler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Car\u0027\\CollisionHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T08:20:45.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CameraControll.cs",
+              "DocumentMoniker": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\Car\u0027\\CameraControll.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Car\u0027\\CameraControll.cs",
+              "ToolTip": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\Car\u0027\\CameraControll.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Car\u0027\\CameraControll.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwBgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T07:51:44.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LevelButton.cs",
+              "DocumentMoniker": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\Game\u0026Ui\\LevelButton.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Game\u0026Ui\\LevelButton.cs",
+              "ToolTip": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\Game\u0026Ui\\LevelButton.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Game\u0026Ui\\LevelButton.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T21:22:31.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SaveManager.cs",
+              "DocumentMoniker": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\GameSavings\\SaveManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameSavings\\SaveManager.cs",
+              "ToolTip": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\GameSavings\\SaveManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameSavings\\SaveManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T21:20:56.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Speedometer.cs",
+              "DocumentMoniker": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\Game\u0026Ui\\Speedometer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Game\u0026Ui\\Speedometer.cs",
+              "ToolTip": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\Game\u0026Ui\\Speedometer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Game\u0026Ui\\Speedometer.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwDsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T20:47:40.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TrafficSpawner.cs",
+              "DocumentMoniker": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\AI\\TrafficSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AI\\TrafficSpawner.cs",
+              "ToolTip": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\AI\\TrafficSpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AI\\TrafficSpawner.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAnwDsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T20:41:45.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AICarController.cs",
+              "DocumentMoniker": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\AI\\AICarController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AI\\AICarController.cs",
+              "ToolTip": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\AI\\AICarController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AI\\AICarController.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAADwv5IAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T17:47:39.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WayPointNode.cs",
+              "DocumentMoniker": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\AI\\WayPointNode.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AI\\WayPointNode.cs",
+              "ToolTip": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\AI\\WayPointNode.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AI\\WayPointNode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T17:06:49.074Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ParkingRouteGuide.cs",
-              "DocumentMoniker": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\AI\\ParkingRouteGuide.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\AI\\ParkingRouteGuide.cs",
-              "ToolTip": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\AI\\ParkingRouteGuide.cs",
-              "RelativeToolTip": "Assets\\Scripts\\AI\\ParkingRouteGuide.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAswDQAAABCAAAAAAAAAA==",
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\Game\u0026Ui\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Game\u0026Ui\\GameManager.cs",
+              "ToolTip": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\Game\u0026Ui\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Game\u0026Ui\\GameManager.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAwwGsAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T22:22:38.011Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ParkingRouteGuide.cs",
-              "DocumentMoniker": "D:\\Unity\\Projects\\DriftAndPark 3D\\Assets\\Drift\u0026Park\\Scripts\\Core\\Cars\\ParkingRouteGuide.cs",
-              "RelativeDocumentMoniker": "..\\DriftAndPark 3D\\Assets\\Drift\u0026Park\\Scripts\\Core\\Cars\\ParkingRouteGuide.cs",
-              "ToolTip": "D:\\Unity\\Projects\\DriftAndPark 3D\\Assets\\Drift\u0026Park\\Scripts\\Core\\Cars\\ParkingRouteGuide.cs",
-              "RelativeToolTip": "..\\DriftAndPark 3D\\Assets\\Drift\u0026Park\\Scripts\\Core\\Cars\\ParkingRouteGuide.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T22:17:09.273Z",
+              "WhenOpened": "2025-06-18T16:37:05.225Z",
               "EditorCaption": ""
             },
             {
@@ -148,125 +230,44 @@
               "RelativeToolTip": "Assets\\Scripts\\Game\u0026Ui\\SceneFader.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T16:13:55.748Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T16:13:55.748Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "LevelData.cs",
-              "DocumentMoniker": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\_Levels\\DATA\\LevelData.cs",
-              "RelativeDocumentMoniker": "Assets\\_Levels\\DATA\\LevelData.cs",
-              "ToolTip": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\_Levels\\DATA\\LevelData.cs",
-              "RelativeToolTip": "Assets\\_Levels\\DATA\\LevelData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "DocumentIndex": 20,
+              "Title": "ParkingRouteGuide.cs",
+              "DocumentMoniker": "D:\\Unity\\Projects\\DriftAndPark 3D\\Assets\\Drift\u0026Park\\Scripts\\Core\\Cars\\ParkingRouteGuide.cs",
+              "RelativeDocumentMoniker": "..\\DriftAndPark 3D\\Assets\\Drift\u0026Park\\Scripts\\Core\\Cars\\ParkingRouteGuide.cs",
+              "ToolTip": "D:\\Unity\\Projects\\DriftAndPark 3D\\Assets\\Drift\u0026Park\\Scripts\\Core\\Cars\\ParkingRouteGuide.cs",
+              "RelativeToolTip": "..\\DriftAndPark 3D\\Assets\\Drift\u0026Park\\Scripts\\Core\\Cars\\ParkingRouteGuide.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T14:46:32.793Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "CollisionHandler.cs",
-              "DocumentMoniker": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\Car\u0027\\CollisionHandler.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Car\u0027\\CollisionHandler.cs",
-              "ToolTip": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\Car\u0027\\CollisionHandler.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Car\u0027\\CollisionHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T08:20:45.985Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CameraControll.cs",
-              "DocumentMoniker": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\Car\u0027\\CameraControll.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Car\u0027\\CameraControll.cs",
-              "ToolTip": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\Car\u0027\\CameraControll.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Car\u0027\\CameraControll.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwBgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T07:51:44.573Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "LevelButton.cs",
-              "DocumentMoniker": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\Game\u0026Ui\\LevelButton.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Game\u0026Ui\\LevelButton.cs",
-              "ToolTip": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\Game\u0026Ui\\LevelButton.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Game\u0026Ui\\LevelButton.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T21:22:31.603Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "SaveManager.cs",
-              "DocumentMoniker": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\GameSavings\\SaveManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameSavings\\SaveManager.cs",
-              "ToolTip": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\GameSavings\\SaveManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameSavings\\SaveManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T21:20:56.56Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Speedometer.cs",
-              "DocumentMoniker": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\Game\u0026Ui\\Speedometer.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Game\u0026Ui\\Speedometer.cs",
-              "ToolTip": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\Game\u0026Ui\\Speedometer.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Game\u0026Ui\\Speedometer.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAQwDsAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T20:47:40.84Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "TrafficSpawner.cs",
-              "DocumentMoniker": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\AI\\TrafficSpawner.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\AI\\TrafficSpawner.cs",
-              "ToolTip": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\AI\\TrafficSpawner.cs",
-              "RelativeToolTip": "Assets\\Scripts\\AI\\TrafficSpawner.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAnwDsAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T20:41:45.332Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T22:17:09.273Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AICarController.cs",
-              "DocumentMoniker": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\AI\\AICarController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\AI\\AICarController.cs",
-              "ToolTip": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\AI\\AICarController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\AI\\AICarController.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAADwv5IAAAAgAAAAAAAAAA==",
+              "Title": "ParkingRouteGuide.cs",
+              "DocumentMoniker": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\AI\\ParkingRouteGuide.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AI\\ParkingRouteGuide.cs",
+              "ToolTip": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\AI\\ParkingRouteGuide.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AI\\ParkingRouteGuide.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAswDQAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T17:47:39.759Z",
+              "WhenOpened": "2025-06-24T22:22:38.011Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "WayPointNode.cs",
-              "DocumentMoniker": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\AI\\WayPointNode.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\AI\\WayPointNode.cs",
-              "ToolTip": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\AI\\WayPointNode.cs",
-              "RelativeToolTip": "Assets\\Scripts\\AI\\WayPointNode.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "DocumentIndex": 21,
+              "Title": "ObjectiveText.cs",
+              "DocumentMoniker": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\Game\u0026Ui\\ObjectiveText.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Game\u0026Ui\\ObjectiveText.cs",
+              "ToolTip": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\Game\u0026Ui\\ObjectiveText.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Game\u0026Ui\\ObjectiveText.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T17:06:49.074Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T23:01:12.664Z"
             },
             {
               "$type": "Document",
@@ -278,8 +279,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Game\u0026Ui\\RotateWithMouse.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAAADsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T19:14:28.987Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-20T19:14:28.987Z"
             },
             {
               "$type": "Document",
@@ -291,8 +291,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Game\u0026Ui\\MenuManager.cs",
               "ViewState": "AgIAAEwAAAAAAAAAAAAvwGoAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T17:22:07.121Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-20T17:22:07.121Z"
             },
             {
               "$type": "Document",
@@ -304,8 +303,7 @@
               "RelativeToolTip": "Assets\\TutorialInfo\\Scripts\\Editor\\ReadmeEditor.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T15:52:30.044Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-19T15:52:30.044Z"
             },
             {
               "$type": "Document",
@@ -317,8 +315,7 @@
               "RelativeToolTip": "Assets\\TutorialInfo\\Scripts\\Readme.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T15:52:26.344Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-19T15:52:26.344Z"
             },
             {
               "$type": "Document",
@@ -330,8 +327,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Game\u0026Ui\\UIManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T16:38:38.07Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-18T16:38:38.07Z"
             },
             {
               "$type": "Document",
@@ -343,21 +339,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Parking\\ParkingSpace.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAANwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T16:38:02.008Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\Game\u0026Ui\\GameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Game\u0026Ui\\GameManager.cs",
-              "ToolTip": "D:\\Unity\\Projects\\Parking-Simulator-3D\\Assets\\Scripts\\Game\u0026Ui\\GameManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Game\u0026Ui\\GameManager.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAewD0AAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T16:37:05.225Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-18T16:38:02.008Z"
             },
             {
               "$type": "Document",
@@ -369,8 +351,7 @@
               "RelativeToolTip": "Assets\\Scripts\\CarSettings.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T13:35:43.857Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-17T13:35:43.857Z"
             },
             {
               "$type": "Document",
@@ -382,8 +363,7 @@
               "RelativeToolTip": "Assets\\Scripts\\CarController.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAQwA8AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T18:04:10.966Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-05T18:04:10.966Z"
             }
           ]
         }
