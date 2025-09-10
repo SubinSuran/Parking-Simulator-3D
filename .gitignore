@@ -19,6 +19,9 @@ UserSettings/
 *.pidb
 *.booproj
 
+# Visual Studio settings
+.vs/
+
 # OS junk
 .DS_Store
 Thumbs.db
@@ -26,9 +29,17 @@ Thumbs.db
 # Unity packages
 *.unitypackage
 
-# Crash reports
+# Crash and log files
+*.log
+*.crash
+*.stacktrace
 sysinfo.txt
 
-# Exclude platform-specific builds
+# Platform-specific builds
 *.apk
 *.aab
+
+# Optional
+Build*/  
+UnityCache/
+.idea/
