@@ -20,6 +20,7 @@ public class GameManager : MonoBehaviour
     private bool hasCrashedThisAttempt = false;
     private bool levelEnded = false; // --- NEW --- Prevents win/loss from being called multiple times
 
+
     // --- Unity Lifecycle & Event Subscription ---
     void Start()
     {

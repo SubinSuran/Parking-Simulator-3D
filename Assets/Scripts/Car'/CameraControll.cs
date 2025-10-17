@@ -28,7 +28,7 @@ public class CameraControll : MonoBehaviour
         }
         // Check if the '2' key was pressed on the top row
         else if (Input.GetKeyDown(KeyCode.Alpha2))
-        {
+        { 
             Debug.Log("Number 2 key was pressed!");
             SetReverseCameraActive();
         }
